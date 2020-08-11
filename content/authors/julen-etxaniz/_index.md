@@ -16,6 +16,6 @@ social:
 organizations:
   - name: University of the Basque Country
     url: https://www.ehu.eus/en/en-home
-superuser: false
+superuser: true
 ---
 Student of Computer Engineering at the University of the Basque Country
