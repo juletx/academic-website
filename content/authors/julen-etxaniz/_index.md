@@ -7,7 +7,7 @@ social:
   - link: https://twitter.com/juletxara
     icon_pack: fab
     icon: twitter
-  - link: https://www.linkedin.com/in/julen-etxaniz-aragoneses-98383a19b/
+  - link: https://www.linkedin.com/in/juletxara
     icon_pack: fab
     icon: linkedin
   - link: https://github.com/juletx
