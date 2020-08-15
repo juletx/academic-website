@@ -48,4 +48,24 @@ date_format = "Jan 2006"
   date_end = "2017-12-21"
   description = ""
 
+[[item]]
+  organization = "Eusko Jaurlaritza"
+  organization_url = "https://www.euskadi.eus/hasiera/"
+  title = "Euskararen Gaitasun Agiria"
+  url = "https://ast.wikipedia.org/wiki/Euskararen_Gaitasun_Agiria"
+  certificate_url = "https://www.euskadi.eus/euskara-tituluen-eta-ziurtagirien-erregistro-bateratua/web01-a2etzeb/eu/"
+  date_start = "2016-06-24"
+  date_end = ""
+  description = ""
+
+[[item]]
+  organization = "Cambridge Assessment English"
+  organization_url = "https://www.cambridgeenglish.org/"
+  title = "Certificate in Advanced English"
+  url = "https://www.cambridgeenglish.org/exams-and-tests/advanced/"
+  certificate_url = "https://www.cambridgeenglish.org/cmp/verifiers/"
+  date_start = "2017-02-01"
+  date_end = ""
+  description = ""
+
 +++

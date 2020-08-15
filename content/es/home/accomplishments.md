@@ -48,4 +48,24 @@ date_format = "Jan 2006"
   date_end = "2017-12-21"
   description = ""
 
+[[item]]
+  organization = "Gobierno Vasco"
+  organization_url = "https://www.euskadi.eus/inicio/"
+  title = "Euskararen Gaitasun Agiria"
+  url = "https://es.wikipedia.org/wiki/T%C3%ADtulo_EGA"
+  certificate_url = "https://www.euskadi.eus/registro-unificado-de-titulos-y-certificados-de-euskera/web01-a2etzeb/es/"
+  date_start = "2016-06-24"
+  date_end = ""
+  description = ""
+
+[[item]]
+  organization = "Cambridge Assessment English"
+  organization_url = "https://www.cambridgeenglish.org/es/"
+  title = "Certificate in Advanced English"
+  url = "https://www.cambridgeenglish.org/es/exams-and-tests/advanced/"
+  certificate_url = "https://www.cambridgeenglish.org/es/cmp/verifiers/"
+  date_start = "2017-02-01"
+  date_end = ""
+  description = ""
+
 +++
