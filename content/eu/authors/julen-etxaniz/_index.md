@@ -1,9 +1,19 @@
 ---
 title: Julen Etxaniz
-role: Student of Computer Engineering
+role: Informatika Ingeniaritzako Graduko ikaslea
 avatar_filename: avatar
-bio: Student of Computer Engineering at the University of the Basque Country
+bio: Informatika Ingeniaritzako Graduko ikaslea Euskal Herriko Unibertsitatean (UPV/EHU)
+interests:
+- Adimen Artifiziala
+education:
+  courses:
+  - course: Informatika Ingeniaritzako Gradua
+    institution: Euskal Herriko Unibertsitatea (UPV/EHU)
+    year: 2021
 social:
+  - icon: envelope
+    icon_pack: fas
+    link: '#contact'  # For a direct email link, use "mailto:test@example.org".
   - link: https://twitter.com/juletxara
     icon_pack: fab
     icon: twitter
@@ -14,8 +24,10 @@ social:
     icon_pack: fab
     icon: github
 organizations:
-  - name: University of the Basque Country
-    url: https://www.ehu.eus/en/en-home
+  - name: Euskal Herriko Unibertsitatea (UPV/EHU)
+    url: https://www.ehu.eus/eu/home
+  - name: Informatika Fakultatea
+    url: https://www.ehu.eus/eu/web/informatika-fakultatea/home
 superuser: true
 ---
-Student of Computer Engineering at the University of the Basque Country
+Informatika Ingeniaritzako Graduko ikaslea [Euskal Herriko Unibertsitateko (UPV/EHU)](https://www.ehu.eus/eu/home) [Informatika Fakultatean](https://www.ehu.eus/eu/web/informatika-fakultatea/home). Software Ingeniaritzan espezialitatea.
