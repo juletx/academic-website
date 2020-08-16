@@ -46,7 +46,7 @@ social:
     link: https://twitter.com/juletxara
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/in/juletxara
+    link: https://www.linkedin.com/in/juletxara/?locale=en_US
   - icon: github
     icon_pack: fab
     link: https://github.com/juletx
