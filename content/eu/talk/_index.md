@@ -1,5 +1,5 @@
 ---
-title: Recent & Upcoming Talks
+title: Hitzaldiak
 
 # View.
 #   1 = List

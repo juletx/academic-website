@@ -1,5 +1,5 @@
 ---
-title: Publications
+title: Argitalpenak
 
 # View.
 #   1 = List
