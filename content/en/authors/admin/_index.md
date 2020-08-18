@@ -38,18 +38,24 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-  - icon: envelope
-    icon_pack: fas
-    link: '#contact'
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/juletxara
-  - icon: linkedin
-    icon_pack: fab
-    link: https://www.linkedin.com/in/juletxara/?locale=en_US
   - icon: github
     icon_pack: fab
     link: https://github.com/juletx
+  - icon: linkedin
+    icon_pack: fab
+    link: https://www.linkedin.com/in/juletxara/?locale=en_US
+  - icon: twitter
+    icon_pack: fab
+    link: https://twitter.com/juletxara
+  - icon: instagram
+    icon_pack: fab
+    link: https://www.instagram.com/juletxara
+  - icon: facebook
+    icon_pack: fab
+    link: https://twitter.com/juletxara
+  - icon: envelope
+    icon_pack: fas
+    link: mailto:juletxara@gmail.com
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
