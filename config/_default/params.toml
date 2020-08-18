@@ -115,7 +115,7 @@ contact_links = [
   {icon = "twitter", icon_pack = "fab", name = "Twitter", link = "https://twitter.com/juletxara"},
   {icon = "linkedin", icon_pack = "fab", name = "LinkedIn", link = "https://www.linkedin.com/in/juletxara/?locale=en_US"},
   {icon = "instagram", icon_pack = "fab", name = "Instagram", link = "https://www.instagram.com/juletxara/"},
-  {icon = "facebook", icon_pack = "fab", name = "Facebook", link = "https://m.facebook.com/julen.etxanizaragoneses"},
+  {icon = "facebook", icon_pack = "fab", name = "Facebook", link = "https://m.facebook.com/juletxara"},
   # {icon = "skype", icon_pack = "fab", name = "Skype Me", link = "skype:echo123?call"},
   # {icon = "keybase", icon_pack = "fab", name = "Chat on Keybase", link = "https://keybase.io/"},
   # {icon = "comments", icon_pack = "fas", name = "Discuss on Forum", link = "https://discourse.gohugo.io"},
