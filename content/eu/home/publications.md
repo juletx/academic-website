@@ -7,7 +7,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 90  # Order that this section will appear.
 
-title = "Argitalpen Berriak"
+title = "[Argitalpen](publication) Berriak"
 subtitle = ""
 
 [content]
@@ -66,7 +66,3 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
-
-{{% alert note %}}
-Quickly discover relevant content by [filtering publications]({{< ref "/publication/_index.md" >}}).
-{{% /alert %}}
