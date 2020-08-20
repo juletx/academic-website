@@ -7,7 +7,7 @@
   languageCode = "en"
   contentDir = "content/en"
   [en.params]
-    description = "Student of BS in Informatics Engineering at the [Faculty of Informatics](https://www.ehu.eus/en/web/informatika-fakultatea/home) of the [University of the Basque Country (UPV/EHU)](https://www.ehu.eus/en/en-home). Speciality in Software Engineering."
+    description = "Student of BS in Informatics Engineering at the Faculty of Informatics of the University of the Basque Country (UPV/EHU). Speciality in Software Engineering."
     address = {street = "Faculty of Informatics<br> Manuel Lardizabal Ibilbidea, 1", city = "Donostia", region = "Gipuzkoa", postcode = "20018", country = "Spain", country_code = "ES"}
     address_format = "en"
     date_format = "01-02-2006"
@@ -23,7 +23,7 @@
   languageCode = "es"
   contentDir = "content/es"
   [es.params]
-    description = "Estudiante de Grado en Ingeniería Informática en la [Facultad de Informática](https://www.ehu.eus/es/web/informatika-fakultatea/home) de la [Universidad del País Vasco (UPV/EHU)](https://www.ehu.eus/es/home). Especialidad en Ingeniería del Software."
+    description = "Estudiante de Grado en Ingeniería Informática en la Facultad de Informática de la Universidad del País Vasco (UPV/EHU). Especialidad en Ingeniería del Software."
     address = {street = "Facultad de Informática<br> Manuel Lardizabal Ibilbidea, 1", city = "San Sebastián", region = "Guipúzcoa", postcode = "20018", country = "España", country_code = "ES"}
     address_format = "es"
     date_format = "01-02-2006"
@@ -39,7 +39,7 @@
   languageCode = "eu"
   contentDir = "content/eu"
   [eu.params]
-    description = "Informatika Ingeniaritzako Graduko ikaslea [Euskal Herriko Unibertsitateko (UPV/EHU)](https://www.ehu.eus/eu/home) [Informatika Fakultatean](https://www.ehu.eus/eu/web/informatika-fakultatea/home). Software Ingeniaritzan espezialitatea."
+    description = "Informatika Ingeniaritzako Graduko ikaslea Euskal Herriko Unibertsitateko (UPV/EHU) Informatika Fakultatean. Software Ingeniaritzan espezialitatea."
     address = {street = "Informatika Fakultatea<br> Manuel Lardizabal Ibilbidea, 1", city = "Donostia", region = "Gipuzkoa", postcode = "20018", country = "Espainia", country_code = "ES"}
     address_format = "es"
     date_format = "2006-01-02"
