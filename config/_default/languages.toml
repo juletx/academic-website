@@ -6,16 +6,49 @@
 [en]
   languageCode = "en"
   contentDir = "content/en"
+  [en.params]
+    description = "Student of BS in Informatics Engineering at the University of the Basque Country (UPV/EHU)"
+    address = {street = "Faculty of Informatics<br> Manuel Lardizabal Ibilbidea, 1", city = "Donostia", region = "Gipuzkoa", postcode = "20018", country = "Spain", country_code = "ES"}
+    address_format = "en"
+    date_format = "01-02-2006"
+    copyright_license = {enable = true, allow_derivatives = false, share_alike = true, allow_commercial = false, notice = "This work is licensed under {license}"}
+  # [en.taxonomies]
+  #   tag = "tags"
+  #   category = "categories"
+  #   publication_type = "publication_types"
+  #   author = "authors"
 
 # Configure the Spanish version of the site.
 [es]
   languageCode = "es"
   contentDir = "content/es"
+  [es.params]
+    description = "Estudiante de Grado en Ingeniería Informática en la Universidad del País Vasco (UPV/EHU)"
+    address = {street = "Facultad de Informática<br> Manuel Lardizabal Ibilbidea, 1", city = "San Sebastián", region = "Guipúzcoa", postcode = "20018", country = "España", country_code = "ES"}
+    address_format = "es"
+    date_format = "01-02-2006"
+    copyright_license = {enable = true, allow_derivatives = false, share_alike = true, allow_commercial = false, notice = "La licencia de este trabajo es {license}"}
+  # [es.taxonomies]
+  #   tag = "etiquetas"
+  #   category = "categorias"
+  #   publication_type = "tipos_publicación"
+  #   author = "autores"
 
 # Configure the Basque version of the site.
 [eu]
   languageCode = "eu"
   contentDir = "content/eu"
+  [eu.params]
+    description = "Informatika Ingeniaritzako Graduko ikaslea Euskal Herriko Unibertsitatean (UPV/EHU)"
+    address = {street = "Informatika Fakultatea<br> Manuel Lardizabal Ibilbidea, 1", city = "Donostia", region = "Gipuzkoa", postcode = "20018", country = "Espainia", country_code = "ES"}
+    address_format = "es"
+    date_format = "2006-01-02"
+    copyright_license = {enable = true, allow_derivatives = false, share_alike = true, allow_commercial = false, notice = "Lan honen lizentzia da {license}"}
+  # [eu.taxonomies]
+  #   tag = "etiketak"
+  #   category = "kategoriak"
+  #   publication_type = "argitalpen_motak"
+  #   author = "autoreak"
 
 # Uncomment the lines below to configure your website in a second language.
 #[zh]

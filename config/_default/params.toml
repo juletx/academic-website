@@ -48,7 +48,7 @@ local_business_type = ""
 org_name = ""
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
-description = ""
+description = "Informatika Ingeniaritzako Graduko ikaslea Euskal Herriko Unibertsitatean (UPV/EHU)"
 
 ############################
 ## Site Features
@@ -71,11 +71,11 @@ diagram = false
 # Privacy pack
 #   Show a cookie consent message to visitors
 #   Anonymize IP in Google Analytics (if enabled)
-privacy_pack = false
+privacy_pack = true
 
 # Enable visitors to edit pages?
 #   `repo` defines the repository URL. `editable` defines which page types can be edited.
-edit_page = {repo_url = "https://github.com/gcushen/hugo-academic", content_dir = "", repo_branch = "master", editable = {docs = true, page = false, post = false}}
+edit_page = {repo_url = "https://github.com/juletx/academic-kickstart", content_dir = "", repo_branch = "master", editable = {docs = true, page = false, post = false}}
 
 # Show related content at the bottom of pages?
 show_related = {docs = true, page = false, post = true, project = true, publication = true, talk = true}
@@ -89,15 +89,15 @@ show_related = {docs = true, page = false, post = true, project = true, publicat
 
 # Enter contact details (optional). To hide a field, clear it to "".
 email = "juletxara@gmail.com"
-phone = ""
+# phone = "+34943018028"
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
-# address = {street = "450 Serra Mall", city = "Stanford", region = "CA", postcode = "94305", country = "United States", country_code = "US"}
+address = {street = "Informatika Fakultatea<br> Manuel Lardizabal Ibilbidea, 1", city = "Donostia", region = "Gipuzkoa", postcode = "20018", country = "Espainia", country_code = "ES"}
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
-# coordinates = {latitude = "37.4275", longitude = "-122.1697"}
+coordinates = {latitude = "43.307205", longitude = "-2.010843"}
 
 # Directions for visitors to locate you.
 # directions = "Enter Building 1 and take the stairs to Office 200 on Floor 2"
@@ -112,13 +112,13 @@ phone = ""
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
 contact_links = [
-  {icon = "envelope", icon_pack = "fas", name = "Info Email", link = "mailto:info@julenetxaniz.eus"},
-  {icon = "github", icon_pack = "fab", name = "GitHub", link = "https://github.com/juletx"},
-  {icon = "linkedin", icon_pack = "fab", name = "LinkedIn", link = "https://www.linkedin.com/in/juletxara"},
-  {icon = "twitter", icon_pack = "fab", name = "Twitter", link = "https://twitter.com/juletxara"},
-  {icon = "instagram", icon_pack = "fab", name = "Instagram", link = "https://www.instagram.com/juletxara"},
-  {icon = "facebook", icon_pack = "fab", name = "Facebook", link = "https://www.facebook.com/juletxara"},
-  {icon = "envelope", icon_pack = "fas", name = "Email", link = "mailto:juletxara@gmail.com"},
+  {icon = "envelope", icon_pack = "fas", name = "info@julenetxaniz.eus", link = "mailto:info@julenetxaniz.eus"},
+  {icon = "github", icon_pack = "fab", name = "juletx", link = "https://github.com/juletx"},
+  {icon = "linkedin", icon_pack = "fab", name = "juletxara", link = "https://www.linkedin.com/in/juletxara"},
+  {icon = "twitter", icon_pack = "fab", name = "juletxara", link = "https://twitter.com/juletxara"},
+  {icon = "instagram", icon_pack = "fab", name = "juletxara", link = "https://www.instagram.com/juletxara"},
+  {icon = "facebook", icon_pack = "fab", name = "juletxara", link = "https://www.facebook.com/juletxara"},
+  {icon = "envelope", icon_pack = "fas", name = "juletxara@gmail.com", link = "mailto:juletxara@gmail.com"},
   ]
 
 ############################
@@ -149,7 +149,7 @@ address_format = "en-us"
 ############################
 
 # Main menu alignment (l = left, c = center, r = right) and logo options.
-main_menu = {align = "l", show_logo = true, highlight_active_link = true, show_language = false}
+main_menu = {align = "l", show_logo = true, highlight_active_link = true, show_language = true}
 
 # Show estimated reading time for posts? (true/false)
 reading_time = true
@@ -163,10 +163,10 @@ sharing = true
 
 # Show a copyright license from creativecommons.org in the site footer?
 # Page specific copyright licenses are also possible by adding this option to a page's front matter.
-copyright_license = {enable = false, allow_derivatives = false, share_alike = true, allow_commercial = false, notice = "This work is licensed under {license}"}
+copyright_license = {enable = true, allow_derivatives = false, share_alike = true, allow_commercial = false, notice = "This work is licensed under {license}"}
 
 # Highlight the site author (superuser) in author lists? (true/false)
-highlight_superuser = false
+highlight_superuser = true
 
 # Link authors to their profile page? (true/false)
 link_authors = true
@@ -195,6 +195,8 @@ plugins_js  = []
   de = {order = ['street', 'postcode', 'city'], delimiters = ['<br>', ' ', '']}
   fr-fr = {order = ['street', 'postcode', 'city'], delimiters = ['<br>', ' ', '']}
   zh = {order = ['postcode', 'region', 'city', 'street'], delimiters = [' ', ' ', ' ', '']}
+  en = {order = ['street', 'city', 'region', 'postcode', 'country'], delimiters = ['<br> ', ', ', ' ', ', ']}
+  es = {order = ['street', 'postcode', 'city', 'region', 'country'], delimiters = ['<br> ', ' ', ', ', ', ']}
 
 # Configuration of publication pages.
 [publications]
@@ -277,14 +279,14 @@ plugins_js  = []
   #   3: OpenStreetMap (Mapbox)
   engine = 2
   api_key = ""
-  zoom = 15
+  zoom = 16
 
 ############################
 ## Marketing
 ############################
 [marketing]
   google_analytics = ""
-  google_tag_manager = ""
+  google_tag_manager = "GTM-NP9JZHR"
 
 ############################
 ## Content Management System
