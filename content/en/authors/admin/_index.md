@@ -20,10 +20,11 @@ organizations:
     url: https://www.ehu.eus/en/web/informatika-fakultatea/home
 
 # Short bio (displayed in user profile at end of posts)
-bio: Student of BS in Informatics Engineering at the University of the Basque Country (UPV/EHU)
+bio: Student of BS in Informatics Engineering at the [Faculty of Informatics](https://www.ehu.eus/en/web/informatika-fakultatea/home) of the [University of the Basque Country (UPV/EHU)](https://www.ehu.eus/en/en-home). Speciality in Software Engineering.
 
 # Interests
 interests:
+- Software Engineering
 - Artificial Intelligence
 
 # Education

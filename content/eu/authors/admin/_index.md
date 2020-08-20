@@ -20,10 +20,11 @@ organizations:
     url: https://www.ehu.eus/eu/web/informatika-fakultatea/home
 
 # Short bio (displayed in user profile at end of posts)
-bio: Informatika Ingeniaritzako Graduko ikaslea Euskal Herriko Unibertsitatean (UPV/EHU)
+bio: Informatika Ingeniaritzako Graduko ikaslea [Euskal Herriko Unibertsitateko (UPV/EHU)](https://www.ehu.eus/eu/home) [Informatika Fakultatean](https://www.ehu.eus/eu/web/informatika-fakultatea/home). Software Ingeniaritzan espezialitatea.
 
 # Interests
 interests:
+- Software Ingeniaritza
 - Adimen Artifiziala
 
 # Education

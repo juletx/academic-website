@@ -20,10 +20,11 @@ organizations:
     url: https://www.ehu.eus/es/web/informatika-fakultatea/home
 
 # Short bio (displayed in user profile at end of posts)
-bio: Estudiante de Grado en Ingeniería Informática en la Universidad del País Vasco (UPV/EHU)
+bio: Estudiante de Grado en Ingeniería Informática en la [Facultad de Informática](https://www.ehu.eus/es/web/informatika-fakultatea/home) de la [Universidad del País Vasco (UPV/EHU)](https://www.ehu.eus/es/home). Especialidad en Ingeniería del Software.
 
 # Interests
 interests:
+- Ingeniería del Software
 - Inteligencia Artificial
 
 # Education
