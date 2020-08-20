@@ -5,7 +5,7 @@
     {{with .Params.disqus_identifier }}this.page.identifier = '{{ . }}';{{end}}
     {{with .Params.disqus_title }}this.page.title = '{{ . }}';{{end}}
     {{with .Params.disqus_url }}this.page.url = '{{ . | html  }}';{{end}}
-    this.language = site.LanguageCode;
+    this.language = '{{ site.LanguageCode }}';
   };
   (function() {
     if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
