@@ -7,7 +7,7 @@ collections:
   - name: authors
     label: Authors
     label_singular: Author
-    folder: 'content/authors'
+    folder: 'content/en/authors'
     path: '{{slug}}/_index'
     create: true  # Allow users to create new documents in this collection
     fields:  # The fields each document in this collection have
@@ -76,7 +76,7 @@ collections:
   - name: posts
     label: Posts
     label_singular: Post
-    folder: 'content/post'
+    folder: 'content/en/post'
     path: '{{slug}}/index'
     create: true  # Allow users to create new documents in this collection
     fields:  # The fields each document in this collection have
@@ -128,7 +128,7 @@ collections:
   - name: projects
     label: Projects
     label_singular: Project
-    folder: 'content/project'
+    folder: 'content/en/project'
     path: '{{slug}}/index'
     create: true  # Allow users to create new documents in this collection
     fields:  # The fields each document in this collection have
@@ -196,7 +196,7 @@ collections:
   - name: talks
     label: Talks
     label_singular: Talk
-    folder: 'content/talk'
+    folder: 'content/en/talk'
     path: '{{slug}}/index'
     create: true  # Allow users to create new documents in this collection
     fields:  # The fields each document in this collection have
@@ -228,7 +228,7 @@ collections:
       - {label: "Event", name: "event", widget: "string"}
       - {label: "Event link", name: "event_url", widget: "string"}
       - {label: "Publish this page on", name: "publishDate", widget: "datetime"}
-      - {label: "Markdown slides (reference a deck in 'content/slides/')", name: "slides", widget: "string", required: false}
+      - {label: "Markdown slides (reference a deck in 'content/en/slides/')", name: "slides", widget: "string", required: false}
       - label: "Draft"
         name: "draft"
         widget: "boolean"
@@ -249,7 +249,7 @@ collections:
         name: "categories"
         required: false
         widget: "list"
-      - label: "Projects (reference projects in 'content/project/')"
+      - label: "Projects (reference projects in 'content/en/project/')"
         name: "projects"
         required: false
         widget: "list"
@@ -273,7 +273,7 @@ collections:
   - name: pages
     label: "Pages"
     files:
-      - file: "content/privacy.md"
+      - file: "content/en/privacy.md"
         label: "Privacy Policy"
         name: "privacy"
         fields:
@@ -287,7 +287,7 @@ collections:
             widget: "boolean"
             default: false
           - {label: "Body", name: "body", widget: "markdown"}
-      - file: "content/terms.md"
+      - file: "content/en/terms.md"
         label: "Terms"
         name: "terms"
         fields:
