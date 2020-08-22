@@ -32,7 +32,7 @@ education:
   courses:
   - course: BS in Informatics Engineering
     institution: University of the Basque Country (UPV/EHU)
-    year: 2021
+    year: 2017-2021
     
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -53,7 +53,7 @@ social:
     link: https://www.instagram.com/juletxara
   - icon: facebook
     icon_pack: fab
-    link: https://twitter.com/juletxara
+    link: https://www.facebook.com/juletxara
   - icon: envelope
     icon_pack: fas
     link: mailto:juletxara@gmail.com
