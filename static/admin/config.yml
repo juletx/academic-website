@@ -4,7 +4,7 @@ backend:
 media_folder: 'static/img/'
 public_folder: 'img'
 collections:
-  - name: en/authors
+  - name: authors
     label: EN Authors
     label_singular: EN Author
     folder: 'content/en/authors'
@@ -211,7 +211,7 @@ collections:
         name: "user_groups"
         required: false
         widget: "list"
-  - name: en/posts
+  - name: posts
     label: EN Posts
     label_singular: EN Post
     folder: 'content/en/post'
@@ -367,7 +367,7 @@ collections:
           - {label: Description for screen readers, name: alt_text, widget: string, required: false}
           - {label: "Where's the focal point in the image? Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.", name: focal_point, widget: string, required: false, default: "Smart"}
           - {label: Thumbnail Only?, name: preview_only, widget: boolean, default: false}
-  - name: en/projects
+  - name: projects
     label: EN Projects
     label_singular: EN Project
     folder: 'content/en/project'
@@ -571,7 +571,7 @@ collections:
           - {label: Description for screen readers, name: alt_text, widget: string, required: false}
           - {label: "Where's the focal point in the image? Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.", name: focal_point, widget: string, required: false, default: "Smart"}
           - {label: Thumbnail Only?, name: preview_only, widget: boolean, default: false}
-  - name: en/talks
+  - name: talks
     label: EN Talks
     label_singular: EN Talk
     folder: 'content/en/talk'
@@ -802,7 +802,7 @@ collections:
           - {label: "Where's the focal point in the image? Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.", name: focal_point, widget: string, required: false, default: "Smart"}
           - {label: Thumbnail Only?, name: preview_only, widget: boolean, default: false}
       - {label: "Details", name: "body", widget: "markdown", required: false}
-  - name: en/pages
+  - name: pages
     label: "EN Pages"
     files:
       - file: "content/en/privacy.md"
