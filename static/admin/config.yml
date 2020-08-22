@@ -1,10 +1,10 @@
 backend:
   name: git-gateway
   branch: master
-media_folder: 'static/img/'
-public_folder: 'img'
+media_folder: 'static/media/'
+public_folder: 'media'
 collections:
-  - name: authors
+  - name: en-authors
     label: EN Authors
     label_singular: EN Author
     folder: 'content/en/authors'
@@ -73,7 +73,7 @@ collections:
         name: "user_groups"
         required: false
         widget: "list"
-  - name: es/authors
+  - name: es-authors
     label: ES Authors
     label_singular: ES Author
     folder: 'content/es/authors'
@@ -142,7 +142,7 @@ collections:
         name: "user_groups"
         required: false
         widget: "list"
-  - name: eu/authors
+  - name: eu-authors
     label: EU Authors
     label_singular: EU Author
     folder: 'content/eu/authors'
@@ -211,7 +211,7 @@ collections:
         name: "user_groups"
         required: false
         widget: "list"
-  - name: posts
+  - name: en-posts
     label: EN Posts
     label_singular: EN Post
     folder: 'content/en/post'
@@ -263,7 +263,7 @@ collections:
           - {label: Description for screen readers, name: alt_text, widget: string, required: false}
           - {label: "Where's the focal point in the image? Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.", name: focal_point, widget: string, required: false, default: "Smart"}
           - {label: Thumbnail Only?, name: preview_only, widget: boolean, default: false}
-  - name: es/posts
+  - name: es-posts
     label: ES Posts
     label_singular: ES Post
     folder: 'content/es/post'
@@ -315,7 +315,7 @@ collections:
           - {label: Description for screen readers, name: alt_text, widget: string, required: false}
           - {label: "Where's the focal point in the image? Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.", name: focal_point, widget: string, required: false, default: "Smart"}
           - {label: Thumbnail Only?, name: preview_only, widget: boolean, default: false}
-  - name: eu/posts
+  - name: eu-posts
     label: EU Posts
     label_singular: EU Post
     folder: 'content/eu/post'
@@ -367,7 +367,7 @@ collections:
           - {label: Description for screen readers, name: alt_text, widget: string, required: false}
           - {label: "Where's the focal point in the image? Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.", name: focal_point, widget: string, required: false, default: "Smart"}
           - {label: Thumbnail Only?, name: preview_only, widget: boolean, default: false}
-  - name: projects
+  - name: en-projects
     label: EN Projects
     label_singular: EN Project
     folder: 'content/en/project'
@@ -435,7 +435,7 @@ collections:
           - {label: Description for screen readers, name: alt_text, widget: string, required: false}
           - {label: "Where's the focal point in the image? Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.", name: focal_point, widget: string, required: false, default: "Smart"}
           - {label: Thumbnail Only?, name: preview_only, widget: boolean, default: false}
-  - name: es/projects
+  - name: es-projects
     label: ES Projects
     label_singular: ES Project
     folder: 'content/es/project'
@@ -503,7 +503,7 @@ collections:
           - {label: Description for screen readers, name: alt_text, widget: string, required: false}
           - {label: "Where's the focal point in the image? Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.", name: focal_point, widget: string, required: false, default: "Smart"}
           - {label: Thumbnail Only?, name: preview_only, widget: boolean, default: false}
-  - name: eu/projects
+  - name: eu-projects
     label: EU Projects
     label_singular: EU Project
     folder: 'content/eu/project'
@@ -571,7 +571,7 @@ collections:
           - {label: Description for screen readers, name: alt_text, widget: string, required: false}
           - {label: "Where's the focal point in the image? Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.", name: focal_point, widget: string, required: false, default: "Smart"}
           - {label: Thumbnail Only?, name: preview_only, widget: boolean, default: false}
-  - name: talks
+  - name: en-talks
     label: EN Talks
     label_singular: EN Talk
     folder: 'content/en/talk'
@@ -648,7 +648,7 @@ collections:
           - {label: "Where's the focal point in the image? Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.", name: focal_point, widget: string, required: false, default: "Smart"}
           - {label: Thumbnail Only?, name: preview_only, widget: boolean, default: false}
       - {label: "Details", name: "body", widget: "markdown", required: false}
-  - name: es/talks
+  - name: es-talks
     label: ES Talks
     label_singular: ES Talk
     folder: 'content/es/talk'
@@ -725,7 +725,7 @@ collections:
           - {label: "Where's the focal point in the image? Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.", name: focal_point, widget: string, required: false, default: "Smart"}
           - {label: Thumbnail Only?, name: preview_only, widget: boolean, default: false}
       - {label: "Details", name: "body", widget: "markdown", required: false}
-  - name: eu/talks
+  - name: eu-talks
     label: EU Talks
     label_singular: EU Talk
     folder: 'content/eu/talk'
@@ -802,7 +802,7 @@ collections:
           - {label: "Where's the focal point in the image? Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.", name: focal_point, widget: string, required: false, default: "Smart"}
           - {label: Thumbnail Only?, name: preview_only, widget: boolean, default: false}
       - {label: "Details", name: "body", widget: "markdown", required: false}
-  - name: pages
+  - name: en-pages
     label: "EN Pages"
     files:
       - file: "content/en/privacy.md"
@@ -833,7 +833,7 @@ collections:
             widget: "boolean"
             default: false
           - {label: "Body", name: "body", widget: "markdown"}
-  - name: es/pages
+  - name: es-pages
     label: "ES Pages"
     files:
       - file: "content/es/privacy.md"
@@ -864,7 +864,7 @@ collections:
             widget: "boolean"
             default: false
           - {label: "Body", name: "body", widget: "markdown"}
-  - name: eu/pages
+  - name: eu-pages
     label: "EU Pages"
     files:
       - file: "content/eu/privacy.md"
