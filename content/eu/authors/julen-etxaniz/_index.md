@@ -4,7 +4,7 @@ title: Julen Etxaniz
 
 # Username (this should match the folder name)
 authors:
-- admin
+- julen-etxaniz
 
 # Is this the primary user of the site?
 superuser: true
