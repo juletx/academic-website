@@ -6,7 +6,11 @@
     {{with .Params.disqus_identifier }}this.page.identifier = '{{ . }}';{{end}}
     {{with .Params.disqus_title }}this.page.title = '{{ . }}';{{end}}
     {{with .Params.disqus_url }}this.page.url = '{{ . | html  }}';{{end}}
-    this.language = '{{ site.LanguageCode }}';
+    if ('{{ site.LanguageCode }}' == "es") {
+      this.language = 'es_ES';
+    } else {
+      this.language = '{{ site.LanguageCode }}';
+    }
   };
   (function() {
     var d = document, s = d.createElement('script'); s.async = true;
