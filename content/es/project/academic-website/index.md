@@ -1,6 +1,6 @@
 ---
-title: Academic website
-summary: Academic personal website
+title: Academic Website
+summary: Academic personal website that includes a short description, social links, biography, interests, education, skills, experience, accomplishments, projects and contact info.
 tags:
 - Web
 date: ""
@@ -13,6 +13,7 @@ external_link: ""
 image:
   caption: ""
   focal_point: ""
+  preview_only: false
 
 links:
 - name: Web

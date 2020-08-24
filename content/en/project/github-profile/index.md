@@ -1,6 +1,6 @@
 ---
-title: GitHub profile
-summary: GitHub profile readme
+title: GitHub Profile
+summary: GitHub Profile README that includes a short description, social links, skills and GitHub info about current activity, stats, languages and pinned repositories.
 tags:
 date: ""
 
@@ -12,14 +12,11 @@ external_link: ""
 image:
   caption: ""
   focal_point: ""
+  preview_only: false
 
 links:
 - name: Web
   url: https://juletx.github.io/juletx
-- icon: github
-  icon_pack: fab
-  name: GitHub
-  url: https://github.com/juletx
 url_code: https://github.com/juletx/juletx
 url_pdf: ""
 url_slides: ""
@@ -97,7 +94,7 @@ url_video: ""
 <h3 align="center">Static Site Generators</h3>
 <p align="center">
   <a href="https://github.com/topics/hugo" target="blank"><img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/hugo.svg" alt="hugo" width="30" height="30"/></a>
-	<a href="https://github.com/topics/jekyll" target="blank"><img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/jekyll/jekyll.png" alt="jekyll" width="jekyll" height="30"/></a>
+	<a href="https://github.com/topics/jekyll" target="blank"><img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/jekyll/jekyll.png" alt="jekyll" width="30" height="30"/></a>
 </p>
 
 <h3 align="center">Source Control</h3>
