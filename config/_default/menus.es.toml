@@ -8,39 +8,54 @@
   url = "#about"
   weight = 10
 
+# [[main]]
+#   name = "Habilidades"
+#   url = "#skills"
+#   weight = 20
+
+# [[main]]
+#   name = "Experiencia"
+#   url = "#experience"
+#   weight = 30
+
 [[main]]
-  name = "Entradas de Blog"
-  url = "#posts"
-  weight = 20
+  name = "Logros"
+  url = "#accomplishments"
+  weight = 40
+
+# [[main]]
+#   name = "Entradas de Blog"
+#   url = "#posts"
+#   weight = 50
 
 [[main]]
   name = "Proyectos"
   url = "#projects"
-  weight = 30
+  weight = 60
 
-[[main]]
-  name = "Charlas"
-  url = "#talks"
-  weight = 40
+# [[main]]
+#   name = "Charlas"
+#   url = "#talks"
+#   weight = 70
 
-[[main]]
-  name = "Publicaciones"
-  url = "#featured"
-  weight = 50
+# [[main]]
+#   name = "Publicaciones"
+#   url = "#featured"
+#   weight = 80
 
 [[main]]
   name = "Etiquetas"
   url = "#tags"
-  weight = 60
+  weight = 90
 
 [[main]]
   name = "Contacto"
   url = "#contact"
-  weight = 70
+  weight = 100
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # [[main]]
 #    name = "CV"
 #    url = "files/cv.pdf"
-#    weight = 70
+#    weight = 110
