@@ -3,6 +3,7 @@ title: GitHub Website
 summary: GitHub personal website that includes a photo, short description, social links and GitHub repositories and topics.
 tags:
 - Web
+- GitHub
 date: ""
 
 # Optional external URL for project (replaces project detail page).

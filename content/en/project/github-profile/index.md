@@ -2,6 +2,7 @@
 title: GitHub Profile
 summary: GitHub Profile README that includes a short description, social links, skills and GitHub info about current activity, stats, languages and pinned repositories.
 tags:
+- GitHub
 date: ""
 
 # Optional external URL for project (replaces project detail page).

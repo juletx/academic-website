@@ -2,6 +2,7 @@
 title: GitHub Perfil
 summary: GitHub Perfil README que incluye una descripción corta, enlaces sociales, habilidades e información de GitHub sobre actividad reciente, estadísticas, lenguajes y repositorios fijados.
 tags:
+- GitHub
 date: ""
 
 # Optional external URL for project (replaces project detail page).

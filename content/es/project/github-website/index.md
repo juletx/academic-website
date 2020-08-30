@@ -3,6 +3,7 @@ title: GitHub Web
 summary: Web personal GitHub que incluye una foto, descripción corta, enlaces sociales y repositorios y temas de GitHub.
 tags:
 - Web
+- GitHub
 date: ""
 
 # Optional external URL for project (replaces project detail page).

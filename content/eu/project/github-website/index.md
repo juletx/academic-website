@@ -3,6 +3,7 @@ title: GitHub Webgunea
 summary: "GitHub webgune pertsonala, atal hauek dituena: argazkia, deskribapen motza, esteka sozialak eta GitHub-eko errepositorioak eta gaiak."
 tags:
 - Web
+- GitHub
 date: ""
 
 # Optional external URL for project (replaces project detail page).

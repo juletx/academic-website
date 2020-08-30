@@ -2,6 +2,7 @@
 title: GitHub Profila
 summary: "GitHub Profileko README, atal hauek dituena: deskribapen motza, esteka sozialak, trebetasunak eta GitHub-eko momentuko aktibitatea, estatistikak, lengoaiak eta finkatutako errepositorioak."
 tags:
+- GitHub
 date: ""
 
 # Optional external URL for project (replaces project detail page).
