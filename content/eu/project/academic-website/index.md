@@ -1,6 +1,6 @@
 ---
-title: Academic Website
-summary: Academic personal website that includes a short description, social links, biography, interests, education, skills, experience, accomplishments, projects and contact info.
+title: Academic Webgunea
+summary: "Academic webgune pertsonala, atal hauek dituena: deskribapena, esteka sozialak, biografia, interesak, ikasketak, trebetasunak, esperientzia, lorpenak, proiektuak eta kontaktuko infomazioa."
 tags:
 - Web
 date: ""
@@ -14,7 +14,7 @@ image:
   caption: ""
   focal_point: ""
   preview_only: false
-  alt_text: "Academic Website"
+  alt_text: "Academic Webgunea"
 
 links:
 - name: Web

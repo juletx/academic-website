@@ -1,6 +1,6 @@
 ---
-title: GitHub Profile
-summary: GitHub Profile README that includes a short description, social links, skills and GitHub info about current activity, stats, languages and pinned repositories.
+title: GitHub Perfil
+summary: GitHub Perfil README que incluye una descripción corta, enlaces sociales, habilidades e información de GitHub sobre actividad reciente, estadísticas, lenguajes y repositorios fijados.
 tags:
 date: ""
 
@@ -13,7 +13,7 @@ image:
   caption: ""
   focal_point: ""
   preview_only: false
-  alt_text: "GitHub Profile"
+  alt_text: "GitHub Perfil"
 
 links:
 - name: Web

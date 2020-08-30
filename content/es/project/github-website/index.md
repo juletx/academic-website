@@ -1,6 +1,6 @@
 ---
-title: GitHub Website
-summary: GitHub personal website that includes a photo, short description, social links and GitHub repositories and topics.
+title: GitHub Web
+summary: Web personal GitHub que incluye una foto, descripción corta, enlaces sociales y repositorios y temas de GitHub.
 tags:
 - Web
 date: ""
@@ -14,7 +14,7 @@ image:
   caption: ""
   focal_point: ""
   preview_only: false
-  alt_text: "GitHub Website"
+  alt_text: "GitHub Web"
 
 links:
 - name: Web
