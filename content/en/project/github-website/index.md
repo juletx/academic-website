@@ -14,6 +14,7 @@ image:
   caption: ""
   focal_point: ""
   preview_only: false
+  alt_text: "GitHub Website"
 
 links:
 - name: Web
