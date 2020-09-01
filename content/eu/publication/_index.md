@@ -1,5 +1,6 @@
 ---
 title: Argitalpenak
+draft: true
 
 # View.
 #   1 = List

@@ -1,5 +1,6 @@
 ---
 title: Hitzaldiak
+draft: true
 
 # View.
 #   1 = List

@@ -1,5 +1,6 @@
 ---
 title: Entradas de Blog
+draft: true
 
 # View.
 #   1 = List

@@ -1,5 +1,6 @@
 ---
 title: Publicaciones
+draft: true
 
 # View.
 #   1 = List

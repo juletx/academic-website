@@ -1,5 +1,6 @@
 ---
 title: Blog Sarrerak
+draft: true
 
 # View.
 #   1 = List
