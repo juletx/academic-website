@@ -45,8 +45,7 @@ url_video: ""
 
 <hr />
 
-<details open>
-<summary align="center"><h2>Skills</h2></summary>
+<h2 align="center">Skills</h2>
 
 <h3 align="center">Programming Languages</h3>
 <p align="center">
@@ -105,49 +104,35 @@ url_video: ""
 	<a href="https://github.com/topics/github" target="blank"><img src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png" alt="github" width="30" height="30"/></a>
 </p>
 
-</details>
+<hr />
+
+<h2 align="center">GitHub</h2>
+
+<h3 align="center">Current Activity</h3>
+
+<p align="center">🔭 I’m currently working on <a href="https://github.com/juletx/academic-website" target="blank">academic-website</a></p>
+
+<p align="center">🌱 I’m currently learning <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="blank">wowchemy-hugo-modules</a></p>
+
+<p align="center">👯 I’m looking to collaborate on <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="blank">wowchemy-hugo-modules</a></p>
+
+<!-- <p align="center">🤝 I’m looking for help with <a href="https://github.com/juletx/academic-website" target="blank">academic-website</a></p> -->
+
+<p align="center">👨‍💻 My projects are available at <a href="https://julenetxaniz.eus" target="blank">julenetxaniz.eus</a> or <a href="https://juletx.github.io" target="blank">juletx.github.io</a></p>
 
 <hr />
 
-<details open>
-<summary align="center"><h2>GitHub</h2></summary>
-
-<details open>
-<summary align="center"><h3>Current Activity</h3></summary>
-
-<p align="center">🔭 I’m currently working on <a href="https://github.com/juletx/academic-kickstart" target="blank">academic-kickstart</a></p>
-
-<p align="center">🌱 I’m currently learning <a href="https://github.com/gcushen/hugo-academic" target="blank">hugo-academic</a></p>
-
-<p align="center">👯 I’m looking to collaborate on <a href="https://github.com/gcushen/hugo-academic" target="blank">hugo-academic</a></p>
-
-<!-- <p align="center">🤝 I’m looking for help with <a href="https://github.com/juletx/academic-kickstart" target="blank">academic-kickstart</a></p> -->
-
-<p align="center">👨‍💻 My projects are available at <a href="https://juletx.github.io" target="blank">juletx.github.io</a></p>
-
-</details>
-
-<hr />
-
-<details open>
-<summary align="center"><h3>Stats</h3></summary>
+<h3 align="center">Stats</h3>
 
 <p align="center"><img src="https://github-readme-stats.vercel.app/api?username=juletx&show_icons=true&count_private=true" alt="stats" /></p>
-</details>
 
 <hr />
 
-<details open>
-<summary align="center"><h3>Languages</h3></summary>
+<h3 align="center">Languages</h3>
 <p align="center"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=juletx&layout=compact" alt="languages" /></p>
-</details>
 
 <hr />
 
-<details open>
-<summary align="center"><h3>Pinned Repositories</h3></summary>
+<h3 align="center">Pinned Repositories</h3>
 <p align="center"><a href="https://github.com/juletx/juletx.github.io" target="blank"><img src="https://github-readme-stats.vercel.app/api/pin/?username=juletx&repo=juletx.github.io" alt="pinned" /></a></p>
-<p align="center"><a href="https://github.com/juletx/academic-kickstart" target="blank"><img src="https://github-readme-stats.vercel.app/api/pin/?username=juletx&repo=academic-kickstart" alt="pinned" /></a></p>
-</details>
-
-</details>
+<p align="center"><a href="https://github.com/juletx/academic-website" target="blank"><img src="https://github-readme-stats.vercel.app/api/pin/?username=juletx&repo=academic-website" alt="pinned" /></a></p>
