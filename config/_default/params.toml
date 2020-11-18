@@ -26,7 +26,7 @@ font = ""
 
 # Choose a font size.
 # Sizes: XS (extra small), S (small), M (medium), L (large - DEFAULT), XL (extra large)
-font_size = "L"
+font_size = "M"
 
 ############################
 ## Basic Info
@@ -75,7 +75,7 @@ privacy_pack = true
 
 # Enable visitors to edit pages?
 #   `repo` defines the repository URL. `editable` defines which page types can be edited.
-edit_page = {repo_url = "https://github.com/juletx/academic-kickstart", content_dir = "", repo_branch = "master", editable = {docs = true, page = false, post = false}}
+edit_page = {repo_url = "https://github.com/juletx/academic-website", content_dir = "", repo_branch = "master", editable = {docs = true, page = false, post = false}}
 
 # Show related content at the bottom of pages?
 show_related = {docs = true, page = false, post = true, project = true, publication = true, talk = true}
@@ -187,16 +187,6 @@ plugins_js  = []
 
   # Choose a shape for avatar images. Options: circle, square.
   shape = "circle"
-
-# Available address formats.
-[address_formats]
-  en-us = {order = ['street', 'city', 'region', 'postcode'], delimiters = [', ', ', ', ' ', '']}
-  en-gb = {order = ['street', 'city', 'region', 'postcode'], delimiters = [', ', ', ', ', ', '']}
-  de = {order = ['street', 'postcode', 'city'], delimiters = ['<br>', ' ', '']}
-  fr-fr = {order = ['street', 'postcode', 'city'], delimiters = ['<br>', ' ', '']}
-  zh = {order = ['postcode', 'region', 'city', 'street'], delimiters = [' ', ' ', ' ', '']}
-  en = {order = ['street', 'city', 'region', 'postcode', 'country'], delimiters = ['<br> ', ', ', ' ', ', ']}
-  es = {order = ['street', 'postcode', 'city', 'region', 'country'], delimiters = ['<br> ', ' ', ', ', ', ']}
 
 # Configuration of publication pages.
 [publications]
