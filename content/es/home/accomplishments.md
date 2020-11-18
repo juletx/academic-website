@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 50  # Order that this section will appear.
 
-title = "Logros"
+title = "Certificados"
 subtitle = ""
 
 # Date format
@@ -35,6 +35,36 @@ date_format = "Jan 2006"
   url = "https://www.cambridgeenglish.org/es/exams-and-tests/advanced/"
   certificate_url = "https://www.cambridgeenglish.org/es/cmp/verifiers/"
   date_start = "2017-02-01"
+  date_end = ""
+  description = ""
+
+[[item]]
+  organization = "Platzi"
+  organization_url = "https://platzi.com/"
+  title = "Curso Práctico de Regresión Lineal con Python"
+  url = "https://platzi.com/cursos/regresion-python/"
+  certificate_url = "https://platzi.com/@juletx/curso/1766-regresion-python/diploma/detalle/"
+  date_start = "2020-10-30"
+  date_end = ""
+  description = ""
+
+  [[item]]
+  organization = "Platzi"
+  organization_url = "https://platzi.com/"
+  title = "Curso de Machine Learning Aplicado con Python"
+  url = "https://platzi.com/cursos/scikit/"
+  certificate_url = "https://platzi.com/@juletx/curso/1178-scikit/diploma/detalle/"
+  date_start = "2020-10-31"
+  date_end = ""
+  description = ""
+
+  [[item]]
+  organization = "Platzi"
+  organization_url = "https://platzi.com/"
+  title = "Curso de Redes Neuronales en Keras y Scikit-Learn"
+  url = "https://platzi.com/cursos/keras-neural-networks/"
+  certificate_url = "https://platzi.com/@juletx/curso/1866-keras-neural-networks/diploma/detalle/"
+  date_start = "2020-10-31"
   date_end = ""
   description = ""
 
