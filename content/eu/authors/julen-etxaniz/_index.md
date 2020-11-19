@@ -26,6 +26,7 @@ bio: Informatika Ingeniaritzako Graduko ikaslea [Euskal Herriko Unibertsitateko 
 interests:
 - Software Ingeniaritza
 - Adimen Artifiziala
+- Ikaskuntza Automatikoa
 
 # Education
 education:

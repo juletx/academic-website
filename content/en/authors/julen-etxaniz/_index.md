@@ -26,6 +26,7 @@ bio: Student of BS in Informatics Engineering at the [Faculty of Informatics](ht
 interests:
 - Software Engineering
 - Artificial Intelligence
+- Machine Learning
 
 # Education
 education:

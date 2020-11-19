@@ -19,7 +19,7 @@ image:
 links:
 - name: Web
   url: https://julenetxaniz.eus
-url_code: https://github.com/juletx/academic-kickstart
+url_code: https://github.com/juletx/academic-website
 url_pdf: ""
 url_slides: ""
 url_video: ""

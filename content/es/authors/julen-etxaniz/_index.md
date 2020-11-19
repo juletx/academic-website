@@ -26,6 +26,7 @@ bio: Estudiante de Grado en Ingeniería Informática en la [Facultad de Informá
 interests:
 - Ingeniería del Software
 - Inteligencia Artificial
+- Aprendizaje Automático
 
 # Education
 education:
