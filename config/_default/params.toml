@@ -112,13 +112,14 @@ coordinates = {latitude = "43.307205", longitude = "-2.010843"}
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
 contact_links = [
+  {icon = "envelope", icon_pack = "fas", name = "juletxara@gmail.com", link = "mailto:juletxara@gmail.com"},
+  {icon = "envelope", icon_pack = "fas", name = "jetxaniz007@ikasle.ehu.eus", link = "mailto:jetxaniz007@ikasle.ehu.eus"},
   {icon = "envelope", icon_pack = "fas", name = "info@julenetxaniz.eus", link = "mailto:info@julenetxaniz.eus"},
   {icon = "github", icon_pack = "fab", name = "juletx", link = "https://github.com/juletx"},
   {icon = "linkedin", icon_pack = "fab", name = "juletxara", link = "https://www.linkedin.com/in/juletxara"},
   {icon = "twitter", icon_pack = "fab", name = "juletxara", link = "https://twitter.com/juletxara"},
   {icon = "instagram", icon_pack = "fab", name = "juletxara", link = "https://www.instagram.com/juletxara"},
   {icon = "facebook", icon_pack = "fab", name = "juletxara", link = "https://www.facebook.com/juletxara"},
-  {icon = "envelope", icon_pack = "fas", name = "juletxara@gmail.com", link = "mailto:juletxara@gmail.com"},
   ]
 
 ############################
