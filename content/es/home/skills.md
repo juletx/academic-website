@@ -2,7 +2,7 @@
 # A Skills section created with the Featurette widget.
 widget = "featurette"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = false  # Activate this widget? true/false
+active = true  # Activate this widget? true/false
 weight = 30  # Order that this section will appear.
 
 title = "Habilidades"
@@ -13,6 +13,30 @@ subtitle = ""
 # Add/remove as many `[[feature]]` blocks below as you like.
 # 
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
+
+[[feature]]
+  icon = "language"
+  icon_pack = "fas"
+  name = '[Idiomas](#languages)'
+  description = ""
+
+[[feature]]
+  icon = "code"
+  icon_pack = "fas"
+  name = "[Lenguajes Programación](#programming)"
+  description = ""
+
+[[feature]]
+  icon = "laptop-code"
+  icon_pack = "fas"
+  name = "[Frontend](#frontend)"
+  description = ""
+
+[[feature]]
+  icon = "network-wired"
+  icon_pack = "fas"
+  name = "[Aprendizaje Automático](#machine-learning)"
+  description = ""
 
 # Uncomment to use emoji icons.
 # [[feature]]

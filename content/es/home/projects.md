@@ -33,6 +33,10 @@ subtitle = ""
     name = "GitHub"
     tag = "GitHub"
 
+  [[content.filter_button]]
+    name = "Machine Learning"
+    tag = "Machine Learning"
+
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
   columns = "2"
@@ -74,4 +78,3 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
-
