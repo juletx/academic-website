@@ -11,7 +11,7 @@
     address = {street = "Faculty of Informatics<br> Manuel Lardizabal Ibilbidea, 1", city = "Donostia", region = "Gipuzkoa", postcode = "20018", country = "Spain", country_code = "ES"}
     address_format = "en"
     date_format = "01-02-2006"
-    copyright_license = {enable = true, allow_derivatives = true, share_alike = true, allow_commercial = false, notice = "License: {license}"}
+    copyright_license = {enable = true, allow_derivatives = true, share_alike = true, allow_commercial = true, notice = "License: {license}"}
   # [en.taxonomies]
   #   tag = "tags"
   #   category = "categories"
@@ -27,7 +27,7 @@
     address = {street = "Facultad de Informática<br> Manuel Lardizabal Ibilbidea, 1", city = "San Sebastián", region = "Guipúzcoa", postcode = "20018", country = "España", country_code = "ES"}
     address_format = "es"
     date_format = "01-02-2006"
-    copyright_license = {enable = true, allow_derivatives = true, share_alike = true, allow_commercial = false, notice = "Licencia: {license}"}
+    copyright_license = {enable = true, allow_derivatives = true, share_alike = true, allow_commercial = true, notice = "Licencia: {license}"}
   # [es.taxonomies]
   #   tag = "etiquetas"
   #   category = "categorias"
@@ -43,7 +43,7 @@
     address = {street = "Informatika Fakultatea<br> Manuel Lardizabal Ibilbidea, 1", city = "Donostia", region = "Gipuzkoa", postcode = "20018", country = "Espainia", country_code = "ES"}
     address_format = "es"
     date_format = "2006-01-02"
-    copyright_license = {enable = true, allow_derivatives = true, share_alike = true, allow_commercial = false, notice = "Lizentzia: {license}"}
+    copyright_license = {enable = true, allow_derivatives = true, share_alike = true, allow_commercial = true, notice = "Lizentzia: {license}"}
   # [eu.taxonomies]
   #   tag = "etiketak"
   #   category = "kategoriak"
