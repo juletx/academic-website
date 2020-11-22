@@ -10,7 +10,7 @@ subtitle = ""
 
 # Date format
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
-date_format = "Jan 2006"
+date_format = "01-2006"
 
 # Accomplishments.
 #   Add/remove as many `[[item]]` blocks below as you like.
@@ -19,12 +19,52 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
-  organization = "Gobierno Vasco"
-  organization_url = "https://www.euskadi.eus/inicio/"
-  title = "Euskararen Gaitasun Agiria"
-  url = "https://es.wikipedia.org/wiki/T%C3%ADtulo_EGA"
-  certificate_url = "https://www.euskadi.eus/registro-unificado-de-titulos-y-certificados-de-euskera/web01-a2etzeb/es/"
-  date_start = "2016-06-24"
+  organization = "Platzi"
+  organization_url = "https://platzi.com/"
+  title = "Curso de Machine Learning Aplicado con Python"
+  url = "https://platzi.com/cursos/scikit/"
+  certificate_url = "https://platzi.com/@juletx/curso/1178-scikit/diploma/detalle/"
+  date_start = "2020-10-31"
+  date_end = ""
+  description = ""
+
+[[item]]
+  organization = "Platzi"
+  organization_url = "https://platzi.com/"
+  title = "Curso de Redes Neuronales en Keras y Scikit-Learn"
+  url = "https://platzi.com/cursos/keras-neural-networks/"
+  certificate_url = "https://platzi.com/@juletx/curso/1866-keras-neural-networks/diploma/detalle/"
+  date_start = "2020-10-31"
+  date_end = ""
+  description = ""
+
+[[item]]
+  organization = "Platzi"
+  organization_url = "https://platzi.com/"
+  title = "Curso Práctico de Regresión Lineal con Python"
+  url = "https://platzi.com/cursos/regresion-python/"
+  certificate_url = "https://platzi.com/@juletx/curso/1766-regresion-python/diploma/detalle/"
+  date_start = "2020-10-30"
+  date_end = ""
+  description = ""
+
+[[item]]
+  organization = "Universidad Complutense de Madrid"
+  organization_url = "https://www.ucm.es/"
+  title = "Curso de Desarrollo de Apps Móviles"
+  url = "https://learndigital.withgoogle.com/activate/course/apps"
+  certificate_url = "https://learndigital.withgoogle.com/activate/validate-certificate-code"
+  date_start = "2020-01-23"
+  date_end = ""
+  description = ""
+
+[[item]]
+  organization = "HackerRank"
+  organization_url = "https://www.hackerrank.com/"
+  title = "Problem Solving (Basic)"
+  url = "https://www.hackerrank.com/domains/algorithms"
+  certificate_url = "https://www.hackerrank.com/certificates/e8a8b7cee492"
+  date_start = "2020-09-15"
   date_end = ""
   description = ""
 
@@ -39,32 +79,12 @@ date_format = "Jan 2006"
   description = ""
 
 [[item]]
-  organization = "Platzi"
-  organization_url = "https://platzi.com/"
-  title = "Curso Práctico de Regresión Lineal con Python"
-  url = "https://platzi.com/cursos/regresion-python/"
-  certificate_url = "https://platzi.com/@juletx/curso/1766-regresion-python/diploma/detalle/"
-  date_start = "2020-10-30"
-  date_end = ""
-  description = ""
-
-  [[item]]
-  organization = "Platzi"
-  organization_url = "https://platzi.com/"
-  title = "Curso de Machine Learning Aplicado con Python"
-  url = "https://platzi.com/cursos/scikit/"
-  certificate_url = "https://platzi.com/@juletx/curso/1178-scikit/diploma/detalle/"
-  date_start = "2020-10-31"
-  date_end = ""
-  description = ""
-
-  [[item]]
-  organization = "Platzi"
-  organization_url = "https://platzi.com/"
-  title = "Curso de Redes Neuronales en Keras y Scikit-Learn"
-  url = "https://platzi.com/cursos/keras-neural-networks/"
-  certificate_url = "https://platzi.com/@juletx/curso/1866-keras-neural-networks/diploma/detalle/"
-  date_start = "2020-10-31"
+  organization = "Gobierno Vasco"
+  organization_url = "https://www.euskadi.eus/inicio/"
+  title = "Euskararen Gaitasun Agiria"
+  url = "https://es.wikipedia.org/wiki/T%C3%ADtulo_EGA"
+  certificate_url = "https://www.euskadi.eus/registro-unificado-de-titulos-y-certificados-de-euskera/web01-a2etzeb/es/"
+  date_start = "2016-06-24"
   date_end = ""
   description = ""
 
