@@ -1,6 +1,6 @@
 +++
 # Hero widget.
-widget = "hero"  # See https://sourcethemes.com/academic/docs/page-builder/
+widget = "hero"  # See https://wowchemy.com/docs/page-builder/
 headless = true  # This file represents a page section.
 active = false  # Activate this widget? true/false
 weight = 10  # Order that this section will appear.
@@ -37,18 +37,18 @@ hero_media = "hero-academic.png"
 #   Display link(s) by specifying a URL and label below. Icon is optional for `[cta]`.
 #   Remove a link/note by deleting a cta/note block.
 [cta]
-  url = "https://sourcethemes.com/academic/docs/install/"
+  url = "https://wowchemy.com/docs/install/"
   label = "Get Started"
   icon_pack = "fas"
   icon = "download"
   
 [cta_alt]
-  url = "https://sourcethemes.com/academic/"
+  url = "https://wowchemy.com/"
   label = "View Documentation"
 
 # Note. An optional note to show underneath the links.
 [cta_note]
-  label = '<a class="js-github-release" href="https://sourcethemes.com/academic/updates" data-repo="gcushen/hugo-academic">Latest release<!-- V --></a>'
+  label = '<a class="js-github-release" href="https://wowchemy.com/updates" data-repo="gcushen/hugo-academic">Latest release<!-- V --></a>'
 +++
 
 **The Best Way to Create the Website You Want from Markdown (or Jupyter/RStudio)**

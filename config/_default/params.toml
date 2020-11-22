@@ -1,6 +1,6 @@
 # SITE SETUP
-# Guide: https://sourcethemes.com/academic/docs/get-started/
-# Documentation: https://sourcethemes.com/academic/docs/
+# Guide: https://wowchemy.com/docs/get-started/
+# Documentation: https://wowchemy.com/docs/
 #
 # This file is formatted using TOML syntax - learn more at https://learnxinyminutes.com/docs/toml/
 # Each configuration section is defined by a name in square brackets (e.g. `[search]`).
@@ -10,7 +10,7 @@
 ############################
 
 # Choose a theme.
-#   Latest themes (may require updating): https://sourcethemes.com/academic/themes/
+#   Latest themes (may require updating): https://wowchemy.com/themes/
 #   Browse built-in themes in `themes/academic/data/themes/`
 #   Browse user installed themes in `data/themes/`
 theme = "minimal"
@@ -19,7 +19,7 @@ theme = "minimal"
 day_night = true
 
 # Override the theme's font set (optional).
-#   Latest font sets (may require updating): https://sourcethemes.com/academic/themes/
+#   Latest font sets (may require updating): https://wowchemy.com/themes/
 #   Browse built-in font sets in `themes/academic/data/fonts/`
 #   Browse user installed font sets in `data/fonts/`
 font = ""
@@ -55,7 +55,7 @@ description = "Informatika Ingeniaritzako Graduko ikaslea Euskal Herriko Unibert
 ############################
 
 # Enable source code highlighting? true/false
-# Documentation: https://sourcethemes.com/academic/docs/writing-markdown-latex/#highlighting-options
+# Documentation: https://wowchemy.com/docs/writing-markdown-latex/#highlighting-options
 highlight = true
 highlight_languages = ["r"]  # Add support for highlighting additional languages
 # highlight_style = "github"  # For supported styles, see https://cdnjs.com/libraries/highlight.js/
@@ -136,7 +136,7 @@ twitter = "juletxara"
 ## Regional Settings
 ############################
 
-# Date and time format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
+# Date and time format (refer to https://wowchemy.com/docs/customization/#date-format )
 #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
 date_format = "Jan 2, 2006"
 #   Examples: "3:04 pm" or "15:04"
@@ -191,7 +191,7 @@ plugins_js  = []
 
 # Configuration of publication pages.
 [publications]
-  # Date format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
+  # Date format (refer to https://wowchemy.com/docs/customization/#date-format )
   #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
   date_format = "January 2006"
 
@@ -283,7 +283,7 @@ plugins_js  = []
 ## Content Management System
 ############################
 [cms]
-  # See https://sourcethemes.com/academic/docs/install/#install-with-web-browser
+  # See https://wowchemy.com/docs/install/#install-with-web-browser
   netlify_cms = true
 
 ############################

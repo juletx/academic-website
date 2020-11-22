@@ -12,7 +12,7 @@ header:
   image: ""
 ---
 
-Esta página web está hecha con [Academic Website Builder](https://sourcethemes.com/academic/) para [Hugo](https://gohugo.io/). Como página estática, no recoge datos y por lo tanto no pueden ser compartidos. Sin embargo, usa algunos servicios externos para varios objetivos que se describen en la siguiente lista. Su Política de Privacidad también aparece.
+Esta página web está hecha con [Academic Website Builder](https://wowchemy.com/) para [Hugo](https://gohugo.io/). Como página estática, no recoge datos y por lo tanto no pueden ser compartidos. Sin embargo, usa algunos servicios externos para varios objetivos que se describen en la siguiente lista. Su Política de Privacidad también aparece.
 
 <ul>
 <li><p><a href=//www.netlify.com title="Netlify">Netlify</a> para hosting. Revisa <a href=//www.netlify.com/privacy/ title="Netlify Privacy Policy">Netlify Política de Privacidad</a> y su

@@ -1,6 +1,6 @@
 +++
 # Experience widget.
-widget = "experience"  # See https://sourcethemes.com/academic/docs/page-builder/
+widget = "experience"  # See https://wowchemy.com/docs/page-builder/
 headless = true  # This file represents a page section.
 active = false  # Activate this widget? true/false
 weight = 40  # Order that this section will appear.
@@ -9,7 +9,7 @@ title = "Experience"
 subtitle = ""
 
 # Date format for experience
-#   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
+#   Refer to https://wowchemy.com/docs/customization/#date-format
 date_format = "Jan 2006"
 
 # Experiences.

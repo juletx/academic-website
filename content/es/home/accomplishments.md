@@ -1,6 +1,6 @@
 +++
 # Accomplishments widget.
-widget = "accomplishments"  # See https://sourcethemes.com/academic/docs/page-builder/
+widget = "accomplishments"  # See https://wowchemy.com/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 50  # Order that this section will appear.
@@ -9,7 +9,7 @@ title = "Certificados"
 subtitle = ""
 
 # Date format
-#   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
+#   Refer to https://wowchemy.com/docs/customization/#date-format
 date_format = "01-2006"
 
 # Accomplishments.

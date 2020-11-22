@@ -12,7 +12,7 @@ header:
   image: ""
 ---
 
-Webgune hau [Hugo](https://gohugo.io/)-rako [Academic Website Builder](https://sourcethemes.com/academic/)-ekin eginda dago. Web estatikoa denez, ez ditu datuak biltzen eta beraz ezin dira partekatu. Hala ere, kanpoko zerbitzu batzuk erabiltzen ditu hainbat helburutarako, hurrengo zerrendan deskribatzen direnak. Beraien Pribatutasun Politika ere azaltzen da.
+Webgune hau [Hugo](https://gohugo.io/)-rako [Academic Website Builder](https://wowchemy.com/)-ekin eginda dago. Web estatikoa denez, ez ditu datuak biltzen eta beraz ezin dira partekatu. Hala ere, kanpoko zerbitzu batzuk erabiltzen ditu hainbat helburutarako, hurrengo zerrendan deskribatzen direnak. Beraien Pribatutasun Politika ere azaltzen da.
 
 <ul>
 <li><p><a href=//www.netlify.com title="Netlify">Netlify</a> hosting-erako. Begiratu <a href=//www.netlify.com/privacy/ title="Netlify Privacy Policy">Netlify Pribatutasun Politika</a> eta bere

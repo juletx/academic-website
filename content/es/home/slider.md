@@ -1,6 +1,6 @@
 +++
 # Slider widget.
-widget = "slider"  # See https://sourcethemes.com/academic/docs/page-builder/
+widget = "slider"  # See https://wowchemy.com/docs/page-builder/
 headless = true  # This file represents a page section.
 active = false  # Activate this widget? true/false
 weight = 1  # Order that this section will appear.
@@ -30,7 +30,7 @@ height = ""
   #   Activate the button by specifying a URL and button label below.
   #   Deactivate by commenting out parameters, prefixing lines with `#`.
   cta_label = "Get Academic"
-  cta_url = "https://sourcethemes.com/academic/"
+  cta_url = "https://wowchemy.com/"
   cta_icon_pack = "fas"
   cta_icon = "graduation-cap"
 
