@@ -39,7 +39,7 @@ subtitle = ''
   description = ""
 
 [[feature]]
-  icon = ".net"
+  icon = "dotnet"
   icon_pack = "custom"
   name = ".NET"
   description = ""
