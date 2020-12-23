@@ -21,15 +21,16 @@
   <p class="powered-by">
     {{- $freepik_icon := resources.Get ("images/icon-pack/freepik.ico") -}}
     {{- $flaticon_icon := resources.Get ("images/icon-pack/flaticon.ico") -}}
+    {{- $icons8_icon := resources.Get ("images/icon-pack/icons8.svg") -}}
     {{ if eq .Site.Language.Lang "eu" }}
-    Ikonoen diseinatzailea <a href="https://www.flaticon.es/" title="Flaticon"><img src="{{ $flaticon_icon.RelPermalink }}" alt="Flaticon" class="svg-icon svg-baseline"> Flaticon</a>-eko
-    <a href="https://www.flaticon.es/autores/freepik" title="Freepik"><img src="{{ $freepik_icon.RelPermalink }}" alt="Freepik" class="svg-icon svg-baseline"> Freepik</a> da
+    Ikonoak <a href="https://www.flaticon.es/" title="Flaticon"><img src="{{ $flaticon_icon.RelPermalink }}" alt="Flaticon" class="svg-icon svg-baseline"> Flaticon</a>-eko
+    <a href="https://www.flaticon.es/autores/freepik" title="Freepik"><img src="{{ $freepik_icon.RelPermalink }}" alt="Freepik" class="svg-icon svg-baseline"> Freepik</a>-enak eta <a href="https://icons8.com/" title="Icons8"><img src="{{ $icons8_icon.RelPermalink }}" alt="Icons8" class="svg-icon svg-baseline"> Icons8</a>-enak dira
 	  {{ else if eq .Site.Language.Lang "es" }}
     Iconos diseñados por <a href="https://www.flaticon.es/autores/freepik" title="Freepik"><img src="{{ $freepik_icon.RelPermalink }}" alt="Freepik" class="svg-icon svg-baseline"> Freepik</a> de
-    <a href="https://www.flaticon.es/" title="Flaticon"><img src="{{ $flaticon_icon.RelPermalink }}" alt="Flaticon" class="svg-icon svg-baseline"> Flaticon</a>
+    <a href="https://www.flaticon.es/" title="Flaticon"><img src="{{ $flaticon_icon.RelPermalink }}" alt="Flaticon" class="svg-icon svg-baseline"> Flaticon</a> y por <a href="https://icons8.com/" title="Icons8"><img src="{{ $icons8_icon.RelPermalink }}" alt="Icons8" class="svg-icon svg-baseline"> Icons8</a>
 	  {{ else if eq .Site.Language.Lang "en" }}
     Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik"><img src="{{ $freepik_icon.RelPermalink }}" alt="Freepik" class="svg-icon svg-baseline"> Freepik</a> from
-    <a href="https://www.flaticon.com/" title="Flaticon"><img src="{{ $flaticon_icon.RelPermalink }}" alt="Flaticon" class="svg-icon svg-baseline"> Flaticon</a>
+    <a href="https://www.flaticon.com/" title="Flaticon"><img src="{{ $flaticon_icon.RelPermalink }}" alt="Flaticon" class="svg-icon svg-baseline"> Flaticon</a> and from <a href="https://icons8.com/" title="Icons8"><img src="{{ $icons8_icon.RelPermalink }}" alt="Icons8" class="svg-icon svg-baseline"> Icons8</a>
 	  {{ end }}
   </p>
 

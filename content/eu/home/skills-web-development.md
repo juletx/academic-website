@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 33  # Order that this section will appear.
 
-title = '<div id="frontend" class="featurette-icon"><i class="fas fa-laptop-code"></i></div>Frontend'
+title = '<div id="web-development" class="featurette-icon"><i class="fas fa-globe"></i></div>Web Garapena'
 subtitle = ''
 
 [[feature]]
@@ -24,5 +24,23 @@ subtitle = ''
   icon = "bootstrap"
   icon_pack = "fab"
   name = "Bootstrap"
+  description = ""
+
+[[feature]]
+  icon = "hugo"
+  icon_pack = "custom"
+  name = "Hugo"
+  description = ""
+
+[[feature]]
+  icon = "django" 
+  icon_pack = "custom"
+  name = "Django"
+  description = ""
+
+[[feature]]
+  icon = ".net"
+  icon_pack = "custom"
+  name = ".NET"
   description = ""
 +++

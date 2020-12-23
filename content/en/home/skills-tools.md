@@ -3,44 +3,44 @@
 widget = "featurette"  # See https://wowchemy.com/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 35  # Order that this section will appear.
+weight = 36  # Order that this section will appear.
 
-title = '<div id="machine-learning" class="featurette-icon"><i class="fas fa-robot"></i></div>Ikaskuntza Automatikoa'
+title = '<div id="tools" class="featurette-icon"><i class="fas fa-tools"></i></div>Tools'
 subtitle = ''
 
 [[feature]]
-  icon = "chart-bar"
-  icon_pack = "fas"
-  name = "Klasifikazioa"
+  icon = "git-alt"
+  icon_pack = "fab"
+  name = "Git"
   description = ""
 
 [[feature]]
-  icon = "chart-line"
-  icon_pack = "fas"
-  name = "Erregresioa"
+  icon = "github"
+  icon_pack = "fab"
+  name = "GitHub"
   description = ""
 
 [[feature]]
-  icon = "sitemap"
-  icon_pack = "fas"
-  name = "Sare Neuronalak"
-  description = ""
-
-[[feature]]
-  icon = "jupyter"
+  icon = "xamarin"
   icon_pack = "custom"
-  name = "Jupyter Notebook"
+  name = "Xamarin"
   description = ""
 
 [[feature]]
-  icon = "scikit-learn"
+  icon = "eclipse"
   icon_pack = "custom"
-  name = "Scikit-Learn"
+  name = "Eclipse"
   description = ""
 
 [[feature]]
-  icon = "tensorflow"
+  icon = "visual-studio-code"
   icon_pack = "custom"
-  name = "Tensorflow"
+  name = "Visual Studio Code"
+  description = ""
+
+[[feature]]
+  icon = "visual-studio"
+  icon_pack = "custom"
+  name = "Visual Studio"
   description = ""
 +++

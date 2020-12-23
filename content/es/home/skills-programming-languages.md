@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 32  # Order that this section will appear.
 
-title = '<div id="programming" class="featurette-icon"><i class="fas fa-code"></i></div>Programming Languages'
+title = '<div id="programming-languages" class="featurette-icon"><i class="fas fa-code"></i></div>Lenguajes de Programación'
 subtitle = ""
 
 [[feature]]

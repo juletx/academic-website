@@ -23,19 +23,31 @@ subtitle = ""
 [[feature]]
   icon = "code"
   icon_pack = "fas"
-  name = "[Programming Languages](#programming)"
+  name = "[Programming Languages](#programming-languages)"
   description = ""
 
 [[feature]]
-  icon = "laptop-code"
+  icon = "globe"
   icon_pack = "fas"
-  name = "[Frontend](#frontend)"
+  name = "[Web Development](#web-development)"
   description = ""
 
 [[feature]]
-  icon = "network-wired"
+  icon = "project-diagram"
+  icon_pack = "fas"
+  name = "[Software Engineering](#software-engineering)"
+  description = ""
+
+[[feature]]
+  icon = "robot"
   icon_pack = "fas"
   name = "[Machine Learning](#machine-learning)"
+  description = ""
+
+[[feature]]
+  icon = "tools"
+  icon_pack = "fas"
+  name = "[Tools](#tools)"
   description = ""
 
 # Uncomment to use emoji icons.

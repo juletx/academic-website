@@ -27,15 +27,27 @@ subtitle = ""
   description = ""
 
 [[feature]]
-  icon = "laptop-code"
+  icon = "globe"
   icon_pack = "fas"
-  name = "[Frontend](#frontend)"
+  name = "[Desarrollo Web](#web-development)"
   description = ""
 
 [[feature]]
-  icon = "network-wired"
+  icon = "project-diagram"
+  icon_pack = "fas"
+  name = "[Ingeniería del Software](#software-engineering)"
+  description = ""
+
+[[feature]]
+  icon = "robot"
   icon_pack = "fas"
   name = "[Aprendizaje Automático](#machine-learning)"
+  description = ""
+
+[[feature]]
+  icon = "tools"
+  icon_pack = "fas"
+  name = "[Herramientas](#tools)"
   description = ""
 
 # Uncomment to use emoji icons.
