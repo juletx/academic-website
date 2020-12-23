@@ -19,7 +19,7 @@ image:
 
 links:
 url_code: https://github.com/juletx/shape-classification-ml
-url_pdf: ""
+url_pdf: "https://github.com/juletx/shape-classification/blob/main/report/Report_P59_Shape_Classification_ML_D2.pdf"
 url_slides: ""
 url_video: ""
 ---

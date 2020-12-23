@@ -20,7 +20,7 @@ links:
 - name: Web
   url: https://iragarkiak.000webhostapp.com/
 url_code: https://github.com/juletx/iragarkiak
-url_pdf: ""
+url_pdf: "https://github.com/juletx/iragarkiak/blob/master/dokumentazioa.pdf"
 url_slides: ""
 url_video: ""
 ---

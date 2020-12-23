@@ -20,7 +20,7 @@ permissions are freely available at www.izhikevich.com"
 
 links:
 url_code: https://github.com/juletx/spiking-neural-network
-url_pdf: ""
+url_pdf: "https://github.com/juletx/spiking-neural-network/blob/main/report/Report_P44_Izhikevich_SNN_Model_NN_D2.pdf"
 url_slides: ""
 url_video: ""
 ---

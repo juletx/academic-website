@@ -20,8 +20,8 @@ image:
 
 links:
 url_code: https://github.com/juletx/image-caption-generation
-url_pdf: ""
-url_slides: ""
+url_pdf: "https://github.com/juletx/image-caption-generation/blob/main/report/Report_P71_Caption_Generation.pdf"
+url_slides: "https://github.com/juletx/image-caption-generation/blob/main/slides/Slides_P71_Caption_Generation.pdf"
 url_video: ""
 ---
 
