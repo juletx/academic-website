@@ -19,7 +19,7 @@ image:
 links:
 - name: Web
   url: https://wst03.000webhostapp.com/
-url_code: https://github.com/juletx/academic-website
+url_code: https://github.com/juletx/quiz
 url_pdf: ""
 url_slides: ""
 url_video: ""
