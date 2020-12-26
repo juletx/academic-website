@@ -29,4 +29,4 @@
   for = "/*"
   [headers.values]
     Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
-    Content-Security-Policy-Report-Only = "default-src 'none'; form-action 'none'; frame-ancestors 'none'; report-uri https://julenetxaniz.report-uri.com/r/d/csp/wizard"
+    Content-Security-Policy-Report-Only = "connect-src 'self' www.google-analytics.com; font-src cdnjs.cloudflare.com fonts.gstatic.com; frame-src www.google.com disqus.com; img-src 'self' a.tile.openstreetmap.org b.tile.openstreetmap.org c.tile.openstreetmap.org cdnjs.cloudflare.com www.google-analytics.com data:; manifest-src 'self'; script-src-elem 'self' 'unsafe-inline' cdnjs.cloudflare.com identity.netlify.com julenetxaniz.disqus.com www.google-analytics.com www.google.com www.googletagmanager.com www.gstatic.com cdn.jsdelivr.net; style-src-attr 'unsafe-inline'; style-src-elem 'self' 'unsafe-inline' cdnjs.cloudflare.com fonts.googleapis.com; prefetch-src 'self'; script-src 'unsafe-eval'"
