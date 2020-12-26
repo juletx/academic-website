@@ -23,7 +23,7 @@ subtitle = ""
 [[feature]]
   icon = "code"
   icon_pack = "fas"
-  name = "[Lenguajes de Programación](#programming)"
+  name = "[Lenguajes de Programación](#programming-languages)"
   description = ""
 
 [[feature]]
