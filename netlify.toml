@@ -24,3 +24,8 @@
   for = "index.xml"
   [headers.values]
     Content-Type = "application/rss+xml"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Strict-Transport-Security = "max-age=300; includeSubDomains"
