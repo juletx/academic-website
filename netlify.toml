@@ -35,3 +35,4 @@
     Expect-CT = 'max-age=604800, report-uri="https://julenetxaniz.report-uri.com/r/d/ct/enforce"'
     X-Frame-Options = "SAMEORIGIN"
     X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
