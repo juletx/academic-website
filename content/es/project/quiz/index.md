@@ -1,6 +1,6 @@
 ---
 title: Quiz
-summary: Juego de pregustas Sistemas Web 2019-2020
+summary: Juego de preguntas Sistemas Web 2019-2020
 tags:
 - Web
 date: ""

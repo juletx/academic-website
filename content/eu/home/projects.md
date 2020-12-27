@@ -28,10 +28,6 @@ subtitle = ""
   [[content.filter_button]]
     name = "Web"
     tag = "Web"
-
-  [[content.filter_button]]
-    name = "GitHub"
-    tag = "GitHub"
   
   [[content.filter_button]]
     name = "Machine Learning"
