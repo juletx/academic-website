@@ -60,3 +60,4 @@
   from = "https://julenetxaniz.eus/mta-sts/*"
   to = "https://mta-sts.julenetxaniz.eus/:splat"
   status = 200
+  force = true
