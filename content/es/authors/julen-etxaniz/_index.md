@@ -43,15 +43,23 @@ social:
   - icon: github
     icon_pack: fab
     link: https://github.com/juletx
+    display:
+      header: true
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/in/juletxara/?locale=es_ES
+    link: https://www.linkedin.com/in/juletxara
+    display:
+      header: true
   - icon: twitter
     icon_pack: fab
     link: https://twitter.com/juletxara
+    display:
+      header: true
   - icon: instagram
     icon_pack: fab
     link: https://www.instagram.com/juletxara
+    display:
+      header: true
   - icon: facebook
     icon_pack: fab
     link: https://www.facebook.com/juletxara
