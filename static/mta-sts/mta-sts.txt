@@ -1,4 +1,4 @@
 version: STSv1
 mode: testing
 mx: mail.julenetxaniz.eus
-max_age: 300
+max_age: 86,400
