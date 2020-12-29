@@ -55,8 +55,3 @@
     Referrer-Policy	= "strict-origin-when-cross-origin"
     Feature-Policy = "accelerometer 'none'; camera 'none'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; payment 'none'; usb 'none'"
     Permissions-Policy = "accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()"
-
-[[redirects]]
-  from = "https://mta-sts.julenetxaniz.eus/.well-known/*"
-  to = "https://julenetxaniz.eus/mta-sts/:splat"
-  status = 200
