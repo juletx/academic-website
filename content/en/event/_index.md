@@ -1,5 +1,5 @@
 ---
-title: Charlas
+title: Events
 draft: true
 
 # View.

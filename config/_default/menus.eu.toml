@@ -34,8 +34,8 @@
   weight = 60
 
 # [[main]]
-#   name = "Hitzaldiak"
-#   url = "#talks"
+#   name = "Ekitaldiak"
+#   url = "#events"
 #   weight = 70
 
 # [[main]]

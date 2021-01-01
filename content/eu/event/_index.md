@@ -1,5 +1,5 @@
 ---
-title: Hitzaldiak
+title: Ekitaldiak
 draft: true
 
 # View.

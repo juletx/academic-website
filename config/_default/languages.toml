@@ -12,11 +12,6 @@
     address_format = "en"
     date_format = "01-02-2006"
     copyright_license = {enable = true, allow_derivatives = true, share_alike = true, allow_commercial = true, notice = "License: {license}"}
-  # [en.taxonomies]
-  #   tag = "tags"
-  #   category = "categories"
-  #   publication_type = "publication_types"
-  #   author = "authors"
 
 # Configure the Spanish version of the site.
 [es]
@@ -28,11 +23,6 @@
     address_format = "es"
     date_format = "01-02-2006"
     copyright_license = {enable = true, allow_derivatives = true, share_alike = true, allow_commercial = true, notice = "Licencia: {license}"}
-  # [es.taxonomies]
-  #   tag = "etiquetas"
-  #   category = "categorias"
-  #   publication_type = "tipos_publicación"
-  #   author = "autores"
 
 # Configure the Basque version of the site.
 [eu]
@@ -44,8 +34,3 @@
     address_format = "es"
     date_format = "2006-01-02"
     copyright_license = {enable = true, allow_derivatives = true, share_alike = true, allow_commercial = true, notice = "Lizentzia: {license}"}
-  # [eu.taxonomies]
-  #   tag = "etiketak"
-  #   category = "kategoriak"
-  #   publication_type = "argitalpen_motak"
-  #   author = "autoreak"

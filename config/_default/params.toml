@@ -78,7 +78,7 @@ privacy_pack = true
 edit_page = {repo_url = "https://github.com/juletx/academic-website", content_dir = "", repo_branch = "master", editable = {docs = true, page = false, post = false}}
 
 # Show related content at the bottom of pages?
-show_related = {docs = true, page = false, post = true, project = true, publication = true, talk = true}
+show_related = {docs = true, page = false, post = true, project = true, publication = true, event = true}
 
 ############################
 ## Contact details
@@ -207,7 +207,10 @@ plugins_js  = []
   #   4: Citation (publications only)
   post_view = 2
   publication_view = 2
-  talk_view = 2
+  event_view = 2
+
+[breadcrumb]
+  page_types = {book = true}
 
 ############################
 ## Comments
@@ -220,7 +223,7 @@ plugins_js  = []
   engine = 1
 
   # Which page types are commentable?
-  commentable = {page = true, post = true, docs = true, project = true, publication = true, talk = true}
+  commentable = {page = true, post = true, docs = true, project = true, publication = true, event = true}
 
   # Configuration of Disqus.
   [comments.disqus]

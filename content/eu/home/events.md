@@ -1,18 +1,18 @@
 +++
-# A Recent and Upcoming Talks section created with the Pages widget.
-# This section displays recent talks from `content/talk/`.
+# A Recent and Upcoming Events section created with the Pages widget.
+# This section displays recent events from `content/event/`.
 
 widget = "pages"  # See https://wowchemy.com/docs/page-builder/
 headless = true  # This file represents a page section.
 active = false  # Activate this widget? true/false
 weight = 70  # Order that this section will appear.
 
-title = "[Charlas](talk) Recientes"
+title = "[Ekitaldi](event) Berriak"
 subtitle = ""
 
 [content]
-  # Page type to display. E.g. post, talk, or publication.
-  page_type = "talk"
+  # Page type to display. E.g. post, event, or publication.
+  page_type = "event"
   
   # Choose how much pages you would like to display (0 = all pages)
   count = 5

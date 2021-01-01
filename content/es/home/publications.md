@@ -11,7 +11,7 @@ title = "[Publicaciones](publication) Recientes"
 subtitle = ""
 
 [content]
-  # Page type to display. E.g. post, talk, or publication.
+  # Page type to display. E.g. post, event, or publication.
   page_type = "publication"
   
   # Choose how much pages you would like to display (0 = all pages)
