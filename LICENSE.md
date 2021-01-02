@@ -1,5 +1,6 @@
 MIT License
 
+Copyright (c) 2020-present Julen Etxaniz
 Copyright (c) 2016-present George Cushen
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
