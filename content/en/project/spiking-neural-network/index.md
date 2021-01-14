@@ -12,8 +12,7 @@ external_link: ""
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: "Electronic version of the figure and reproduction
-permissions are freely available at www.izhikevich.com"
+  caption: "Electronic version of the figure and reproduction permissions are freely available at www.izhikevich.com"
   focal_point: ""
   preview_only: false
   alt_text: "Spiking Neural Network"
