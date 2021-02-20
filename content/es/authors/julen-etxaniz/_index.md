@@ -24,9 +24,10 @@ bio: Estudiante de Grado en Ingeniería Informática en la [Facultad de Informá
 
 # Interests
 interests:
-- Ingeniería del Software
-- Inteligencia Artificial
-- Aprendizaje Automático
+- <i class='fas fa-code'></i> Programación
+- <i class='fas fa-globe'></i> Desarrollo Web
+- <i class='fas fa-project-diagram'></i> Ingeniería del Software
+- <i class='fas fa-robot'></i> Aprendizaje Automático
 
 # Education
 education:
@@ -81,3 +82,5 @@ user_groups: []
 ---
 
 Estudiante de Grado en Ingeniería Informática en la [Facultad de Informática](https://www.ehu.eus/es/web/informatika-fakultatea/home) de la [Universidad del País Vasco (UPV/EHU)](https://www.ehu.eus/es/home). Especialidad en Ingeniería del Software.
+
+En esta web encontrarás información sobre [<i class='fas fa-check'></i> Habilidades](#skills), [<i class='fas fa-award'></i> Certificados](#accomplishments), [<i class='fas fa-code'></i> Proyectos](#projects), [<i class='fas fa-tags'></i> Etiquetas](#tags) y [<i class='fas fa-envelope'></i> Contacto](#contact).

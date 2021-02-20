@@ -12,6 +12,7 @@
   name = "Trebetasunak"
   url = "#skills"
   weight = 20
+  pre = "<i class='fas fa-check'></i> "
 
 # [[main]]
 #   name = "Esperientzia"
@@ -22,6 +23,7 @@
   name = "Ziurtagiriak"
   url = "#accomplishments"
   weight = 40
+  pre = "<i class='fas fa-award'></i> "
 
 # [[main]]
 #   name = "Blog Sarrerak"
@@ -32,6 +34,7 @@
   name = "Proiektuak"
   url = "#projects"
   weight = 60
+  pre = "<i class='fas fa-code'></i> "
 
 # [[main]]
 #   name = "Ekitaldiak"
@@ -47,11 +50,13 @@
   name = "Etiketak"
   url = "#tags"
   weight = 90
+  pre = "<i class='fas fa-tags'></i> "
 
 [[main]]
   name = "Kontaktua"
   url = "#contact"
   weight = 100
+  pre = "<i class='fas fa-envelope'></i> "
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.

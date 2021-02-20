@@ -12,7 +12,7 @@ active: true
 # Order that this section appears on the page.
 weight: 130
 
-title: Kontaktua
+title: <i class='fas fa-envelope'></i> Kontaktua
 subtitle:
 
 content:

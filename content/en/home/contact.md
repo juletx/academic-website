@@ -12,7 +12,7 @@ active: true
 # Order that this section appears on the page.
 weight: 130
 
-title: Contact
+title: <i class='fas fa-envelope'></i> Contact
 subtitle:
 
 content:

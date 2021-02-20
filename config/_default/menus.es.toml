@@ -12,6 +12,7 @@
   name = "Habilidades"
   url = "#skills"
   weight = 20
+  pre = "<i class='fas fa-check'></i> "
 
 # [[main]]
 #   name = "Experiencia"
@@ -22,6 +23,7 @@
   name = "Certificados"
   url = "#accomplishments"
   weight = 40
+  pre = "<i class='fas fa-award'></i> "
 
 # [[main]]
 #   name = "Entradas de Blog"
@@ -32,6 +34,7 @@
   name = "Proyectos"
   url = "#projects"
   weight = 60
+  pre = "<i class='fas fa-code'></i> "
 
 # [[main]]
 #   name = "Eventos"
@@ -47,11 +50,13 @@
   name = "Etiquetas"
   url = "#tags"
   weight = 90
+  pre = "<i class='fas fa-tags'></i> "
 
 [[main]]
   name = "Contacto"
   url = "#contact"
   weight = 100
+  pre = "<i class='fas fa-envelope'></i> "
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.

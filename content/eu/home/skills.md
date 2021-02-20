@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 30  # Order that this section will appear.
 
-title = "Trebetasunak"
+title = "<i class='fas fa-check'></i> Trebetasunak"
 subtitle = ""
 
 # Showcase personal skills or business features.

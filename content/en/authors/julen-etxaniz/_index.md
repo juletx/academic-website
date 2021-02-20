@@ -24,9 +24,10 @@ bio: Student of BS in Informatics Engineering at the [Faculty of Informatics](ht
 
 # Interests
 interests:
-- Software Engineering
-- Artificial Intelligence
-- Machine Learning
+- <i class='fas fa-code'></i> Programming
+- <i class='fas fa-globe'></i> Web Development
+- <i class='fas fa-project-diagram'></i> Software Engineering
+- <i class='fas fa-robot'></i> Machine Learning
 
 # Education
 education:
@@ -81,3 +82,5 @@ user_groups: []
 ---
 
 Student of BS in Informatics Engineering at the [Faculty of Informatics](https://www.ehu.eus/en/web/informatika-fakultatea/home) of the [University of the Basque Country (UPV/EHU)](https://www.ehu.eus/en/en-home). Speciality in Software Engineering.
+
+In this web you will find information about [<i class='fas fa-check'></i> Skills](#skills), [<i class='fas fa-award'></i> Certificates](#accomplishments), [<i class='fas fa-code'></i> Projects](#projects), [<i class='fas fa-tags'></i> Tags](#tags) and [<i class='fas fa-envelope'></i> Contact](#contact).
