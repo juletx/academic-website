@@ -249,10 +249,7 @@ plot(cnn_vgg16, filename)
 ```
 
 
-    
-![png](output_13_0.png)
-    
-
+{{< figure src="images/output_13_0.png" alt="VGG16 Model" caption="VGG16 Model" numbered="true">}}
 
 
 ```python
@@ -275,27 +272,9 @@ image = preprocess_image(example_image, 224)
 plt.imshow(np.squeeze(image))
 ```
 
+{{< figure src="images/output_15_0.jpeg" alt="Example image" caption="Example image" numbered="true">}}
 
-    
-![jpeg](output_15_0.jpeg)
-    
-
-
-    Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
-
-
-
-
-
-    <matplotlib.image.AxesImage at 0x7f5f40e5b6a0>
-
-
-
-
-    
-![png](output_15_3.png)
-    
-
+{{< figure src="images/output_15_3.png" alt="Example image preprocessed for VGG16" caption="Example image preprocessed for VGG16" numbered="true">}}
 
 ## 3.2. InceptionV3 Model
 
@@ -1027,27 +1006,9 @@ image = preprocess_image(example_image, 299)
 plt.imshow(np.squeeze(image))
 ```
 
+{{< figure src="images/output_15_0.jpeg" alt="Example image" caption="Example image" numbered="true">}}
 
-    
-![jpeg](output_15_0.jpeg)
-    
-
-
-    Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
-
-
-
-
-
-    <matplotlib.image.AxesImage at 0x7fe392112198>
-
-
-
-
-    
-![png](output_22_3.png)
-    
-
+{{< figure src="images/output_22_3.png" alt="Example image preprocessed for VGG16" caption="Example image preprocessed for InceptionV3" numbered="true">}}    
 
 # 4. Prepare Text Data
 
@@ -1156,7 +1117,7 @@ display(Image(example_image))
 
 
     
-![jpeg](output_15_0.jpeg)
+{{< figure src="images/output_15_0.jpeg" alt="Example image" caption="Example image" numbered="true">}}
     
 
 
@@ -1289,7 +1250,7 @@ display(Image(example_image))
 
 
     
-![jpeg](output_15_0.jpeg)
+{{< figure src="images/output_15_0.jpeg" alt="Example image" caption="Example image" numbered="true">}}
     
 
 
@@ -1549,8 +1510,7 @@ plot(model, filename)
 ```
 
 
-    
-![png](output_60_0.png)
+{{< figure src="images/output_60_0.png" alt="Model 1 VGG16" caption="Model 1 VGG16" numbered="true">}}    
     
 
 
@@ -1605,8 +1565,7 @@ plot(model, filename)
 ```
 
 
-    
-![png](output_63_0.png)
+{{< figure src="images/output_63_0.png" alt="Model 1 InceptionV3" caption="Model 1 InceptionV3" numbered="true">}}
     
 
 
@@ -1694,7 +1653,7 @@ plot(model, filename)
 
 
     
-![png](output_68_0.png)
+{{< figure src="images/output_68_0.png" alt="Model 2 VGG16" caption="Model 2 VGG16" numbered="true" >}}
     
 
 
@@ -1751,8 +1710,7 @@ plot(model, filename)
 ```
 
 
-    
-![png](output_71_0.png)
+{{< figure src="images/output_71_0.png" alt="Model 2 InceptionV3" caption="Model 2 InceptionV3" numbered="true" >}}
     
 
 
@@ -1937,8 +1895,7 @@ plt.show()
 ```
 
 
-    
-![png](output_81_0.png)
+{{< figure src="images/output_81_0.png" alt="Model 1 VGG16 Loss" caption="Model 1 VGG16 Loss" numbered="true" >}}
     
 
 
@@ -1959,9 +1916,7 @@ plt.show()
 ```
 
 
-    
-![png](output_83_0.png)
-    
+{{< figure src="images/output_83_0.png" alt="Model 1 InceptionV3 Loss" caption="Model 1 InceptionV3 Loss" numbered="true" >}}
 
 
 ## 8.3. Model 2 VGG16
@@ -1981,8 +1936,7 @@ plt.show()
 ```
 
 
-    
-![png](output_85_0.png)
+{{< figure src="images/output_85_0.png" alt="Model 2 VGG16 Loss" caption="Model 2 VGG16 Loss" numbered="true" >}}
     
 
 
@@ -2003,8 +1957,7 @@ plt.show()
 ```
 
 
-    
-![png](output_87_0.png)
+{{< figure src="images/output_87_0.png" alt="Model 2 InceptionV3 Loss" caption="Model 2 InceptionV3 Loss" numbered="true" >}}
     
 
 
@@ -2308,7 +2261,7 @@ generate_captions(rnn_model, test_descriptions, test_features, 224, 10)
 
 
     
-![jpeg](output_115_0.jpeg)
+{{< figure src="images/output_115_0.jpeg" alt="blond woman in blue shirt appears to wait for ride" caption="blond woman in blue shirt appears to wait for ride" numbered="true" >}}
     
 
 
@@ -2324,7 +2277,7 @@ generate_captions(rnn_model, test_descriptions, test_features, 224, 10)
 
 
     
-![jpeg](output_115_2.jpeg)
+{{< figure src="images/output_115_2.jpeg" alt="boy in his blue swim shorts at the beach" caption="boy in his blue swim shorts at the beach" numbered="true" >}}
     
 
 
@@ -2340,7 +2293,7 @@ generate_captions(rnn_model, test_descriptions, test_features, 224, 10)
 
 
     
-![jpeg](output_115_4.jpeg)
+{{< figure src="images/output_115_4.jpeg" alt="lady and man with no shirt sit on dock" caption="lady and man with no shirt sit on dock" numbered="true" >}}
     
 
 
@@ -2356,7 +2309,7 @@ generate_captions(rnn_model, test_descriptions, test_features, 224, 10)
 
 
     
-![jpeg](output_115_6.jpeg)
+{{< figure src="images/output_115_6.jpeg" alt="closeup of white dog that is laying its head on its paws" caption="closeup of white dog that is laying its head on its paws" numbered="true" >}}
     
 
 
@@ -2372,7 +2325,7 @@ generate_captions(rnn_model, test_descriptions, test_features, 224, 10)
 
 
     
-![jpeg](output_115_8.jpeg)
+{{< figure src="images/output_115_8.jpeg" alt="boy with toy gun" caption="boy with toy gun" numbered="true" >}}
     
 
 
@@ -2388,7 +2341,7 @@ generate_captions(rnn_model, test_descriptions, test_features, 224, 10)
 
 
     
-![jpeg](output_115_10.jpeg)
+{{< figure src="images/output_115_10.jpeg" alt="black dog jumping to catch rope toy" caption="black dog jumping to catch rope toy" numbered="true" >}}
     
 
 
@@ -2404,7 +2357,7 @@ generate_captions(rnn_model, test_descriptions, test_features, 224, 10)
 
 
     
-![jpeg](output_115_12.jpeg)
+{{< figure src="images/output_115_12.jpeg" alt="little tan dog with large ears running through the grass" caption="little tan dog with large ears running through the grass"  numbered="true" >}}
     
 
 
@@ -2420,7 +2373,7 @@ generate_captions(rnn_model, test_descriptions, test_features, 224, 10)
 
 
     
-![jpeg](output_115_14.jpeg)
+{{< figure src="images/output_115_14.jpeg" alt="baby in white garment holds flag with crescent moon and star" caption="baby in white garment holds flag with crescent moon and star" numbered="true" >}}
     
 
 
@@ -2436,7 +2389,7 @@ generate_captions(rnn_model, test_descriptions, test_features, 224, 10)
 
 
     
-![jpeg](output_115_16.jpeg)
+{{< figure src="images/output_115_16.jpeg" alt="brown and white dog stands outside while it snows" caption="brown and white dog stands outside while it snows" numbered="true" >}}
     
 
 
@@ -2452,7 +2405,7 @@ generate_captions(rnn_model, test_descriptions, test_features, 224, 10)
 
 
     
-![jpeg](output_115_18.jpeg)
+{{< figure src="images/output_115_18.jpeg" alt="boy is jumping on bed" caption="boy is jumping on bed" numbered="true" >}}
     
 
 
@@ -2479,7 +2432,7 @@ generate_captions(rnn_model, test_descriptions, test_features, 299, 10)
 
 
     
-![jpeg](output_115_0.jpeg)
+{{< figure src="images/output_115_0.jpeg" alt="blond woman in blue shirt appears to wait for ride" caption="blond woman in blue shirt appears to wait for ride" numbered="true" >}}
     
 
 
@@ -2495,7 +2448,7 @@ generate_captions(rnn_model, test_descriptions, test_features, 299, 10)
 
 
     
-![jpeg](output_115_2.jpeg)
+{{< figure src="images/output_115_2.jpeg" alt="boy in his blue swim shorts at the beach" caption="boy in his blue swim shorts at the beach" numbered="true" >}}
     
 
 
@@ -2511,7 +2464,7 @@ generate_captions(rnn_model, test_descriptions, test_features, 299, 10)
 
 
     
-![jpeg](output_115_4.jpeg)
+{{< figure src="images/output_115_4.jpeg" alt="lady and man with no shirt sit on dock" caption="lady and man with no shirt sit on dock" numbered="true" >}}
     
 
 
@@ -2527,7 +2480,7 @@ generate_captions(rnn_model, test_descriptions, test_features, 299, 10)
 
 
     
-![jpeg](output_115_6.jpeg)
+{{< figure src="images/output_115_6.jpeg" alt="closeup of white dog that is laying its head on its paws" caption="closeup of white dog that is laying its head on its paws" numbered="true" >}}
     
 
 
@@ -2543,7 +2496,7 @@ generate_captions(rnn_model, test_descriptions, test_features, 299, 10)
 
 
     
-![jpeg](output_115_8.jpeg)
+{{< figure src="images/output_115_8.jpeg" alt="boy with toy gun" caption="boy with toy gun" numbered="true" >}}
     
 
 
@@ -2559,7 +2512,7 @@ generate_captions(rnn_model, test_descriptions, test_features, 299, 10)
 
 
     
-![jpeg](output_115_10.jpeg)
+{{< figure src="images/output_115_10.jpeg" alt="black dog jumping to catch rope toy" caption="black dog jumping to catch rope toy" numbered="true" >}}
     
 
 
@@ -2575,7 +2528,7 @@ generate_captions(rnn_model, test_descriptions, test_features, 299, 10)
 
 
     
-![jpeg](output_115_12.jpeg)
+{{< figure src="images/output_115_12.jpeg" alt="little tan dog with large ears running through the grass" caption="little tan dog with large ears running through the grass"  numbered="true" >}}
     
 
 
@@ -2591,7 +2544,7 @@ generate_captions(rnn_model, test_descriptions, test_features, 299, 10)
 
 
     
-![jpeg](output_115_14.jpeg)
+{{< figure src="images/output_115_14.jpeg" alt="baby in white garment holds flag with crescent moon and star" caption="baby in white garment holds flag with crescent moon and star" numbered="true" >}}
     
 
 
@@ -2607,7 +2560,7 @@ generate_captions(rnn_model, test_descriptions, test_features, 299, 10)
 
 
     
-![jpeg](output_115_16.jpeg)
+{{< figure src="images/output_115_16.jpeg" alt="brown and white dog stands outside while it snows" caption="brown and white dog stands outside while it snows" numbered="true" >}}
     
 
 
@@ -2623,7 +2576,7 @@ generate_captions(rnn_model, test_descriptions, test_features, 299, 10)
 
 
     
-![jpeg](output_115_18.jpeg)
+{{< figure src="images/output_115_18.jpeg" alt="boy is jumping on bed" caption="boy is jumping on bed" numbered="true" >}}
     
 
 
@@ -2650,7 +2603,7 @@ generate_captions(rnn_model, test_descriptions, test_features, 224, 10)
 
 
     
-![jpeg](output_115_0.jpeg)
+{{< figure src="images/output_115_0.jpeg" alt="blond woman in blue shirt appears to wait for ride" caption="blond woman in blue shirt appears to wait for ride" numbered="true" >}}
     
 
 
@@ -2666,7 +2619,7 @@ generate_captions(rnn_model, test_descriptions, test_features, 224, 10)
 
 
     
-![jpeg](output_115_2.jpeg)
+{{< figure src="images/output_115_2.jpeg" alt="boy in his blue swim shorts at the beach" caption="boy in his blue swim shorts at the beach" numbered="true" >}}
     
 
 
@@ -2682,7 +2635,7 @@ generate_captions(rnn_model, test_descriptions, test_features, 224, 10)
 
 
     
-![jpeg](output_115_4.jpeg)
+{{< figure src="images/output_115_4.jpeg" alt="lady and man with no shirt sit on dock" caption="lady and man with no shirt sit on dock" numbered="true" >}}
     
 
 
@@ -2698,7 +2651,7 @@ generate_captions(rnn_model, test_descriptions, test_features, 224, 10)
 
 
     
-![jpeg](output_115_6.jpeg)
+{{< figure src="images/output_115_6.jpeg" alt="closeup of white dog that is laying its head on its paws" caption="closeup of white dog that is laying its head on its paws" numbered="true" >}}
     
 
 
@@ -2714,7 +2667,7 @@ generate_captions(rnn_model, test_descriptions, test_features, 224, 10)
 
 
     
-![jpeg](output_115_8.jpeg)
+{{< figure src="images/output_115_8.jpeg" alt="boy with toy gun" caption="boy with toy gun" numbered="true" >}}
     
 
 
@@ -2730,7 +2683,7 @@ generate_captions(rnn_model, test_descriptions, test_features, 224, 10)
 
 
     
-![jpeg](output_115_10.jpeg)
+{{< figure src="images/output_115_10.jpeg" alt="black dog jumping to catch rope toy" caption="black dog jumping to catch rope toy" numbered="true" >}}
     
 
 
@@ -2746,7 +2699,7 @@ generate_captions(rnn_model, test_descriptions, test_features, 224, 10)
 
 
     
-![jpeg](output_115_12.jpeg)
+{{< figure src="images/output_115_12.jpeg" alt="little tan dog with large ears running through the grass" caption="little tan dog with large ears running through the grass"  numbered="true" >}}
     
 
 
@@ -2762,7 +2715,7 @@ generate_captions(rnn_model, test_descriptions, test_features, 224, 10)
 
 
     
-![jpeg](output_115_14.jpeg)
+{{< figure src="images/output_115_14.jpeg" alt="baby in white garment holds flag with crescent moon and star" caption="baby in white garment holds flag with crescent moon and star" numbered="true" >}}
     
 
 
@@ -2778,7 +2731,7 @@ generate_captions(rnn_model, test_descriptions, test_features, 224, 10)
 
 
     
-![jpeg](output_115_16.jpeg)
+{{< figure src="images/output_115_16.jpeg" alt="brown and white dog stands outside while it snows" caption="brown and white dog stands outside while it snows" numbered="true" >}}
     
 
 
@@ -2794,7 +2747,7 @@ generate_captions(rnn_model, test_descriptions, test_features, 224, 10)
 
 
     
-![jpeg](output_115_18.jpeg)
+{{< figure src="images/output_115_18.jpeg" alt="boy is jumping on bed" caption="boy is jumping on bed" numbered="true" >}}
     
 
 
@@ -2821,7 +2774,7 @@ generate_captions(rnn_model, test_descriptions, test_features, 299, 10)
 
 
     
-![jpeg](output_115_0.jpeg)
+{{< figure src="images/output_115_0.jpeg" alt="blond woman in blue shirt appears to wait for ride" caption="blond woman in blue shirt appears to wait for ride" numbered="true" >}}
     
 
 
@@ -2837,7 +2790,7 @@ generate_captions(rnn_model, test_descriptions, test_features, 299, 10)
 
 
     
-![jpeg](output_115_2.jpeg)
+{{< figure src="images/output_115_2.jpeg" alt="boy in his blue swim shorts at the beach" caption="boy in his blue swim shorts at the beach" numbered="true" >}}
     
 
 
@@ -2853,7 +2806,7 @@ generate_captions(rnn_model, test_descriptions, test_features, 299, 10)
 
 
     
-![jpeg](output_115_4.jpeg)
+{{< figure src="images/output_115_4.jpeg" alt="lady and man with no shirt sit on dock" caption="lady and man with no shirt sit on dock" numbered="true" >}}
     
 
 
@@ -2869,7 +2822,7 @@ generate_captions(rnn_model, test_descriptions, test_features, 299, 10)
 
 
     
-![jpeg](output_115_6.jpeg)
+{{< figure src="images/output_115_6.jpeg" alt="closeup of white dog that is laying its head on its paws" caption="closeup of white dog that is laying its head on its paws" numbered="true" >}}
     
 
 
@@ -2885,7 +2838,7 @@ generate_captions(rnn_model, test_descriptions, test_features, 299, 10)
 
 
     
-![jpeg](output_115_8.jpeg)
+{{< figure src="images/output_115_8.jpeg" alt="boy with toy gun" caption="boy with toy gun" numbered="true" >}}
     
 
 
@@ -2901,7 +2854,7 @@ generate_captions(rnn_model, test_descriptions, test_features, 299, 10)
 
 
     
-![jpeg](output_115_10.jpeg)
+{{< figure src="images/output_115_10.jpeg" alt="black dog jumping to catch rope toy" caption="black dog jumping to catch rope toy" numbered="true" >}}
     
 
 
@@ -2917,7 +2870,7 @@ generate_captions(rnn_model, test_descriptions, test_features, 299, 10)
 
 
     
-![jpeg](output_115_12.jpeg)
+{{< figure src="images/output_115_12.jpeg" alt="little tan dog with large ears running through the grass" caption="little tan dog with large ears running through the grass"  numbered="true" >}}
     
 
 
@@ -2933,7 +2886,7 @@ generate_captions(rnn_model, test_descriptions, test_features, 299, 10)
 
 
     
-![jpeg](output_115_14.jpeg)
+{{< figure src="images/output_115_14.jpeg" alt="baby in white garment holds flag with crescent moon and star" caption="baby in white garment holds flag with crescent moon and star" numbered="true" >}}
     
 
 
@@ -2949,7 +2902,7 @@ generate_captions(rnn_model, test_descriptions, test_features, 299, 10)
 
 
     
-![jpeg](output_115_16.jpeg)
+{{< figure src="images/output_115_16.jpeg" alt="brown and white dog stands outside while it snows" caption="brown and white dog stands outside while it snows" numbered="true" >}}
     
 
 
@@ -2965,7 +2918,7 @@ generate_captions(rnn_model, test_descriptions, test_features, 299, 10)
 
 
     
-![jpeg](output_115_18.jpeg)
+{{< figure src="images/output_115_18.jpeg" alt="boy is jumping on bed" caption="boy is jumping on bed" numbered="true" >}}
     
 
 

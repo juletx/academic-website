@@ -37,7 +37,7 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
 disableAliases = true  # Disable aliases when `redirects` is added to the `outputs` below.
 
 # Hugo build timeout
-timeout = 150000
+timeout = 250000
 
 # Workaround Hugo publishing taxonomy URLs as plurals - consistently use singular across Academic.
 [permalinks]

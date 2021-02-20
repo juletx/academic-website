@@ -56,10 +56,7 @@ import ipywidgets as ipw
 
 We define the Izhikevic model introduced in https://www.izhikevich.org/publications/spikes.htm. The equations and behaviour of the model are allustrated in Figure 1.
 
-<figure>
-  <img src="model.png" alt="Neuron Model">
-  <figcaption>Figure 1. Neuron Model. Electronic version of the figure and reproduction permissions are freely available at <a href="http://www.izhikevich.com">http://www.izhikevich.com</a></figcaption>
-</figure>
+{{< figure src="images/model.png" alt="Neuron Model" caption="Neuron Model. Electronic version of the figure and reproduction permissions are freely available at http://www.izhikevich.com" numbered="true" >}}
 
 
 ```python
@@ -156,19 +153,14 @@ model()
 ```
 
 
-    
-![png](output_10_0.png)
-    
+{{< figure src="images/output_10_0.png" alt="Interacting with the model" caption="Interacting with the model" numbered="true" >}}
 
 
 # 4. Neuron Types
 
-We define the neuron types described in https://www.izhikevich.org/publications/spikes.htm. The parameters and the behaviour of each neuron type are summarized in Figure 2.
+We define the neuron types described in https://www.izhikevich.org/publications/spikes.htm. The parameters and the behaviour of each neuron type are summarized in Figure 3.
 
-<figure>
-  <img src="types.png" alt="Neuron Types">
-  <figcaption>Figure 2. Neuron Types. Electronic version of the figure and reproduction permissions are freely available at <a href="http://www.izhikevich.com">http://www.izhikevich.com</a></figcaption>
-</figure>
+{{< figure src="images/types.png" alt="Neuron Types" caption="Neuron Types. Electronic version of the figure and reproduction permissions are freely available at http://www.izhikevich.com" numbered="true" >}}
 
 ## 4.1. Excitatory
 
@@ -180,8 +172,7 @@ model(d=8)
 ```
 
 
-    
-![png](output_16_0.png)
+{{< figure src="images/output_16_0.png" alt="Regular Spiking (RS)" caption="Regular Spiking (RS)" numbered="true" >}}
     
 
 
@@ -193,8 +184,7 @@ model(c=-55, d=4)
 ```
 
 
-    
-![png](output_18_0.png)
+{{< figure src="images/output_18_0.png" alt="Intrinsically Bursting (IB)" caption="Intrinsically Bursting (IB)" numbered="true" >}}
     
 
 
@@ -206,8 +196,7 @@ model(c=-50)
 ```
 
 
-    
-![png](output_20_0.png)
+{{< figure src="images/output_20_0.png" alt="Chattering (CH)" caption="Chattering (CH)" numbered="true" >}}
     
 
 
@@ -221,8 +210,7 @@ model(a=0.1)
 ```
 
 
-    
-![png](output_23_0.png)
+{{< figure src="images/output_23_0.png" alt="Fast Spiking (FS)" caption="Fast Spiking (FS)" numbered="true" >}}
     
 
 
@@ -234,8 +222,7 @@ model(b=0.25)
 ```
 
 
-    
-![png](output_25_0.png)
+{{< figure src="images/output_25_0.png" alt="Low-Threshold Spiking (LTS)" caption="Low-Threshold Spiking (LTS)" numbered="true" >}}
     
 
 
@@ -249,9 +236,7 @@ model(fI='int(t>100*ms)*5', V=-63)
 ```
 
 
-    
-![png](output_28_0.png)
-    
+{{< figure src="images/output_28_0.png" alt="Thalamo-Cortical (TC)" caption="Thalamo-Cortical (TC)" numbered="true" >}}
 
 
 
@@ -260,8 +245,7 @@ model(b=0.25, d=0.05, fI='int(t<=100*ms)*-10', V=-87)
 ```
 
 
-    
-![png](output_29_0.png)
+{{< figure src="images/output_29_0.png" alt="Thalamo-Cortical (TC)" caption="Thalamo-Cortical (TC)" numbered="true" >}}
     
 
 
@@ -274,19 +258,15 @@ model(a=0.1, b=0.26, fI='int(t>100*ms)*-0.1 + int(t<=100*ms)*-1 + int(t>300*ms a
 ```
 
 
-    
-![png](output_31_0.png)
+{{< figure src="images/output_31_0.png" alt="Resonator (RZ)" caption="Resonator (RZ)" numbered="true" >}}
     
 
 
 # 5. Neuron Features
 
-We define the neuron features described in https://www.izhikevich.org/publications/whichmod.htm. The parameters of the features have been obtained from the matlab program available at https://www.izhikevich.org/publications/figure1.m. Some of the parameters had to be adjusted to obtain similar results. We have also included the simulations with the proposed parameters so that they can be compared with ours. The behaviour of each neuron feature is illustrated in Figure 3.
+We define the neuron features described in https://www.izhikevich.org/publications/whichmod.htm. The parameters of the features have been obtained from the matlab program available at https://www.izhikevich.org/publications/figure1.m. Some of the parameters had to be adjusted to obtain similar results. We have also included the simulations with the proposed parameters so that they can be compared with ours. The behaviour of each neuron feature is illustrated in Figure 12.
 
-<figure>
-  <img src="features.png" alt="Neuron Features">
-  <figcaption>Figure 3. Neuron Features. Electronic version of the figure and reproduction permissions are freely available at <a href="http://www.izhikevich.com">http://www.izhikevich.com</a></figcaption>
-</figure>
+{{< figure src="images/features.png" alt="Neuron Features" caption="Neuron Features. Electronic version of the figure and reproduction permissions are freely available at http://www.izhikevich.com" numbered="true" >}}
 
 ## 5.1. (A) Tonic Spiking
 
@@ -297,8 +277,7 @@ model(d=6, fI='int(t>10*ms)*14', V=-70, tau=0.25, duration=100)
 ```
 
 
-    
-![png](output_36_0.png)
+{{< figure src="images/output_36_0.png" alt="(A) Tonic Spiking original parameters" caption="(A) Tonic Spiking original parameters" numbered="true" >}}
     
 
 
@@ -309,8 +288,7 @@ model(d=6, fI='int(t>40*ms)*14', V=-70, tau=0.25, duration=400)
 ```
 
 
-    
-![png](output_37_0.png)
+{{< figure src="images/output_37_0.png" alt="(A) Tonic Spiking adjusted parameters" caption="(A) Tonic Spiking adjusted parameters" numbered="true" >}}
     
 
 
@@ -323,8 +301,7 @@ model(b=0.25, d=6, fI='int(t>20*ms)*0.5', V=-64, tau=0.25, duration=200)
 ```
 
 
-    
-![png](output_39_0.png)
+{{< figure src="images/output_39_0.png" alt="(B) Phasic Spiking original parameters" caption="(B) Phasic Spiking original parameters" numbered="true" >}}
     
 
 
@@ -335,8 +312,7 @@ model(b=0.25, d=6, fI='int(t>100*ms)*0.5', V=-64, tau=0.25, duration=1000)
 ```
 
 
-    
-![png](output_40_0.png)
+{{< figure src="images/output_40_0.png" alt="(B) Phasic Spiking adjusted parameters" caption="(B) Phasic Spiking adjusted parameters" numbered="true" >}}
     
 
 
@@ -349,10 +325,8 @@ model(c=-50, fI='int(t>22*ms)*15', V=-70, tau=0.25, duration=220)
 ```
 
 
+{{< figure src="images/output_42_0.png" alt="(C) Tonic Bursting original parameters" caption="(C) Tonic Bursting original parameters" numbered="true" >}}
     
-![png](output_42_0.png)
-    
-
 
 
 ```python
@@ -361,8 +335,7 @@ model(c=-50, fI='int(t>80*ms)*15', V=-70, tau=0.25, duration=800)
 ```
 
 
-    
-![png](output_43_0.png)
+{{< figure src="images/output_43_0.png" alt="(C) Tonic Bursting adjusted parameters" caption="(C) Tonic Bursting adjusted parameters" numbered="true" >}}
     
 
 
@@ -375,8 +348,7 @@ model(b=0.25, c=-55, d=0.05, fI='int(t>20*ms)*0.6', V=-64, tau=0.2, duration=200
 ```
 
 
-    
-![png](output_45_0.png)
+{{< figure src="images/output_45_0.png" alt="(D) Phasic Bursting original parameters" caption="(D) Phasic Bursting original parameters" numbered="true" >}}
     
 
 
@@ -387,8 +359,7 @@ model(b=0.25, c=-55, d=0.05, fI='int(t>100*ms)*0.6', V=-64, tau=0.2, duration=10
 ```
 
 
-    
-![png](output_46_0.png)
+{{< figure src="images/output_46_0.png" alt="(D) Phasic Bursting adjusted parameters" caption="(D) Phasic Bursting adjusted parameters" numbered="true" >}}
     
 
 
@@ -401,8 +372,7 @@ model(c=-55, d=4, fI='int(t>16*ms)*10', V=-70, tau=0.25, duration=160)
 ```
 
 
-    
-![png](output_48_0.png)
+{{< figure src="images/output_48_0.png" alt="(E) Mixed Mode original parameters" caption="(E) Mixed Mode original parameters" numbered="true" >}}
     
 
 
@@ -413,9 +383,7 @@ model(c=-55, d=4, fI='int(t>60*ms)*10', V=-70, tau=0.25, duration=600)
 ```
 
 
-    
-![png](output_49_0.png)
-    
+{{< figure src="images/output_49_0.png" alt="(E) Mixed Mode adjusted parameters" caption="(E) Mixed Mode adjusted parameters" numbered="true" >}}    
 
 
 ## 5.6. (F) Spike Frequency Adaptation
@@ -427,8 +395,7 @@ model(a=0.01, d=8, fI='int(t>8.5*ms)*30', V=-70, tau=0.25, duration=85)
 ```
 
 
-    
-![png](output_51_0.png)
+{{< figure src="images/output_51_0.png" alt="(F) Spike Frequency Adaptation original parameters" caption="(F) Spike Frequency Adaptation original parameters" numbered="true" >}}
     
 
 
@@ -439,8 +406,7 @@ model(a=0.01, d=8, fI='int(t>30*ms)*30', V=-70, tau=0.25, duration=300)
 ```
 
 
-    
-![png](output_52_0.png)
+{{< figure src="images/output_52_0.png" alt="(F) Spike Frequency Adaptation adjusted parameters" caption="(F) Spike Frequency Adaptation adjusted parameters" numbered="true" >}}
     
 
 
@@ -514,9 +480,7 @@ model2(b=-0.1, c=-55, d=6, fI='int(t>30*ms)*0.075*(t/ms-30)', V=-60, tau=0.25, d
 ```
 
 
-    
-![png](output_55_0.png)
-    
+{{< figure src="images/output_55_0.png" alt="(G) Class 1 Excitable original parameters" caption="(G) Class 1 Excitable original parameters" numbered="true" >}}
 
 
 
@@ -526,8 +490,7 @@ model2(b=-0.1, c=-55, d=6, fI='int(t>50*ms)*0.075*(t/ms-50)', V=-60, tau=0.25, d
 ```
 
 
-    
-![png](output_56_0.png)
+{{< figure src="images/output_56_0.png" alt="(G) Class 1 Excitable adjusted parameters" caption="(G) Class 1 Excitable adjusted parameters" numbered="true" >}}
     
 
 
@@ -540,10 +503,7 @@ model(a=0.2, b=0.26, d=0, fI='int(t>30*ms)*(-0.5+0.015*(t/ms-30))', V=-64, tau=0
 ```
 
 
-    
-![png](output_58_0.png)
-    
-
+{{< figure src="images/output_58_0.png" alt="(H) Class 2 Excitable original parameters" caption="(H) Class 2 Excitable original parameters" numbered="true" >}}
 
 
 ```python
@@ -551,9 +511,7 @@ model(a=0.2, b=0.26, d=0, fI='int(t>30*ms)*(-0.5+0.015*(t/ms-30))', V=-64, tau=0
 model(a=0.2, b=0.26, d=0, fI='int(t>50*ms)*(-0.5+0.015*(t/ms-50))', V=-64, tau=0.25, duration=500)
 ```
 
-
-    
-![png](output_59_0.png)
+{{< figure src="images/output_59_0.png" alt="(H) Class 2 Excitable adjusted parameters" caption="(H) Class 2 Excitable adjusted parameters" numbered="true" >}}
     
 
 
@@ -566,8 +524,7 @@ model(d=6, fI='int(t>10*ms and t<13*ms)*7.04', V=-70, tau=0.2, duration=100)
 ```
 
 
-    
-![png](output_61_0.png)
+{{< figure src="images/output_61_0.png" alt="(I) Spike Latency original parameters" caption="(I) Spike Latency original parameters" numbered="true" >}}
     
 
 
@@ -578,8 +535,7 @@ model(d=6, fI='int(t>50*ms and t<65*ms)*7.04', V=-70, tau=0.2, duration=500)
 ```
 
 
-    
-![png](output_62_0.png)
+{{< figure src="images/output_62_0.png" alt="(I) Spike Latency adjusted parameters" caption="(I) Spike Latency adjusted parameters" numbered="true" >}}
     
 
 
@@ -592,9 +548,7 @@ model(a=0.05, b=0.26, c=-60, d=0, fI='int(t>20*ms and t<25*ms)*2', V=-62, tau=0.
 ```
 
 
-    
-![png](output_64_0.png)
-    
+{{< figure src="images/output_64_0.png" alt="(J) Subthreshold Oscillations original parameters" caption="(J) Subthreshold Oscillations original parameters" numbered="true" >}}
 
 
 
@@ -604,8 +558,7 @@ model(a=0.05, b=0.26, c=-60, d=0, fI='int(t>60*ms and t<75*ms)*2', V=-62, tau=0.
 ```
 
 
-    
-![png](output_65_0.png)
+{{< figure src="images/output_65_0.png" alt="(J) Subthreshold Oscillations adjusted parameters" caption="(J) Subthreshold Oscillations adjusted parameters" numbered="true" >}}
     
 
 
@@ -618,9 +571,7 @@ model(a=0.1, b=0.26, c=-60, d=-1, fI='int(t>40*ms and t<44*ms or t>60*ms and t<6
 ```
 
 
-    
-![png](output_67_0.png)
-    
+{{< figure src="images/output_67_0.png" alt="(K) Resonator original parameters" caption="(K) Resonator original parameters" numbered="true" >}}
 
 
 
@@ -631,8 +582,8 @@ model(a=0.1, b=0.26, c=-60, d=-1, fI='int(t>80*ms and t<88*ms or t>120*ms and t<
 ```
 
 
-    
-![png](output_68_0.png)
+
+{{< figure src="images/output_68_0.png" alt="(K) Resonator adjusted parameters" caption="(K) Resonator adjusted parameters" numbered="true" >}}
     
 
 
@@ -645,8 +596,7 @@ model2(b=-0.1, c=-55, d=6, fI='int(t>9*ms and t<11*ms or t>14*ms and t<16*ms or 
 ```
 
 
-    
-![png](output_70_0.png)
+{{< figure src="images/output_70_0.png" alt="(L) Integrator original parameters" caption="(L) Integrator original parameters" numbered="true" >}}
     
 
 
@@ -657,8 +607,7 @@ model2(b=-0.1, c=-55, d=6, fI='int(t>36*ms and t<48*ms or t>56*ms and t<64*ms or
 ```
 
 
-    
-![png](output_71_0.png)
+{{< figure src="images/output_71_0.png" alt="(L) Integrator adjusted parameters" caption="(L) Integrator adjusted parameters" numbered="true" >}}
     
 
 
@@ -671,8 +620,7 @@ model(a=0.03, b=0.25, c=-60, d=4, fI='int(t>20*ms and t<25*ms)*-15', V=-64, tau=
 ```
 
 
-    
-![png](output_73_0.png)
+{{< figure src="images/output_73_0.png" alt="(M) Rebound Spike original parameters" caption="(M) Rebound Spike original parameters" numbered="true" >}}
     
 
 
@@ -684,7 +632,7 @@ model(a=0.03, b=0.25, c=-60, d=4, fI='int(t>80*ms and t<110*ms)*-15', V=-64, tau
 
 
     
-![png](output_74_0.png)
+{{< figure src="images/output_74_0.png" alt="(M) Rebound Spike adjusted parameters" caption="(M) Rebound Spike adjusted parameters" numbered="true" >}}
     
 
 
@@ -697,8 +645,7 @@ model(a=0.03, b=0.25, c=-52, d=0, fI='int(t>20*ms and t<25*ms)*-15', V=-64, tau=
 ```
 
 
-    
-![png](output_76_0.png)
+{{< figure src="images/output_76_0.png" alt="(N) Rebound Burst original parameters" caption="(N) Rebound Burst original parameters" numbered="true" >}}
     
 
 
@@ -710,7 +657,7 @@ model(a=0.03, b=0.25, c=-52, d=0, fI='int(t>80*ms and t<110*ms)*-15', V=-64, tau
 
 
     
-![png](output_77_0.png)
+{{< figure src="images/output_77_0.png" alt="(N) Rebound Burst adjusted parameters" caption="(N) Rebound Burst adjusted parameters" numbered="true" >}}
     
 
 
@@ -723,8 +670,7 @@ model(a=0.03, b=0.25, c=-60, d=4, fI='int(t>10*ms and t<15*ms or t>80*ms and t<8
 ```
 
 
-    
-![png](output_79_0.png)
+{{< figure src="images/output_79_0.png" alt="(O) Threshold variability original parameters" caption="(O) Threshold variability original parameters" numbered="true" >}}
     
 
 
@@ -737,7 +683,7 @@ model(a=0.03, b=0.25, c=-60, d=4, fI='int(t>20*ms and t<30*ms or t>140*ms and t<
 
 
     
-![png](output_80_0.png)
+{{< figure src="images/output_80_0.png" alt="(O) Threshold variability adjusted parameters" caption="(O) Threshold variability adjusted parameters" numbered="true" >}}
     
 
 
@@ -750,9 +696,7 @@ model(a=0.1, b=0.26, c=-60, d=0, fI='int(t>37*ms and t<42*ms or t>216*ms and t<2
 ```
 
 
-    
-![png](output_82_0.png)
-    
+{{< figure src="images/output_82_0.png" alt="(P) Bistability original parameters" caption="(P) Bistability original parameters" numbered="true" >}}
 
 
 
@@ -762,8 +706,7 @@ model(a=0.1, b=0.26, c=-60, d=0, fI='int(t>74*ms and t<84*ms or t>464*ms and t<4
 ```
 
 
-    
-![png](output_83_0.png)
+{{< figure src="images/output_83_0.png" alt="(P) Bistability adjusted parameters" caption="(P) Bistability adjusted parameters" numbered="true" >}}
     
 
 
@@ -776,9 +719,7 @@ model(a=1, c=-60, d=-21, fI='int(t>9*ms and t<11*ms)*20', V=-70, tau=0.1, durati
 ```
 
 
-    
-![png](output_85_0.png)
-    
+{{< figure src="images/output_85_0.png" alt="(Q) Depolarizing After-Potential original parameters" caption="(Q) Depolarizing After-Potential original parameters" numbered="true" >}}
 
 
 
@@ -788,8 +729,7 @@ model(a=1, c=-60, d=-20, fI='int(t>15*ms and t<26*ms)*20', V=-70, tau=0.1, durat
 ```
 
 
-    
-![png](output_86_0.png)
+{{< figure src="images/output_86_0.png" alt="(Q) Depolarizing After-Potential adjusted parameters" caption="(Q) Depolarizing After-Potential adjusted parameters" numbered="true" >}}
     
 
 
@@ -863,8 +803,7 @@ model3(b=1, c=-55, d=4, fI='int(t<200*ms)*t/ms/25 + int(t>=300*ms and t<312.5*ms
 ```
 
 
-    
-![png](output_89_0.png)
+{{< figure src="images/output_89_0.png" alt="(R) Accomodation original parameters" caption="(R) Accomodation original parameters" numbered="true" >}}
     
 
 
@@ -876,8 +815,7 @@ model3(b=0.2, c=-55, d=4, fI='int(t<200*ms)*t/ms/25 + int(t>=300*ms and t<312.5*
 ```
 
 
-    
-![png](output_90_0.png)
+{{< figure src="images/output_90_0.png" alt="(R) Accomodation adjusted parameters" caption="(R) Accomodation adjusted parameters" numbered="true" >}}
     
 
 
@@ -890,8 +828,7 @@ model(a=-0.02, b=-1, c=-60, d=8, fI='int(t<50*ms or t>250*ms)*80 + int(t>=50*ms 
 ```
 
 
-    
-![png](output_92_0.png)
+{{< figure src="images/output_92_0.png" alt="(S) Inhibition Induced Spiking original parameters" caption="(S) Inhibition Induced Spiking original parameters" numbered="true" >}}
     
 
 
@@ -902,8 +839,7 @@ model(a=-0.02, b=-1, c=-60, d=8, fI='int(t<100*ms or t>400*ms)*80 + int(t>=100*m
 ```
 
 
-    
-![png](output_93_0.png)
+{{< figure src="images/output_93_0.png" alt="(S) Inhibition Induced Spiking adjusted parameters" caption="(S) Inhibition Induced Spiking adjusted parameters" numbered="true" >}}
     
 
 
@@ -977,8 +913,7 @@ model4(a=-0.026, b=-1, c=-45, d=-2, fI='int(t<50*ms or t>250*ms)*80 + int(t>=50*
 ```
 
 
-    
-![png](output_96_0.png)
+{{< figure src="images/output_96_0.png" alt="(T) Inhibition Induced Bursting original parameters" caption="(T) Inhibition Induced Bursting original parameters" numbered="true" >}}
     
 
 
@@ -990,8 +925,7 @@ model4(a=-0.026, b=-1, c=-45, d=-2, fI='int(t<100*ms or t>500*ms)*80 + int(t>=10
 ```
 
 
-    
-![png](output_97_0.png)
+{{< figure src="images/output_97_0.png" alt="(T) Inhibition Induced Bursting adjusted parameters" caption="(T) Inhibition Induced Bursting adjusted parameters" numbered="true" >}}
     
 
 
@@ -1003,20 +937,15 @@ model(a=0.2, b=2, c=-56, d=-16, fI='int(t>100*ms)*-99 + int(t<=100*ms)*-109', ta
 ```
 
 
-    
-![png](output_99_0.png)
+{{< figure src="images/output_99_0.png" alt="(U) Chaos" caption="(U) Chaos" numbered="true" >}}
     
 
 
 # 6. Defining the simulation
 
-We define the simulation that is proposed in https://www.izhikevich.org/publications/net.m. This simulation creates a network of 1000 neurons, 800 excitatory and 200 inhibitory. The simulation is run for 1000 ms. I doesn't use any of the previously mentioned types. Instead, some values are calculated randomly to add some variability similar to real neurons. The result of the simulation illustrated in Figure 4. At the top we can see all the spikes of the neurons though time. At the bottom, we can see the behaviour of one of those neurons.
+We define the simulation that is proposed in https://www.izhikevich.org/publications/net.m. This simulation creates a network of 1000 neurons, 800 excitatory and 200 inhibitory. The simulation is run for 1000 ms. It doesn't use any of the previously mentioned types. Instead, some values are calculated randomly to add some variability similar to real neurons. The result of the simulation illustrated in Figure 54. At the top we can see all the spikes of the neurons though time. At the bottom, we can see the behaviour of one of those neurons.
 
-<figure>
-  <img src="simulation.png" alt="Simulation">
-  <figcaption>Figure 4. Simulation</figcaption>
-</figure>
-
+{{< figure src="images/simulation.png" alt="This simulation creates a network of 1000 neurons, 800 excitatory and 200 inhibitory" caption="This simulation creates a network of 1000 neurons, 800 excitatory and 200 inhibitory" numbered="true" >}}
 
 ```python
 def simulation(Ne=800, Ni=200, tau=1, duration=1000):
@@ -1167,5 +1096,4 @@ simulation()
 ```
 
 
-    
-![png](output_107_0.png)
+{{< figure src="images/output_107_0.png" alt="Running the simulation" caption="Running the simulation" numbered="true" >}}

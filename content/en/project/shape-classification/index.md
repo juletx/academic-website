@@ -312,9 +312,7 @@ Image(filename='shape_plane.png')
 
 
 
-
-    
-![png](output_33_0.png)
+{{< figure src="images/images/output_33_0.png" alt="7 types of planes: (a) Mirage, (b) Eurofighter, (c) F-14 wings closed, (d) F-14 wings opened, (e) Harrier, (f) F-22, (g) F-15" caption="7 types of planes: (a) Mirage, (b) Eurofighter, (c) F-14 wings closed, (d) F-14 wings opened, (e) Harrier, (f) F-22, (g) F-15" numbered="true">}}
     
 
 
@@ -1434,8 +1432,7 @@ Image(filename='shape_car.png')
 
 
 
-    
-![png](output_58_0.png)
+{{< figure src="images/output_58_0.png" alt="4 types of cars: (a) sedan, (b) pickup, (c) minivan, or (d) SUV" caption="4 types of cars: (a) sedan, (b) pickup, (c) minivan, or (d) SUV" numbered="true">}}
     
 
 
@@ -4038,8 +4035,7 @@ for i in range(7):
 ```
 
 
-    
-![png](output_220_0.png)
+{{< figure src="images/output_220_0.png" alt="PCA for the plane data" caption="PCA for the plane data" numbered="true">}}
     
 
 
@@ -4116,8 +4112,7 @@ for i in range(4):
 ```
 
 
-    
-![png](output_231_0.png)
+{{< figure src="images/output_231_0.png" alt="PCA for the car data" caption="PCA for the car data" numbered="true">}}
     
 
 
@@ -4190,8 +4185,7 @@ for i in range(7):
 ```
 
 
-    
-![png](output_243_0.png)
+{{< figure src="images/output_243_0.png" alt="LDA for the plane data" caption="LDA for the plane data" numbered="true">}}
     
 
 
@@ -4258,8 +4252,7 @@ for i in range(7):
 ```
 
 
-    
-![png](output_252_0.png)
+{{< figure src="images/output_252_0.png" alt="LDA for the plane data scaled" caption="LDA for the plane data scaled" numbered="true">}}
     
 
 
@@ -4321,8 +4314,8 @@ for i in range(4):
 ```
 
 
-    
-![png](output_262_0.png)
+
+{{< figure src="images/output_262_0.png" alt="LDA for the car data" caption="LDA for the car data" numbered="true">}}
     
 
 
@@ -4390,7 +4383,7 @@ for i in range(7):
 
 
     
-![png](output_271_0.png)
+{{< figure src="images/output_271_0.png" alt="LDA for the car data scaled" caption="LDA for the car data scaled" numbered="true">}}
     
 
 
