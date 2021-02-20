@@ -83,4 +83,4 @@ user_groups: []
 
 Informatika Ingeniaritzako Graduko ikaslea [Euskal Herriko Unibertsitateko (UPV/EHU)](https://www.ehu.eus/eu/home) [Informatika Fakultatean](https://www.ehu.eus/eu/web/informatika-fakultatea/home). Software Ingeniaritzan espezialitatea.
 
-Web honetan informazio hau aurkituko duzu: [<i class='fas fa-check'></i>&nbsp;Trebatasunak](#skills), [<i class='fas fa-award'></i>&nbsp;Ziurtagiriak](#accomplishments), [<i class='fas fa-code'></i>&nbsp;Proiektuak](#projects), [<i class='fas fa-tags'></i>&nbsp;Etiketak](#tags) eta [<i class='fas fa-envelope'></i>&nbsp;Kontaktua](#contact).
+Web honetan informazio hau aurkituko duzu: [<i class='fas fa-check'></i>&nbsp;Trebetasunak](#skills), [<i class='fas fa-award'></i>&nbsp;Ziurtagiriak](#accomplishments), [<i class='fas fa-code'></i>&nbsp;Proiektuak](#projects), [<i class='fas fa-tags'></i>&nbsp;Etiketak](#tags) eta [<i class='fas fa-envelope'></i>&nbsp;Kontaktua](#contact).
