@@ -24,10 +24,10 @@ bio: Informatika Ingeniaritzako Graduko ikaslea [Euskal Herriko Unibertsitateko 
 
 # Interests
 interests:
-- <i class='fas fa-code'></i> Programazioa
-- <i class='fas fa-globe'></i> Web Garapena
-- <i class='fas fa-project-diagram'></i> Software Ingeniaritza
-- <i class='fas fa-robot'></i> Ikaskuntza Automatikoa
+- <i class='fas fa-code'></i>&nbsp;Programazioa
+- <i class='fas fa-globe'></i>&nbsp;Web Garapena
+- <i class='fas fa-project-diagram'></i>&nbsp;Software Ingeniaritza
+- <i class='fas fa-robot'></i>&nbsp;Ikaskuntza Automatikoa
 
 # Education
 education:
@@ -83,4 +83,4 @@ user_groups: []
 
 Informatika Ingeniaritzako Graduko ikaslea [Euskal Herriko Unibertsitateko (UPV/EHU)](https://www.ehu.eus/eu/home) [Informatika Fakultatean](https://www.ehu.eus/eu/web/informatika-fakultatea/home). Software Ingeniaritzan espezialitatea.
 
-Web honetan informazio hau aurkituko duzu: [<i class='fas fa-check'></i> Trebatasunak](#skills), [<i class='fas fa-award'></i> Ziurtagiriak](#accomplishments), [<i class='fas fa-code'></i> Proiektuak](#projects), [<i class='fas fa-tags'></i> Etiketak](#tags) eta [<i class='fas fa-envelope'></i> Kontaktua](#contact).
+Web honetan informazio hau aurkituko duzu: [<i class='fas fa-check'></i>&nbsp;Trebatasunak](#skills), [<i class='fas fa-award'></i>&nbsp;Ziurtagiriak](#accomplishments), [<i class='fas fa-code'></i>&nbsp;Proiektuak](#projects), [<i class='fas fa-tags'></i>&nbsp;Etiketak](#tags) eta [<i class='fas fa-envelope'></i>&nbsp;Kontaktua](#contact).

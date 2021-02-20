@@ -37,13 +37,13 @@
   <p class="powered-by">
     {{- $netlify_icon := resources.Get ("images/icon-pack/netlify.svg") -}}
     {{ if eq .Site.Language.Lang "eu" }}
-    <a href="https://github.com/juletx/academic-website" title="GitHub"><i class="fab fa-github"></i> GitHub</a>-en ostatatua -
+    <a href="https://github.com/juletx/academic-website" title="GitHub"><i class="fab fa-github"></i>&nbsp;GitHub</a>-en ostatatua -
     <a href="https://www.netlify.com/" title="Netlify"><img src="{{ $netlify_icon.RelPermalink }}" alt="Netlify" class="svg-icon svg-baseline"> Netlify</a>-k zerbitzatua
 	  {{ else if eq .Site.Language.Lang "es" }}
-    Alojado en <a href="https://github.com/juletx/academic-website" title="GitHub"><i class="fab fa-github"></i> GitHub</a> -
+    Alojado en <a href="https://github.com/juletx/academic-website" title="GitHub"><i class="fab fa-github"></i>&nbsp;GitHub</a> -
     Servido por <a href="https://www.netlify.com/" title="Netlify"><img src="{{ $netlify_icon.RelPermalink }}" alt="Netlify" class="svg-icon svg-baseline"> Netlify</a>
 	  {{ else if eq .Site.Language.Lang "en" }}
-    Hosted on <a href="https://github.com/juletx/academic-website" title="GitHub"><i class="fab fa-github"></i> GitHub</a> -
+    Hosted on <a href="https://github.com/juletx/academic-website" title="GitHub"><i class="fab fa-github"></i>&nbsp;GitHub</a> -
     Served by <a href="https://www.netlify.com/" title="Netlify"><img src="{{ $netlify_icon.RelPermalink }}" alt="Netlify" class="svg-icon svg-baseline"> Netlify</a>
 	  {{ end }}
   </p>
@@ -56,7 +56,7 @@
     <a href="https://wowchemy.com" target="_blank" rel="noopener"><img src="{{ $wowchemy_icon.RelPermalink }}" alt="Wowchemy" class="svg-icon svg-baseline"> Wowchemy</a>-ren
     <a href="https://github.com/wowchemy/starter-academic" target="_blank" rel="noopener"><img src="{{ $academic_icon.RelPermalink }}" alt="Academic" class="svg-icon svg-baseline">Academic Template</a>-ekin publikatua —
     <a href="https://gohugo.io/" target="_blank" rel="noopener"><img src="{{ $hugo_icon.RelPermalink }}" alt="Hugo" class="svg-icon svg-baseline"> Hugo</a>-rako
-    webgune eraikitzailea, doakoa eta <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener"><i class="fab fa-github"></i> kode irekikoa</a>
+    webgune eraikitzailea, doakoa eta <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener"><i class="fab fa-github"></i>&nbsp;kode irekikoa</a>
 	  {{ else if eq .Site.Language.Lang "es" }}
     Publicado con <a href="https://github.com/wowchemy/starter-academic" target="_blank" rel="noopener"><img src="{{ $academic_icon.RelPermalink }}" alt="Academic" class="svg-icon svg-baseline">Academic Template</a> de
     <a href="https://wowchemy.com" target="_blank" rel="noopener"><img src="{{ $wowchemy_icon.RelPermalink }}" alt="Wowchemy" class="svg-icon svg-baseline"> Wowchemy</a> —

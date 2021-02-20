@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 65  # Order that this section will appear.
 
-title = "[<i class='fas fa-code'></i> Projects](project)"
+title = "[<i class='fas fa-code'></i>&nbsp;Projects](project)"
 subtitle = ""
 
 [content]

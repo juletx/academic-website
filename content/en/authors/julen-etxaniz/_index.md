@@ -24,10 +24,10 @@ bio: Student of BS in Informatics Engineering at the [Faculty of Informatics](ht
 
 # Interests
 interests:
-- <i class='fas fa-code'></i> Programming
-- <i class='fas fa-globe'></i> Web Development
-- <i class='fas fa-project-diagram'></i> Software Engineering
-- <i class='fas fa-robot'></i> Machine Learning
+- <i class='fas fa-code'></i>&nbsp;Programming
+- <i class='fas fa-globe'></i>&nbsp;Web Development
+- <i class='fas fa-project-diagram'></i>&nbsp;Software Engineering
+- <i class='fas fa-robot'></i>&nbsp;Machine Learning
 
 # Education
 education:
@@ -83,4 +83,4 @@ user_groups: []
 
 Student of BS in Informatics Engineering at the [Faculty of Informatics](https://www.ehu.eus/en/web/informatika-fakultatea/home) of the [University of the Basque Country (UPV/EHU)](https://www.ehu.eus/en/en-home). Speciality in Software Engineering.
 
-In this web you will find information about [<i class='fas fa-check'></i> Skills](#skills), [<i class='fas fa-award'></i> Certificates](#accomplishments), [<i class='fas fa-code'></i> Projects](#projects), [<i class='fas fa-tags'></i> Tags](#tags) and [<i class='fas fa-envelope'></i> Contact](#contact).
+In this web you will find information about [<i class='fas fa-check'></i>&nbsp;Skills](#skills), [<i class='fas fa-award'></i>&nbsp;Certificates](#accomplishments), [<i class='fas fa-code'></i>&nbsp;Projects](#projects), [<i class='fas fa-tags'></i>&nbsp;Tags](#tags) and [<i class='fas fa-envelope'></i>&nbsp;Contact](#contact).
