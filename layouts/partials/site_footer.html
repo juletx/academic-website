@@ -19,9 +19,9 @@
   {{ partial "site_footer_license" . }}
 
   <p class="powered-by">
-    {{- $freepik_icon := resources.Get ("images/icon-pack/freepik.ico") -}}
-    {{- $flaticon_icon := resources.Get ("images/icon-pack/flaticon.ico") -}}
-    {{- $icons8_icon := resources.Get ("images/icon-pack/icons8.svg") -}}
+    {{- $freepik_icon := resources.Get ("media/icon-pack/freepik.ico") -}}
+    {{- $flaticon_icon := resources.Get ("media/icon-pack/flaticon.ico") -}}
+    {{- $icons8_icon := resources.Get ("media/icon-pack/icons8.svg") -}}
     {{ if eq .Site.Language.Lang "eu" }}
     Ikonoak <a href="https://www.flaticon.es/" title="Flaticon"><img src="{{ $flaticon_icon.RelPermalink }}" alt="Flaticon" class="svg-icon svg-baseline"> Flaticon</a>-eko
     <a href="https://www.flaticon.es/autores/freepik" title="Freepik"><img src="{{ $freepik_icon.RelPermalink }}" alt="Freepik" class="svg-icon svg-baseline"> Freepik</a>-enak eta <a href="https://icons8.com/" title="Icons8"><img src="{{ $icons8_icon.RelPermalink }}" alt="Icons8" class="svg-icon svg-baseline"> Icons8</a>-enak dira
@@ -35,7 +35,7 @@
   </p>
 
   <p class="powered-by">
-    {{- $netlify_icon := resources.Get ("images/icon-pack/netlify.svg") -}}
+    {{- $netlify_icon := resources.Get ("media/icon-pack/netlify.svg") -}}
     {{ if eq .Site.Language.Lang "eu" }}
     <a href="https://github.com/juletx/academic-website" title="GitHub"><i class="fab fa-github"></i>&nbsp;GitHub</a>-en ostatatua -
     <a href="https://www.netlify.com/" title="Netlify"><img src="{{ $netlify_icon.RelPermalink }}" alt="Netlify" class="svg-icon svg-baseline"> Netlify</a>-k zerbitzatua
@@ -49,9 +49,9 @@
   </p>
 
   <p class="powered-by">
-    {{- $wowchemy_icon := resources.Get ("images/icon-pack/wowchemy.png") -}}
-    {{- $academic_icon := resources.Get ("images/icon-pack/academic.png") -}}
-    {{- $hugo_icon := resources.Get ("images/icon-pack/hugo.png") -}}
+    {{- $wowchemy_icon := resources.Get ("media/icon-pack/wowchemy.png") -}}
+    {{- $academic_icon := resources.Get ("media/icon-pack/academic.png") -}}
+    {{- $hugo_icon := resources.Get ("media/icon-pack/hugo.png") -}}
     {{ if eq .Site.Language.Lang "eu" }}
     <a href="https://wowchemy.com" target="_blank" rel="noopener"><img src="{{ $wowchemy_icon.RelPermalink }}" alt="Wowchemy" class="svg-icon svg-baseline"> Wowchemy</a>-ren
     <a href="https://github.com/wowchemy/starter-academic" target="_blank" rel="noopener"><img src="{{ $academic_icon.RelPermalink }}" alt="Academic" class="svg-icon svg-baseline">Academic Template</a>-ekin publikatua —
