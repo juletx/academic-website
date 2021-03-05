@@ -1,6 +1,7 @@
 ---
 title: Entradas de Blog
 draft: true
+cms_exclude: true
 
 # View.
 #   1 = List

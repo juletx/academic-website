@@ -1,8 +1,11 @@
 ---
-title: Autores
+cms_exclude: true
 
-# Optional header image (relative to `static/media/` folder).
-header:
-  caption: ""
-  image: ""
+# To publish author profile pages, remove all of the `_build` and `cascade` settings below.
+_build:
+  render: never
+cascade:
+  _build:
+    render: never
+    list: always
 ---

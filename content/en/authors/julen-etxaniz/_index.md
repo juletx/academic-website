@@ -79,6 +79,9 @@ email: "juletxara@gmail.com"
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups: []
+
+# Highlight the author in author lists? (true/false)
+highlight_name: true
 ---
 
 Student of BS in Informatics Engineering at the [Faculty of Informatics](https://www.ehu.eus/en/web/informatika-fakultatea/home) of the [University of the Basque Country (UPV/EHU)](https://www.ehu.eus/en/en-home). Speciality in Software Engineering.
