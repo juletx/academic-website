@@ -1,0 +1,72 @@
+# Languages
+#   Create a section for each of your site's languages.
+#   Documentation: https://wowchemy.com/docs/guide/language/
+
+en:
+  languageCode: en
+  contentDir: content/en
+  params:
+    description: >-
+      Student of BS in Informatics Engineering at the Faculty of Informatics of
+      the University of the Basque Country (UPV/EHU). Speciality in Software
+      Engineering.
+    address:
+      street: 'Faculty of Informatics<br> Manuel Lardizabal Ibilbidea, 1'
+      city: Donostia
+      region: Gipuzkoa
+      postcode: '20018'
+      country: Spain
+      country_code: ES
+    address_format: en
+    date_format: 01-02-2006
+    copyright_license:
+      enable: true
+      allow_derivatives: true
+      share_alike: true
+      allow_commercial: true
+      notice: 'License: {license}'
+es:
+  languageCode: es
+  contentDir: content/es
+  params:
+    description: >-
+      Estudiante de Grado en Ingeniería Informática en la Facultad de
+      Informática de la Universidad del País Vasco (UPV/EHU). Especialidad en
+      Ingeniería del Software.
+    address:
+      street: 'Facultad de Informática<br> Manuel Lardizabal Ibilbidea, 1'
+      city: San Sebastián
+      region: Guipúzcoa
+      postcode: '20018'
+      country: España
+      country_code: ES
+    address_format: es
+    date_format: 01-02-2006
+    copyright_license:
+      enable: true
+      allow_derivatives: true
+      share_alike: true
+      allow_commercial: true
+      notice: 'Licencia: {license}'
+eu:
+  languageCode: eu
+  contentDir: content/eu
+  params:
+    description: >-
+      Informatika Ingeniaritzako Graduko ikaslea Euskal Herriko Unibertsitateko
+      (UPV/EHU) Informatika Fakultatean. Software Ingeniaritzan espezialitatea.
+    address:
+      street: 'Informatika Fakultatea<br> Manuel Lardizabal Ibilbidea, 1'
+      city: Donostia
+      region: Gipuzkoa
+      postcode: '20018'
+      country: Espainia
+      country_code: ES
+    address_format: es
+    date_format: '2006-01-02'
+    copyright_license:
+      enable: true
+      allow_derivatives: true
+      share_alike: true
+      allow_commercial: true
+      notice: 'Lizentzia: {license}'

@@ -1,0 +1,47 @@
+# Navigation Links
+#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
+#     desired widget in your `content/home/` folder.
+#   The weight parameter defines the order that the links will appear in.
+
+main:
+#  - name: Hasiera
+#    url: '#about'
+#    weight: 10
+  - name: Trebetasunak
+    url: '#skills'
+    weight: 20
+    pre: <i class='fas fa-check'></i>&nbsp;
+#  - name: Esperientzia
+#    url: '#experience'
+#    weight: 30
+  - name: Ziurtagiriak
+    url: '#accomplishments'
+    weight: 40
+    pre: <i class='fas fa-award'></i>&nbsp;
+#  - name: Bloga
+#    url: '#posts'
+#    weight: 50
+  - name: Proiektuak
+    url: '#projects'
+    weight: 60
+    pre: <i class='fas fa-code'></i>&nbsp;
+#  - name: Ekitaldiak
+#    url: '#events'
+#    weight: 70
+#  - name: Argitalpenak
+#    url: '#featured'
+#    weight: 80
+  - name: Etiketak
+    url: '#tags'
+    weight: 90
+    pre: <i class='fas fa-tags'></i>&nbsp;
+  - name: Kontaktua
+    url: '#contact'
+    weight: 100
+    pre: <i class='fas fa-envelope'></i>&nbsp;
+
+# Link to a PDF of your resume/CV from the menu.
+# To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
+#  - name: CV
+#    url: uploads/resume.pdf
+#    weight: 70
