@@ -2,7 +2,7 @@
 title: Quiz
 summary: Juego de preguntas Sistemas Web 2019-2020
 tags:
-- Web
+- Web Development
 date: ""
 
 # Optional external URL for project (replaces project detail page).

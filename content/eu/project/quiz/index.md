@@ -2,7 +2,7 @@
 title: Quiz
 summary: Galderen jokoa Web Sistemak 2019-2020
 tags:
-- Web
+- Web Development
 date: ""
 
 # Optional external URL for project (replaces project detail page).

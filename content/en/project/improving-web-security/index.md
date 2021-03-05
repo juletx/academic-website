@@ -2,7 +2,7 @@
 title: Mejorando la seguridad de mi web
 summary: Analizaré mi web con herramientas como Hardenize y Security Headers para detectar los aspectos de seguridad que se pueden mejorar.
 tags:
-- Web
+- Web Development
 - Security
 date: ""
 

@@ -1,46 +1,35 @@
-+++
-# A Skills section created with the Featurette widget.
-widget = "featurette"  # See https://wowchemy.com/docs/page-builder/
-headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
-weight = 33  # Order that this section will appear.
-
-title = '<div id="web-development" class="featurette-icon"><i class="fas fa-globe"></i></div>Desarrollo Web'
-subtitle = ''
-
-[[feature]]
-  icon = "html5"
-  icon_pack = "fab"
-  name = "HTML5"
-  description = ""
-
-[[feature]]
-  icon = "css3-alt"
-  icon_pack = "fab"
-  name = "CSS3"
-  description = ""
-
-[[feature]]
-  icon = "bootstrap"
-  icon_pack = "fab"
-  name = "Bootstrap"
-  description = ""
-
-[[feature]]
-  icon = "hugo"
-  icon_pack = "custom"
-  name = "Hugo"
-  description = ""
-
-[[feature]]
-  icon = "django" 
-  icon_pack = "custom"
-  name = "Django"
-  description = ""
-
-[[feature]]
-  icon = "dotnet"
-  icon_pack = "custom"
-  name = ".NET"
-  description = ""
-+++
+---
+widget: featurette
+headless: true
+active: true
+weight: 33
+title: >-
+  <div id="web-development" class="featurette-icon"><i class="fas
+  fa-globe"></i></div>Desarrollo Web
+subtitle: ''
+feature:
+  - icon: html5
+    icon_pack: fab
+    name: HTML5
+    description: ''
+  - icon: css3-alt
+    icon_pack: fab
+    name: CSS3
+    description: ''
+  - icon: bootstrap
+    icon_pack: fab
+    name: Bootstrap
+    description: ''
+  - icon: hugo
+    icon_pack: custom
+    name: Hugo
+    description: ''
+  - icon: django
+    icon_pack: custom
+    name: Django
+    description: ''
+  - icon: dotnet
+    icon_pack: custom
+    name: .NET
+    description: ''
+---

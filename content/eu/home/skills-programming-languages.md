@@ -1,40 +1,31 @@
-+++
-# A Skills section created with the Featurette widget.
-widget = "featurette"  # See https://wowchemy.com/docs/page-builder/
-headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
-weight = 32  # Order that this section will appear.
-
-title = '<div id="programming-languages" class="featurette-icon"><i class="fas fa-code"></i></div>Programazio Lengoaiak'
-subtitle = ""
-
-[[feature]]
-  icon = "python"
-  icon_pack = "fab"
-  name = "Python"
-  description = ""
-
-[[feature]]
-  icon = "java"
-  icon_pack = "fab"
-  name = "Java"
-  description = ""
-
-[[feature]]
-  icon = "js"
-  icon_pack = "fab"
-  name = "JavaScript"
-  description = ""
-
-[[feature]]
-  icon = "php"
-  icon_pack = "fab"
-  name = "PHP"
-  description = ""
-
-[[feature]]
-  icon = "database"
-  icon_pack = "fas"
-  name = "SQL"
-  description = ""
-+++
+---
+widget: featurette
+headless: true
+active: true
+weight: 32
+title: >-
+  <div id="programming-languages" class="featurette-icon"><i class="fas
+  fa-code"></i></div>Programazio Lengoaiak
+subtitle: ''
+feature:
+  - icon: python
+    icon_pack: fab
+    name: Python
+    description: ''
+  - icon: java
+    icon_pack: fab
+    name: Java
+    description: ''
+  - icon: js
+    icon_pack: fab
+    name: JavaScript
+    description: ''
+  - icon: php
+    icon_pack: fab
+    name: PHP
+    description: ''
+  - icon: database
+    icon_pack: fas
+    name: SQL
+    description: ''
+---

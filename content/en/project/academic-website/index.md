@@ -2,7 +2,7 @@
 title: Academic Website
 summary: Academic personal website that includes a short description, social links, biography, interests, education, skills, experience, accomplishments, projects and contact info.
 tags:
-- Web
+- Web Development
 date: ""
 
 # Optional external URL for project (replaces project detail page).

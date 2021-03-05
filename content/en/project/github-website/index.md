@@ -2,7 +2,7 @@
 title: GitHub Website
 summary: GitHub personal website that includes a photo, short description, social links and GitHub repositories and topics.
 tags:
-- Web
+- Web Development
 - GitHub
 date: ""
 
@@ -252,4 +252,3 @@ You also have the option to add on to and extend Primer's styles by adding custo
 ## License
 
 The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-

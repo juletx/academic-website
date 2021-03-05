@@ -2,7 +2,7 @@
 title: 100Iragarki
 summary: Tu escaparate digital Servicios y Aplicaciones de Red 2019-2020
 tags:
-- Web
+- Web Development
 date: ""
 
 # Optional external URL for project (replaces project detail page).

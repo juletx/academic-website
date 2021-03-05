@@ -2,7 +2,7 @@
 title: Academic Webgunea
 summary: "Academic webgune pertsonala, atal hauek dituena: deskribapena, esteka sozialak, biografia, interesak, ikasketak, trebetasunak, esperientzia, lorpenak, proiektuak eta kontaktuko infomazioa."
 tags:
-- Web
+- Web Development
 date: ""
 
 # Optional external URL for project (replaces project detail page).

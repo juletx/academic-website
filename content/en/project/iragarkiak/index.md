@@ -2,7 +2,7 @@
 title: 100Iragarki
 summary: Your digital showcase Network Services and Applications 2019-2020
 tags:
-- Web
+- Web Development
 date: ""
 
 # Optional external URL for project (replaces project detail page).

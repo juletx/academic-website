@@ -2,7 +2,7 @@
 title: Academic Web
 summary: Web personal Academic que incluye una descripción corta, enlaces sociales, biografía, intereses, educación, habilidades, experiencia, logros, proyectos e información de contacto.
 tags:
-- Web
+- Web Development
 date: ""
 
 # Optional external URL for project (replaces project detail page).
