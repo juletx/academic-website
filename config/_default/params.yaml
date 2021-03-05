@@ -72,7 +72,13 @@ main_menu:
   show_language: false
   show_day_night: true
   show_search: true
+  show_translations: true
   highlight_active_link: true
+
+# Site footer
+
+footer:
+  show_translations: true
 
 # Localization
 
