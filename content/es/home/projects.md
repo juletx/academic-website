@@ -31,6 +31,8 @@ content:
       tag: Web Development
     - name: Aprendizaje Automático
       tag: Machine Learning
+    - name: Ingeniería del Software
+      tag: Software Engineering
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.

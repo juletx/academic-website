@@ -31,6 +31,8 @@ content:
       tag: Web Development
     - name: Ikaskuntza Automatikoa
       tag: Machine Learning
+    - name: Software Ingeniaritza
+      tag: Software Engineering
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.
