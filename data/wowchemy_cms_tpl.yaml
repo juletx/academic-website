@@ -491,7 +491,7 @@ collections:
   - name: pages
     label: "Pages"
     files:
-      - file: "content/privacy.md"
+      - file: "content/en/privacy.md"
         label: "Privacy Policy"
         name: "privacy"
         fields:
@@ -505,7 +505,7 @@ collections:
             widget: "boolean"
             default: false
           - {label: "Body", name: "body", widget: "markdown"}
-      - file: "content/terms.md"
+      - file: "content/en/terms.md"
         label: "Terms"
         name: "terms"
         fields:
