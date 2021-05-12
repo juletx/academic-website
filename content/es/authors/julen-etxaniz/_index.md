@@ -68,7 +68,7 @@ social:
       header: true
   - icon: cv
     icon_pack: ai
-    link: ../uploads/CV_JulenEtxaniz_EN.pdf
+    link: ../uploads/CV_JulenEtxaniz_ES.pdf
     display:
       header: true
 
