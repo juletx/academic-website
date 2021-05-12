@@ -20,7 +20,7 @@ image:
 
 links:
 url_code: https://github.com/juletx/dialbot
-url_pdf: https://github.com/juletx/dialbot/blob/main/DIAL.pdf
-url_slides: ""
+url_pdf: https://github.com/juletx/dialbot/blob/main/report/Dialbot.pdf
+url_slides: https://github.com/juletx/dialbot/blob/main/slides/Dialbot.pdf
 url_video: ""
 ---
