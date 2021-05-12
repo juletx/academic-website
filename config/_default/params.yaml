@@ -21,10 +21,7 @@ twitter: juletxara
 
 # Contact (edit or remove options as required)
 
-email:
-  - juletxara@gmail.com
-  - jetxaniz007@ikasle.ehu.eus
-  - info@julenetxaniz.eus
+email: juletxara@gmail.com
 # phone: 888 888 88 88
 address:
   street: 'Informatika Fakultatea<br> Manuel Lardizabal Ibilbidea, 1'
@@ -58,10 +55,6 @@ contact_links:
     icon_pack: fab
     name: juletxara
     link: 'https://www.instagram.com/juletxara'
-  - icon: facebook
-    icon_pack: fab
-    name: juletxara
-    link: 'https://www.facebook.com/juletxara'
 
 # Site header
 
@@ -172,4 +165,4 @@ cms:
   local_backend: true
 icon:
   pack:
-    ai: false
+    ai: true
