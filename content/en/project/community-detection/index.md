@@ -19,7 +19,7 @@ image:
 
 links:
 url_code: https://github.com/juletx/community-detection
-url_pdf: ""
+url_pdf: https://github.com/juletx/community-detection/blob/main/report/Community_Detection.pdf
 url_slides: ""
 url_video: ""
 ---
