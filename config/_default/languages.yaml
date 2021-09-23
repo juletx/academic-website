@@ -7,9 +7,7 @@ en:
   contentDir: content/en
   params:
     description: >-
-      Student of BS in Informatics Engineering at the Faculty of Informatics of
-      the University of the Basque Country (UPV/EHU). Speciality in Software
-      Engineering.
+      Student in Master in Language Analysis and Processing at the Faculty of Informatics of the University of the Basque Country (UPV/EHU). Graduate in Informatics Engineering with speciality in Software Engineering.
     address:
       street: 'Faculty of Informatics<br> Manuel Lardizabal Ibilbidea, 1'
       city: Donostia
@@ -30,9 +28,7 @@ es:
   contentDir: content/es
   params:
     description: >-
-      Estudiante de Grado en Ingeniería Informática en la Facultad de
-      Informática de la Universidad del País Vasco (UPV/EHU). Especialidad en
-      Ingeniería del Software.
+      Estudiante de Máster en Análisis y Procesamiento del Lenguaje en la Facultad de Informática de la Universidad del País Vasco (UPV/EHU). Graduado en Ingeniería Informática con especialidad en Ingeniería del Software.
     address:
       street: 'Facultad de Informática<br> Manuel Lardizabal Ibilbidea, 1'
       city: San Sebastián
@@ -53,8 +49,7 @@ eu:
   contentDir: content/eu
   params:
     description: >-
-      Informatika Ingeniaritzako Graduko ikaslea Euskal Herriko Unibertsitateko
-      (UPV/EHU) Informatika Fakultatean. Software Ingeniaritzan espezialitatea.
+      Hizkuntzaren Azterketa eta Prozesamendua Masterreko ikaslea Euskal Herriko Unibertsitateko (UPV/EHU) Informatika Fakultatean. Informatika Ingeniaritzan graduatua Software Ingeniaritza espezialitatearekin.
     address:
       street: 'Informatika Fakultatea<br> Manuel Lardizabal Ibilbidea, 1'
       city: Donostia

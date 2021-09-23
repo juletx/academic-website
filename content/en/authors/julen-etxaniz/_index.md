@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Student of BS in Informatics Engineering
+role: Student in Master in Language Analysis and Processing
 
 # Organizations/Affiliations
 organizations:
@@ -20,7 +20,7 @@ organizations:
     url: https://www.ehu.eus/en/web/informatika-fakultatea/home
 
 # Short bio (displayed in user profile at end of posts)
-bio: Student of BS in Informatics Engineering at the [Faculty of Informatics](https://www.ehu.eus/en/web/informatika-fakultatea/home) of the [University of the Basque Country (UPV/EHU)](https://www.ehu.eus/en/en-home). Speciality in Software Engineering.
+bio: Student in Master in Language Analysis and Processing at the [Faculty of Informatics](https://www.ehu.eus/en/web/informatika-fakultatea/home) of the [University of the Basque Country (UPV/EHU)](https://www.ehu.eus/en/en-home). Graduate in Informatics Engineering with speciality in Software Engineering.
 
 # Interests
 interests:
@@ -35,6 +35,9 @@ education:
   - course: BS in Informatics Engineering
     institution: University of the Basque Country (UPV/EHU)
     year: 2017-2021
+  - course: Master in Language Analysis and Processing
+    institution: University of the Basque Country (UPV/EHU)
+    year: 2021-2022
     
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/page-builder/#icons
@@ -83,6 +86,6 @@ user_groups: []
 highlight_name: true
 ---
 
-Student of BS in Informatics Engineering at the [Faculty of Informatics](https://www.ehu.eus/en/web/informatika-fakultatea/home) of the [University of the Basque Country (UPV/EHU)](https://www.ehu.eus/en/en-home). Speciality in Software Engineering.
+Student in Master in Language Analysis and Processing at the [Faculty of Informatics](https://www.ehu.eus/en/web/informatika-fakultatea/home) of the [University of the Basque Country (UPV/EHU)](https://www.ehu.eus/en/en-home). Graduate in Informatics Engineering with speciality in Software Engineering.
 
 In this web you will find information about [<i class='fas fa-check'></i>&nbsp;Skills](#skills), [<i class='fas fa-award'></i>&nbsp;Certificates](#accomplishments), [<i class='fas fa-code'></i>&nbsp;Projects](#projects), [<i class='fas fa-tags'></i>&nbsp;Tags](#tags) and [<i class='fas fa-envelope'></i>&nbsp;Contact](#contact).

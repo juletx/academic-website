@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Informatika Ingeniaritzako Graduko ikaslea
+role: Hizkuntzaren Azterketa eta Prozesamendua Masterreko ikaslea
 
 # Organizations/Affiliations
 organizations:
@@ -20,7 +20,7 @@ organizations:
     url: https://www.ehu.eus/eu/web/informatika-fakultatea/home
 
 # Short bio (displayed in user profile at end of posts)
-bio: Informatika Ingeniaritzako Graduko ikaslea [Euskal Herriko Unibertsitateko (UPV/EHU)](https://www.ehu.eus/eu/home) [Informatika Fakultatean](https://www.ehu.eus/eu/web/informatika-fakultatea/home). Software Ingeniaritzan espezialitatea.
+bio: Hizkuntzaren Azterketa eta Prozesamendua Masterreko ikaslea [Euskal Herriko Unibertsitateko (UPV/EHU)](https://www.ehu.eus/eu/home) [Informatika Fakultatean](https://www.ehu.eus/eu/web/informatika-fakultatea/home). Informatika Ingeniaritzan graduatua Software Ingeniaritza espezialitatearekin.
 
 # Interests
 interests:
@@ -35,6 +35,9 @@ education:
   - course: Informatika Ingeniaritzako Gradua
     institution: Euskal Herriko Unibertsitatea (UPV/EHU)
     year: 2017-2021
+  - course: Hizkuntzaren Azterketa eta Prozesamendua Masterra
+    institution: Euskal Herriko Unibertsitatea (UPV/EHU)
+    year: 2021-2022
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/page-builder/#icons
@@ -83,6 +86,6 @@ user_groups: []
 highlight_name: true
 ---
 
-Informatika Ingeniaritzako Graduko ikaslea [Euskal Herriko Unibertsitateko (UPV/EHU)](https://www.ehu.eus/eu/home) [Informatika Fakultatean](https://www.ehu.eus/eu/web/informatika-fakultatea/home). Software Ingeniaritzan espezialitatea.
+Hizkuntzaren Azterketa eta Prozesamendua Masterreko ikaslea [Euskal Herriko Unibertsitateko (UPV/EHU)](https://www.ehu.eus/eu/home) [Informatika Fakultatean](https://www.ehu.eus/eu/web/informatika-fakultatea/home). Informatika Ingeniaritzan graduatua Software Ingeniaritza espezialitatearekin.
 
 Web honetan informazio hau aurkituko duzu: [<i class='fas fa-check'></i>&nbsp;Trebetasunak](#skills), [<i class='fas fa-award'></i>&nbsp;Ziurtagiriak](#accomplishments), [<i class='fas fa-code'></i>&nbsp;Proiektuak](#projects), [<i class='fas fa-tags'></i>&nbsp;Etiketak](#tags) eta [<i class='fas fa-envelope'></i>&nbsp;Kontaktua](#contact).

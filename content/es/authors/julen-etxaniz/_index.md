@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Estudiante de Grado en Ingeniería Informática
+role: Estudiante de Máster en Análisis y Procesamiento del Lenguaje
 
 # Organizations/Affiliations
 organizations:
@@ -20,7 +20,7 @@ organizations:
     url: https://www.ehu.eus/es/web/informatika-fakultatea/home
 
 # Short bio (displayed in user profile at end of posts)
-bio: Estudiante de Grado en Ingeniería Informática en la [Facultad de Informática](https://www.ehu.eus/es/web/informatika-fakultatea/home) de la [Universidad del País Vasco (UPV/EHU)](https://www.ehu.eus/es/home). Especialidad en Ingeniería del Software.
+bio: Estudiante de Máster en Análisis y Procesamiento del Lenguaje en la [Facultad de Informática](https://www.ehu.eus/es/web/informatika-fakultatea/home) de la [Universidad del País Vasco (UPV/EHU)](https://www.ehu.eus/es/home). Graduado en Ingeniería Informática con especialidad en Ingeniería del Software.
 
 # Interests
 interests:
@@ -35,6 +35,9 @@ education:
   - course: Grado en Ingeniería Informática
     institution: Universidad del País Vasco (UPV/EHU)
     year: 2017-2021
+  - course: Máster en Análisis y Procesamiento del Lenguaje
+    institution: Universidad del País Vasco (UPV/EHU)
+    year: 2021-2022
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/page-builder/#icons
@@ -83,6 +86,6 @@ user_groups: []
 highlight_name: true
 ---
 
-Estudiante de Grado en Ingeniería Informática en la [Facultad de Informática](https://www.ehu.eus/es/web/informatika-fakultatea/home) de la [Universidad del País Vasco (UPV/EHU)](https://www.ehu.eus/es/home). Especialidad en Ingeniería del Software.
+Estudiante de Máster en Análisis y Procesamiento del Lenguaje en la [Facultad de Informática](https://www.ehu.eus/es/web/informatika-fakultatea/home) de la [Universidad del País Vasco (UPV/EHU)](https://www.ehu.eus/es/home). Graduado en Ingeniería Informática con especialidad en Ingeniería del Software.
 
 En esta web encontrarás información sobre [<i class='fas fa-check'></i>&nbsp;Habilidades](#skills), [<i class='fas fa-award'></i>&nbsp;Certificados](#accomplishments), [<i class='fas fa-code'></i>&nbsp;Proyectos](#projects), [<i class='fas fa-tags'></i>&nbsp;Etiquetas](#tags) y [<i class='fas fa-envelope'></i>&nbsp;Contacto](#contact).
