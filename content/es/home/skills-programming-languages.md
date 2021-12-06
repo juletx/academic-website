@@ -12,6 +12,10 @@ feature:
     icon_pack: fab
     name: Python
     description: ''
+  - icon: r-project
+    icon_pack: fab
+    name: R
+    description: ''
   - icon: java
     icon_pack: fab
     name: Java
