@@ -31,6 +31,8 @@ content:
       tag: Web Development
     - name: Aprendizaje Automático
       tag: Machine Learning
+    - name: Procesamiento del Lenguaje Natural
+      tag: Natural Language Processing
     - name: Ingeniería del Software
       tag: Software Engineering
 

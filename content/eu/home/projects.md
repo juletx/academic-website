@@ -31,6 +31,8 @@ content:
       tag: Web Development
     - name: Ikaskuntza Automatikoa
       tag: Machine Learning
+    - name: Hizkuntzaren Prozesamendua
+      tag: Natural Language Processing
     - name: Software Ingeniaritza
       tag: Software Engineering
 

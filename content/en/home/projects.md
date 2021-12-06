@@ -31,6 +31,8 @@ content:
       tag: Web Development
     - name: Machine Learning
       tag: Machine Learning
+    - name: Natural Language Processing
+      tag: Natural Language Processing
     - name: Software Engineering
       tag: Software Engineering
 

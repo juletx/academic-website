@@ -28,6 +28,7 @@ interests:
 - <i class='fas fa-globe'></i>&nbsp;Desarrollo Web
 - <i class='fas fa-project-diagram'></i>&nbsp;Ingeniería del Software
 - <i class='fas fa-robot'></i>&nbsp;Aprendizaje Automático
+- <i class='fas fa-language'></i>&nbsp;Procesamiento de Lenguaje Natural
 
 # Education
 education:

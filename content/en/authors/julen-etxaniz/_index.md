@@ -28,6 +28,7 @@ interests:
 - <i class='fas fa-globe'></i>&nbsp;Web Development
 - <i class='fas fa-project-diagram'></i>&nbsp;Software Engineering
 - <i class='fas fa-robot'></i>&nbsp;Machine Learning
+- <i class='fas fa-language'></i>&nbsp;Natural Language Processing
 
 # Education
 education:
