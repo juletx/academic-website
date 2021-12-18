@@ -41,20 +41,28 @@ address:
 contact_links:
   - icon: github
     icon_pack: fab
-    name: juletx
+    name: github.com/juletx
     link: 'https://github.com/juletx'
   - icon: linkedin
     icon_pack: fab
-    name: juletxara
+    name: linkedin.com/in/juletxara
     link: 'https://www.linkedin.com/in/juletxara'
   - icon: twitter
     icon_pack: fab
-    name: juletxara
+    name: twitter.com/juletxara
     link: 'https://twitter.com/juletxara'
   - icon: instagram
     icon_pack: fab
-    name: juletxara
+    name: instagram.com/juletxara
     link: 'https://www.instagram.com/juletxara'
+  - icon: hackerrank
+    icon_pack: fab
+    name: hackerrank.com/juletxara
+    link: 'https://www.hackerrank.com/juletxara'
+  - icon: kaggle
+    icon_pack: fab
+    name: kaggle.com/juletxara
+    link: 'https://www.kaggle.com/juletxara'
 
 # Site header
 

@@ -45,6 +45,11 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
+  - icon: envelope
+    icon_pack: fas
+    link: mailto:juletxara@gmail.com
+    display:
+      header: true
   - icon: github
     icon_pack: fab
     link: https://github.com/juletx
@@ -65,9 +70,14 @@ social:
     link: https://www.instagram.com/juletxara
     display:
       header: true
-  - icon: envelope
-    icon_pack: fas
-    link: mailto:juletxara@gmail.com
+  - icon: hackerrank
+    icon_pack: fab
+    link: https://www.hackerrank.com/juletxara
+    display:
+      header: true
+  - icon: kaggle
+    icon_pack: fab
+    link: https://www.kaggle.com/juletxara
     display:
       header: true
   - icon: cv
