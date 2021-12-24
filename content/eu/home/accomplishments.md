@@ -22,30 +22,6 @@ date_format: 2006-01
 #   Leave other parameters empty if not required.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 item:
-  - organization: HackerRank
-    organization_url: 'https://www.hackerrank.com/'
-    title: SQL (Intermediate)
-    url: 'https://www.hackerrank.com/skills-directory/sql_intermediate'
-    certificate_url: 'https://www.hackerrank.com/certificates/a9047fb98f72'
-    date_start: '2021-12-06'
-    date_end: ''
-    description: ''
-  - organization: HackerRank
-    organization_url: 'https://www.hackerrank.com/'
-    title: SQL (Basic)
-    url: 'https://www.hackerrank.com/skills-directory/sql_basic'
-    certificate_url: 'https://www.hackerrank.com/certificates/f515f0069b67'
-    date_start: '2021-12-06'
-    date_end: ''
-    description: ''
-  - organization: HackerRank
-    organization_url: 'https://www.hackerrank.com/'
-    title: Python (Basic)
-    url: 'https://www.hackerrank.com/skills-directory/python_basic'
-    certificate_url: 'https://www.hackerrank.com/certificates/fb961af42a74'
-    date_start: '2021-12-04'
-    date_end: ''
-    description: ''
   - organization: Platzi
     organization_url: 'https://platzi.com/'
     title: Curso de Machine Learning Aplicado con Python
@@ -69,14 +45,6 @@ item:
     url: 'https://platzi.com/cursos/regresion-python/'
     certificate_url: 'https://platzi.com/@juletx/curso/1766-regresion-python/diploma/detalle/'
     date_start: '2020-10-30'
-    date_end: ''
-    description: ''
-  - organization: HackerRank
-    organization_url: 'https://www.hackerrank.com/'
-    title: Problem Solving (Basic)
-    url: 'https://www.hackerrank.com/skills-directory/problem_solving_basic'
-    certificate_url: 'https://www.hackerrank.com/certificates/e8a8b7cee492'
-    date_start: '2020-09-15'
     date_end: ''
     description: ''
   - organization: Universidad Complutense de Madrid
