@@ -4,6 +4,7 @@ summary: NIPS kongresuko autoreen komunitateak detektatzen metaheuristikoak erab
 tags:
 - Community Detection
 - Metaheuristics
+- Programming
 date: ""
 
 # Optional external URL for project (replaces project detail page).

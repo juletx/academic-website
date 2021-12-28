@@ -27,14 +27,16 @@ content:
   filter_button:
     - name: All
       tag: '*'
+    - name: Programming
+      tag: Programming
     - name: Web Development
       tag: Web Development
+    - name: Software Engineering
+      tag: Software Engineering
     - name: Machine Learning
       tag: Machine Learning
     - name: Natural Language Processing
       tag: Natural Language Processing
-    - name: Software Engineering
-      tag: Software Engineering
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.

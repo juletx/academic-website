@@ -27,14 +27,16 @@ content:
   filter_button:
     - name: Denak
       tag: '*'
+    - name: Programazioa
+      tag: Programming
     - name: Web Garapena
       tag: Web Development
+    - name: Software Ingeniaritza
+      tag: Software Engineering
     - name: Ikaskuntza Automatikoa
       tag: Machine Learning
     - name: Hizkuntzaren Prozesamendua
       tag: Natural Language Processing
-    - name: Software Ingeniaritza
-      tag: Software Engineering
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.

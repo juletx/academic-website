@@ -27,14 +27,16 @@ content:
   filter_button:
     - name: Todos
       tag: '*'
+    - name: Programación
+      tag: Programming
     - name: Desarrollo Web
       tag: Web Development
+    - name: Ingeniería del Software
+      tag: Software Engineering
     - name: Aprendizaje Automático
       tag: Machine Learning
     - name: Procesamiento del Lenguaje Natural
       tag: Natural Language Processing
-    - name: Ingeniería del Software
-      tag: Software Engineering
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.
