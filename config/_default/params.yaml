@@ -5,19 +5,21 @@
 
 # Appearance
 
-theme: minimal
-day_night: true
-font: ''
-font_size: L
+appearance:
+  theme_day: minimal
+  theme_night: minimal
+  font: minimal
+  font_size: L
 
 # SEO
-site_type: Person
-local_business_type: ''
-org_name: ''
-description: >-
-  Informatika Ingeniaritzako Graduko ikaslea Euskal Herriko Unibertsitatean
-  (UPV/EHU)
-twitter: juletxara
+
+seo:
+  site_type: Person
+  local_business_type: ''
+  org_name: ''
+  description: >-
+    Hizkuntzaren Azterketa eta Prozesamendua Masterreko ikaslea Euskal Herriko Unibertsitateko (UPV/EHU) Informatika Fakultatean. Informatika Ingeniaritzan graduatua Software Ingeniaritza espezialitatearekin.
+  twitter: juletxara
 
 # Contact (edit or remove options as required)
 
@@ -66,35 +68,45 @@ contact_links:
 
 # Site header
 
-main_menu:
-  enable: true
-  align: l
-  show_logo: true
-  show_language: false
-  show_day_night: true
-  show_search: true
-  show_translations: true
-  highlight_active_link: true
+header:
+  nabvar:
+    enable: true
+    align: l
+    show_logo: true
+    show_language: false
+    show_day_night: true
+    show_search: true
+    show_translations: true
+    highlight_active_link: true
 
 # Site footer
 
 footer:
   show_translations: true
+  copyright:
+    notice: '&copy; {year} Julen Etxaniz'
+    license:
+      enable: true
+      allow_derivatives: true
+      share_alike: true
+      allow_commercial: true
 
 # Localization
 
-date_format: 'Jan 2, 2006'
-time_format: '15:04'
-address_format: en-us
+locale:
+  date_format: 'Jan 2, 2006'
+  time_format: '15:04'
+  address_format: en-us
 
 # Site features
 
+features:
+  privacy_pack: true
 highlight: true
 highlight_languages:
   - python
 math: false
 diagram: false
-privacy_pack: true
 edit_page:
   repo_url: 'https://github.com/juletx/academic-website'
   content_dir: ''
@@ -114,12 +126,6 @@ reading_time: true
 section_pager: false
 docs_section_pager: true
 sharing: true
-copyright_license:
-  enable: true
-  allow_derivatives: false
-  share_alike: true
-  allow_commercial: false
-  notice: 'This work is licensed under {license}'
 highlight_superuser: true
 link_authors: true
 abstract_length: 135

@@ -6,8 +6,9 @@ en:
   languageCode: en
   contentDir: content/en
   params:
-    description: >-
-      Student in Master in Language Analysis and Processing at the Faculty of Informatics of the University of the Basque Country (UPV/EHU). Graduate in Informatics Engineering with speciality in Software Engineering.
+    seo:
+      description: >-
+        Student in Master in Language Analysis and Processing at the Faculty of Informatics of the University of the Basque Country (UPV/EHU). Graduate in Informatics Engineering with speciality in Software Engineering.
     address:
       street: 'Faculty of Informatics<br> Manuel Lardizabal Ibilbidea, 1'
       city: Donostia
@@ -15,20 +16,17 @@ en:
       postcode: '20018'
       country: Spain
       country_code: ES
-    address_format: en
-    date_format: 01-02-2006
-    copyright_license:
-      enable: true
-      allow_derivatives: true
-      share_alike: true
-      allow_commercial: true
-      notice: 'License: {license}'
+    locale:
+      address_format: en
+      date_format: 01-02-2006
+
 es:
   languageCode: es
   contentDir: content/es
   params:
-    description: >-
-      Estudiante de Máster en Análisis y Procesamiento del Lenguaje en la Facultad de Informática de la Universidad del País Vasco (UPV/EHU). Graduado en Ingeniería Informática con especialidad en Ingeniería del Software.
+    seo:
+      description: >-
+        Estudiante de Máster en Análisis y Procesamiento del Lenguaje en la Facultad de Informática de la Universidad del País Vasco (UPV/EHU). Graduado en Ingeniería Informática con especialidad en Ingeniería del Software.
     address:
       street: 'Facultad de Informática<br> Manuel Lardizabal Ibilbidea, 1'
       city: San Sebastián
@@ -36,20 +34,17 @@ es:
       postcode: '20018'
       country: España
       country_code: ES
-    address_format: es
-    date_format: 01-02-2006
-    copyright_license:
-      enable: true
-      allow_derivatives: true
-      share_alike: true
-      allow_commercial: true
-      notice: 'Licencia: {license}'
+    locale:
+      address_format: es
+      date_format: 01-02-2006
+
 eu:
   languageCode: eu
   contentDir: content/eu
   params:
-    description: >-
-      Hizkuntzaren Azterketa eta Prozesamendua Masterreko ikaslea Euskal Herriko Unibertsitateko (UPV/EHU) Informatika Fakultatean. Informatika Ingeniaritzan graduatua Software Ingeniaritza espezialitatearekin.
+    seo:
+      description: >-
+        Hizkuntzaren Azterketa eta Prozesamendua Masterreko ikaslea Euskal Herriko Unibertsitateko (UPV/EHU) Informatika Fakultatean. Informatika Ingeniaritzan graduatua Software Ingeniaritza espezialitatearekin.
     address:
       street: 'Informatika Fakultatea<br> Manuel Lardizabal Ibilbidea, 1'
       city: Donostia
@@ -57,11 +52,6 @@ eu:
       postcode: '20018'
       country: Espainia
       country_code: ES
-    address_format: es
-    date_format: '2006-01-02'
-    copyright_license:
-      enable: true
-      allow_derivatives: true
-      share_alike: true
-      allow_commercial: true
-      notice: 'Lizentzia: {license}'
+    locale:
+      address_format: es
+      date_format: '2006-01-02'

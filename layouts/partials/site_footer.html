@@ -11,9 +11,11 @@
   </p>
   {{ end }}
 
+  {{ with site.Params.footer.text }}
   <p class="powered-by">
-    {{ with site.Copyright }}{{ replace . "{year}" now.Year | markdownify}}{{ end }}
+    {{ . | markdownify | emojify }}
   </p>
+  {{ end }}
 
   {{/* Display copyright license. */}}
   {{ partial "site_footer_license" . }}
