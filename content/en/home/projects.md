@@ -35,6 +35,8 @@ content:
       tag: Software Engineering
     - name: Machine Learning
       tag: Machine Learning
+    - name: Deep Learning
+      tag: Deep Learning
     - name: Natural Language Processing
       tag: Natural Language Processing
 

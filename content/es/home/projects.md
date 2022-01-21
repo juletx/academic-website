@@ -35,6 +35,8 @@ content:
       tag: Software Engineering
     - name: Aprendizaje Automático
       tag: Machine Learning
+    - name: Aprendizaje Profundo
+      tag: Deep Learning
     - name: Procesamiento del Lenguaje Natural
       tag: Natural Language Processing
 

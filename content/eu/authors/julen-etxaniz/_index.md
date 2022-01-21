@@ -27,7 +27,8 @@ interests:
 - <i class='fas fa-code'></i>&nbsp;Programazioa
 - <i class='fas fa-globe'></i>&nbsp;Web Garapena
 - <i class='fas fa-project-diagram'></i>&nbsp;Software Ingeniaritza
-- <i class='fas fa-robot'></i>&nbsp;Ikaskuntza Automatikoa
+- <i class='fas fa-robot'></i>&nbsp;Ikasketa Automatikoa
+- <i class='fas fa-sitemap'></i>&nbsp;Ikasketa Sakona
 - <i class='fas fa-language'></i>&nbsp;Hizkuntzaren Prozesamendua
 
 # Education

@@ -3,7 +3,7 @@ title: Dialbot
 summary: Ikasketa sakonean oinarritutako muturretik muturrerako solasaldi sistema.
 tags:
 - Machine Learning
-- Neural Network
+- Deep Learning
 - Natural Language Processing
 date: ""
 

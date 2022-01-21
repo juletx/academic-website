@@ -3,7 +3,7 @@ title: Machine Learning and Neural Networks labs
 summary: Machine Learning and Neural Networks labs.
 tags:
 - Machine Learning
-- Neural Network
+- Deep Learning
 date: ""
 
 # Optional external URL for project (replaces project detail page).

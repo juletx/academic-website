@@ -3,7 +3,7 @@ title: Image Caption Generation
 summary: Automatic Image Caption Generation model that uses a CNN to condition a LSTM based language model.
 tags:
 - Machine Learning
-- Neural Network
+- Deep Learning
 - Natural Language Processing
 date: "2020-12-20"
 
