@@ -21,6 +21,6 @@ image:
 links:
 url_code: https://github.com/juletx/writing-systems
 url_pdf: https://github.com/juletx/writing-systems/blob/master/paper/writing_systems.pdf
-url_slides: ""
-url_video: ""
+url_slides: https://github.com/juletx/writing-systems/blob/master/slides/writing_systems.pdf
+url_video: https://github.com/juletx/writing-systems/blob/master/slides/writing_systems.mp4
 ---
