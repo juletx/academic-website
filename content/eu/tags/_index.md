@@ -6,4 +6,10 @@ cms_exclude: true
 header:
   caption: ""
   image: ""
+  
+view: compact
+
+cascade:
+  view: card
+  show_breadcrumb: true
 ---
