@@ -11,4 +11,6 @@ view: card
 
 cascade:
   show_breadcrumb: true
+  show_related: true
+  commentable: true
 ---

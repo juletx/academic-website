@@ -6,9 +6,10 @@ en:
   languageCode: en
   contentDir: content/en
   params:
-    seo:
-      description: >-
-        Student in Master in Language Analysis and Processing at the Faculty of Informatics of the University of the Basque Country (UPV/EHU). Graduate in Informatics Engineering with speciality in Software Engineering.
+    marketing:
+      seo:
+        description: >-
+          Student in Master in Language Analysis and Processing at the Faculty of Informatics of the University of the Basque Country (UPV/EHU). Graduate in Informatics Engineering with speciality in Software Engineering.
     address:
       street: 'Faculty of Informatics<br> Manuel Lardizabal Ibilbidea, 1'
       city: Donostia
@@ -24,9 +25,10 @@ es:
   languageCode: es
   contentDir: content/es
   params:
-    seo:
-      description: >-
-        Estudiante de Máster en Análisis y Procesamiento del Lenguaje en la Facultad de Informática de la Universidad del País Vasco (UPV/EHU). Graduado en Ingeniería Informática con especialidad en Ingeniería del Software.
+    marketing:
+      seo:
+        description: >-
+          Estudiante de Máster en Análisis y Procesamiento del Lenguaje en la Facultad de Informática de la Universidad del País Vasco (UPV/EHU). Graduado en Ingeniería Informática con especialidad en Ingeniería del Software.
     address:
       street: 'Facultad de Informática<br> Manuel Lardizabal Ibilbidea, 1'
       city: San Sebastián
@@ -42,9 +44,10 @@ eu:
   languageCode: eu
   contentDir: content/eu
   params:
-    seo:
-      description: >-
-        Hizkuntzaren Azterketa eta Prozesamendua Masterreko ikaslea Euskal Herriko Unibertsitateko (UPV/EHU) Informatika Fakultatean. Informatika Ingeniaritzan graduatua Software Ingeniaritza espezialitatearekin.
+    marketing:
+      seo:
+        description: >-
+          Hizkuntzaren Azterketa eta Prozesamendua Masterreko ikaslea Euskal Herriko Unibertsitateko (UPV/EHU) Informatika Fakultatean. Informatika Ingeniaritzan graduatua Software Ingeniaritza espezialitatearekin.
     address:
       street: 'Informatika Fakultatea<br> Manuel Lardizabal Ibilbidea, 1'
       city: Donostia

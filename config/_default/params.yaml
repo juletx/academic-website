@@ -11,15 +11,23 @@ appearance:
   font: minimal
   font_size: L
 
-# SEO
+# Marketing
 
-seo:
-  site_type: Person
-  local_business_type: ''
-  org_name: ''
-  description: >-
-    Hizkuntzaren Azterketa eta Prozesamendua Masterreko ikaslea Euskal Herriko Unibertsitateko (UPV/EHU) Informatika Fakultatean. Informatika Ingeniaritzan graduatua Software Ingeniaritza espezialitatearekin.
-  twitter: juletxara
+marketing:
+  seo:
+    site_type: Person
+    local_business_type: ''
+    org_name: ''
+    description: >-
+      Hizkuntzaren Azterketa eta Prozesamendua Masterreko ikaslea Euskal Herriko Unibertsitateko (UPV/EHU) Informatika Fakultatean. Informatika Ingeniaritzan graduatua Software Ingeniaritza espezialitatearekin.
+    twitter: juletxara
+  analytics:
+    google_analytics: ''
+    google_tag_manager: GTM-NP9JZHR
+    baidu_tongji: ''
+  verification:
+    google: ''
+    baidu: ''
 
 # Contact (edit or remove options as required)
 
@@ -101,27 +109,43 @@ locale:
 # Site features
 
 features:
-  privacy_pack: true
-highlight: true
-highlight_languages:
-  - python
-math: false
-diagram: false
-edit_page:
-  repo_url: 'https://github.com/juletx/academic-website'
-  content_dir: ''
-  repo_branch: master
-  editable:
-    page: false
-    post: false
-    book: true
-show_related:
-  book: true
-  page: false
-  post: true
-  project: true
-  publication: true
-  event: true
+  syntax_highlighter:
+    enable: true
+    extra_languages:
+      - python
+      - r
+  math:
+    enable: false
+  diagram:
+    enable: false
+  privacy_pack:
+    enable: true
+  repository:
+    url: 'https://github.com/juletx/academic-website'
+    content_dir: content
+    branch: master
+  avatar:
+    gravatar: true
+    shape: circle
+  comment:
+    provider: disqus
+    disqus:
+      shortname: julenetxaniz
+      show_count: false
+    commento:
+      url: ''
+  search:
+    provider: wowchemy
+    algolia:
+      app_id: ''
+      api_key: ''
+      index_name: ''
+      show_logo: false
+  map:
+    provider: ''
+    api_key: ''
+    zoom: 16
+
 reading_time: true
 section_pager: false
 docs_section_pager: true
@@ -130,53 +154,22 @@ highlight_superuser: true
 link_authors: true
 abstract_length: 135
 plugins_js: []
-avatar:
-  gravatar: true
-  shape: circle
 publications:
   date_format: January 2006
   citation_style: apa
 projects:
-  post_view: 2
-  publication_view: 2
-  event_view: 2
-breadcrumb:
-  page_types:
-    book: true
-comments:
-  provider: disqus
-  commentable:
-    page: true
-    post: true
-    book: true
-    project: true
-    publication: true
-    event: true
-  disqus:
-    shortname: julenetxaniz
-    show_count: true
-  commento:
-    url: ''
-search:
-  provider: wowchemy
-  algolia:
-    app_id: ''
-    api_key: ''
-    index_name: ''
-    show_logo: false
-map:
-  provider: ''
-  api_key: ''
-  zoom: 16
-marketing:
-  google_analytics: ''
-  google_tag_manager: GTM-NP9JZHR
-  google_site_verification: ''
-  baidu_site_verification: ''
-  baidu_tongji: ''
-cms:
-  branch: master
-  local_backend: true
-icon:
-  pack:
-    ai: true
+  post_view: card
+  publication_view: card
+  event_view: card
+
+# Site extensions
+
+extensions:
+  cms:
+    branch: master
+    local_backend: true
+  isotope:
+    # Enable if you use the Portfolio widget or Publication filter
+    enable: true
+  academicons:
+    enable: true
