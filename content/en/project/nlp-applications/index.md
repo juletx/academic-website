@@ -1,6 +1,6 @@
 ---
-title: Natural Language Processing Applications
-summary: Natural Language Processing Applications slides, labs and project.
+title: NLP Applications I - Text Classification, Sequence Labelling, Opinion Mining and Question Answering
+summary: NLP Applications I - Text Classification, Sequence Labelling, Opinion Mining and Question Answering slides, labs and project.
 tags:
 - Machine Learning
 - Deep Learning
@@ -13,10 +13,10 @@ external_link: "https://github.com/juletx/nlp-applications"
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: "Natural Language Processing Applications"
+  caption: "NLP Applications I - Text Classification, Sequence Labelling, Opinion Mining and Question Answering"
   focal_point: ""
   preview_only: false
-  alt_text: "Natural Language Processing Applications"
+  alt_text: "NLP Applications I - Text Classification, Sequence Labelling, Opinion Mining and Question Answering"
 
 links:
 - name: Web
