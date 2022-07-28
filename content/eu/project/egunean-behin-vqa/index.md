@@ -20,7 +20,7 @@ image:
 
 links:
 url_code: https://github.com/juletx/egunean-behin-vqa
-url_pdf: ""
+url_pdf: https://github.com/juletx/egunean-behin-vqa/blob/main/paper/egunean_behin_vqa.pdf
 url_slides: ""
 url_video: ""
 ---
