@@ -110,10 +110,8 @@ locale:
 
 features:
   syntax_highlighter:
-    enable: true
-    extra_languages:
-      - python
-      - r
+    theme_light: github-light
+    theme_dark: dracula
   math:
     enable: false
   diagram:
@@ -134,6 +132,11 @@ features:
       show_count: false
     commento:
       url: ''
+    giscus:
+      repo: ''
+      repo_id: ''
+      category: ''
+      category_id: ''
   search:
     provider: wowchemy
     algolia:
@@ -141,6 +144,10 @@ features:
       api_key: ''
       index_name: ''
       show_logo: false
+    docsearch:
+      app_id: ''
+      api_key: ''
+      index_name: ''
   map:
     provider: ''
     api_key: ''
