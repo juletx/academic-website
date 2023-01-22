@@ -7,7 +7,7 @@ widget: accomplishments
 headless: true
 
 # Order that this section appears on the page.
-weight: 50
+weight: 26
 
 title: <i class='fas fa-award'></i>&nbsp;Certificates
 subtitle: ''

@@ -7,12 +7,12 @@ widget: pages
 headless: true
 
 # Activate this widget? true/false
-active: false
+active: true
 
 # Order that this section appears on the page.
 weight: 90
 
-title: "Recent [Publications](publication)"
+title: "[<i class='fas fa-book'></i>&nbsp;Publications](publication)"
 subtitle: ''
 
 content:
@@ -41,5 +41,5 @@ design:
   #   2 = Compact
   #   3 = Card
   #   4 = Citation (publication only)
-  view: citation
+  view: card
 ---

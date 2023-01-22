@@ -10,9 +10,9 @@ headless: true
 active: true
 
 # Order that this section appears on the page.
-weight: 21
+weight: 25
 
-title: <i class='fas fa-briefcase'></i>&nbsp;Experience
+title: <i class='fas fa-graduation-cap'></i>&nbsp;Education
 subtitle:
 
 # Date format for experience
@@ -25,7 +25,23 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: PhD Student in Language Analysis and Processing
+  - title: Degree in Computer Engineering
+    company: UPV/EHU
+    company_url: 'https://ehu.eus/en'
+    company_logo: upv_ehu
+    location: Donostia
+    date_start: '2017-09-10'
+    date_end: '2021-09-10'
+    description: ""
+  - title: Master in Language Analysis and Processing
+    company: UPV/EHU
+    company_url: 'https://ehu.eus/en'
+    company_logo: upv_ehu
+    location: Donostia
+    date_start: '2021-10-25'
+    date_end: '2021-10-25'
+    description: ""
+  - title: PhD in Language Analysis and Processing
     company: UPV/EHU
     company_url: 'https://ehu.eus/en'
     company_logo: upv_ehu
