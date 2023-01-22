@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Estudiante de Máster en Análisis y Procesamiento del Lenguaje
+role: Estudiante de Doctorado en Análisis y Procesamiento del Lenguaje
 
 # Organizations/Affiliations
 organizations:
@@ -20,7 +20,7 @@ organizations:
     url: https://www.ehu.eus/es/web/informatika-fakultatea/home
 
 # Short bio (displayed in user profile at end of posts)
-bio: Estudiante de Máster en Análisis y Procesamiento del Lenguaje en la [Facultad de Informática](https://www.ehu.eus/es/web/informatika-fakultatea/home) de la [Universidad del País Vasco (UPV/EHU)](https://www.ehu.eus/es/home). Graduado en Ingeniería Informática con especialidad en Ingeniería del Software.
+bio: Estudiante de Doctorado en Análisis y Procesamiento del Lenguaje en la [Facultad de Informática](https://www.ehu.eus/es/web/informatika-fakultatea/home) de la [Universidad del País Vasco (UPV/EHU)](https://www.ehu.eus/es/home). Graduado en Ingeniería Informática con especialidad en Ingeniería del Software.
 
 # Interests
 interests:
@@ -40,6 +40,9 @@ education:
   - course: Máster en Análisis y Procesamiento del Lenguaje
     institution: Universidad del País Vasco (UPV/EHU)
     year: 2021-2022
+  - course: Doctorado en Análisis y Procesamiento del Lenguaje
+    institution: Universidad del País Vasco (UPV/EHU)
+    year: 2023-Presente
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/page-builder/#icons
@@ -49,6 +52,11 @@ social:
   - icon: envelope
     icon_pack: fas
     link: mailto:juletxara@gmail.com
+    display:
+      header: true
+  - icon: graduation-cap
+    icon_pack: fas
+    link: https://scholar.google.com/citations?user=BDGXAjgAAAAJ
     display:
       header: true
   - icon: github
@@ -75,17 +83,17 @@ social:
     icon_pack: fab
     link: https://www.hackerrank.com/juletxara
     display:
-      header: true
+      header: false
   - icon: kaggle
     icon_pack: fab
     link: https://www.kaggle.com/juletxara
     display:
-      header: true
+      header: false
   - icon: cv
     icon_pack: ai
-    link: ../uploads/CV_JulenEtxaniz_ES.pdf
+    link: ../uploads/CV_JulenEtxaniz_EN.pdf
     display:
-      header: true
+      header: false
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: "juletxara@gmail.com"
@@ -98,6 +106,6 @@ user_groups: []
 highlight_name: true
 ---
 
-Estudiante de Máster en Análisis y Procesamiento del Lenguaje en la [Facultad de Informática](https://www.ehu.eus/es/web/informatika-fakultatea/home) de la [Universidad del País Vasco (UPV/EHU)](https://www.ehu.eus/es/home). Graduado en Ingeniería Informática con especialidad en Ingeniería del Software.
+Estudiante de Doctorado en Análisis y Procesamiento del Lenguaje en la [Facultad de Informática](https://www.ehu.eus/es/web/informatika-fakultatea/home) de la [Universidad del País Vasco (UPV/EHU)](https://www.ehu.eus/es/home). Graduado en Ingeniería Informática con especialidad en Ingeniería del Software. Máster en Análisis y Procesamiento del Lenguaje.
 
 En esta web encontrarás información sobre [<i class='fas fa-check'></i>&nbsp;Habilidades](#skills), [<i class='fas fa-award'></i>&nbsp;Certificados](#accomplishments), [<i class='fas fa-code'></i>&nbsp;Proyectos](#projects), [<i class='fas fa-tags'></i>&nbsp;Etiquetas](#tags) y [<i class='fas fa-envelope'></i>&nbsp;Contacto](#contact).

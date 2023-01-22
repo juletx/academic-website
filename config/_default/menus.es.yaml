@@ -7,38 +7,41 @@ main:
 #  - name: Inicio
 #    url: '#about'
 #    weight: 10
-  - name: Habilidades
-    url: '#skills'
-    weight: 20
-    pre: <i class='fas fa-check'></i>&nbsp;
-#  - name: Experiencia
-#    url: '#experience'
-#    weight: 30
+  - name: Experiencia
+    url: '#experience'
+    weight: 21
+  - name: Educación
+    url: '#education'
+    weight: 25
   - name: Certificados
     url: '#accomplishments'
-    weight: 40
-    pre: <i class='fas fa-award'></i>&nbsp;
+    weight: 26
+    #pre: <i class='fas fa-award'></i>&nbsp;
+  - name: Habilidades
+    url: '#skills'
+    weight: 30
+    #pre: <i class='fas fa-check'></i>&nbsp;
 #  - name: Blog
 #    url: '#posts'
 #    weight: 50
   - name: Proyectos
     url: '#projects'
     weight: 60
-    pre: <i class='fas fa-code'></i>&nbsp;
+    #pre: <i class='fas fa-code'></i>&nbsp;
 #  - name: Eventos
 #    url: '#events'
 #    weight: 70
-#  - name: Publicaciones
-#    url: '#featured'
-#    weight: 80
+  - name: Publicaciones
+    url: '#publications'
+    weight: 80
   - name: Etiquetas
     url: '#tags'
     weight: 90
-    pre: <i class='fas fa-tags'></i>&nbsp;
+    #pre: <i class='fas fa-tags'></i>&nbsp;
   - name: Contacto
     url: '#contact'
     weight: 100
-    pre: <i class='fas fa-envelope'></i>&nbsp;
+    #pre: <i class='fas fa-envelope'></i>&nbsp;
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.

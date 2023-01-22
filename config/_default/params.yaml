@@ -18,8 +18,7 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: >-
-      Hizkuntzaren Azterketa eta Prozesamendua Masterreko ikaslea Euskal Herriko Unibertsitateko (UPV/EHU) Informatika Fakultatean. Informatika Ingeniaritzan graduatua Software Ingeniaritza espezialitatearekin.
+    description: ""
     twitter: juletxara
   analytics:
     google_analytics: ''
@@ -28,51 +27,6 @@ marketing:
   verification:
     google: ''
     baidu: ''
-
-# Contact (edit or remove options as required)
-
-email: juletxara@gmail.com
-# phone: 888 888 88 88
-address:
-  street: 'Informatika Fakultatea<br> Manuel Lardizabal Ibilbidea, 1'
-  city: Donostia
-  region: Gipuzkoa
-  postcode: '20018'
-  country: Espainia
-  country_code: ES
-# coordinates:
-#   latitude: '43.307205'
-#   longitude: '-2.010843'
-# directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-# office_hours:
-#   - 'Monday 10:00 to 13:00'
-#   - 'Wednesday 09:00 to 10:00'
-# appointment_url: 'https://calendly.com'
-contact_links:
-  - icon: github
-    icon_pack: fab
-    name: github.com/juletx
-    link: 'https://github.com/juletx'
-  - icon: linkedin
-    icon_pack: fab
-    name: linkedin.com/in/juletxara
-    link: 'https://www.linkedin.com/in/juletxara'
-  - icon: twitter
-    icon_pack: fab
-    name: twitter.com/juletxara
-    link: 'https://twitter.com/juletxara'
-  - icon: instagram
-    icon_pack: fab
-    name: instagram.com/juletxara
-    link: 'https://www.instagram.com/juletxara'
-  - icon: hackerrank
-    icon_pack: fab
-    name: hackerrank.com/juletxara
-    link: 'https://www.hackerrank.com/juletxara'
-  - icon: kaggle
-    icon_pack: fab
-    name: kaggle.com/juletxara
-    link: 'https://www.kaggle.com/juletxara'
 
 # Site header
 
@@ -180,3 +134,7 @@ extensions:
     enable: true
   academicons:
     enable: true
+
+security:
+  # Allow frame for embedding speaker notes in slides
+  allow_frame: false

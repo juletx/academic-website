@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Hizkuntzaren Azterketa eta Prozesamendua Masterreko ikaslea
+role: Hizkuntzaren Azterketa eta Prozesamendua Doktoregoko ikaslea
 
 # Organizations/Affiliations
 organizations:
@@ -20,7 +20,7 @@ organizations:
     url: https://www.ehu.eus/eu/web/informatika-fakultatea/home
 
 # Short bio (displayed in user profile at end of posts)
-bio: Hizkuntzaren Azterketa eta Prozesamendua Masterreko ikaslea [Euskal Herriko Unibertsitateko (UPV/EHU)](https://www.ehu.eus/eu/home) [Informatika Fakultatean](https://www.ehu.eus/eu/web/informatika-fakultatea/home). Informatika Ingeniaritzan graduatua Software Ingeniaritza espezialitatearekin.
+bio: Hizkuntzaren Azterketa eta Prozesamendua Doktoregoko ikaslea [Euskal Herriko Unibertsitateko (UPV/EHU)](https://www.ehu.eus/eu/home) [Informatika Fakultatean](https://www.ehu.eus/eu/web/informatika-fakultatea/home). Informatika Ingeniaritzan graduatua Software Ingeniaritza espezialitatearekin. Hizkuntzaren Azterketa eta Prozesamendua Masterra.
 
 # Interests
 interests:
@@ -40,6 +40,9 @@ education:
   - course: Hizkuntzaren Azterketa eta Prozesamendua Masterra
     institution: Euskal Herriko Unibertsitatea (UPV/EHU)
     year: 2021-2022
+  - course: Hizkuntzaren Azterketa eta Prozesamendua Doktoregoa
+    institution: Euskal Herriko Unibertsitatea (UPV/EHU)
+    year: 2023-Gaur
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/page-builder/#icons
@@ -49,6 +52,11 @@ social:
   - icon: envelope
     icon_pack: fas
     link: mailto:juletxara@gmail.com
+    display:
+      header: true
+  - icon: graduation-cap
+    icon_pack: fas
+    link: https://scholar.google.com/citations?user=BDGXAjgAAAAJ
     display:
       header: true
   - icon: github
@@ -75,17 +83,17 @@ social:
     icon_pack: fab
     link: https://www.hackerrank.com/juletxara
     display:
-      header: true
+      header: false
   - icon: kaggle
     icon_pack: fab
     link: https://www.kaggle.com/juletxara
     display:
-      header: true
+      header: false
   - icon: cv
     icon_pack: ai
-    link: uploads/CV_JulenEtxaniz_EN.pdf
+    link: ../uploads/CV_JulenEtxaniz_EN.pdf
     display:
-      header: true
+      header: false
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: "juletxara@gmail.com"
@@ -98,6 +106,6 @@ user_groups: []
 highlight_name: true
 ---
 
-Hizkuntzaren Azterketa eta Prozesamendua Masterreko ikaslea [Euskal Herriko Unibertsitateko (UPV/EHU)](https://www.ehu.eus/eu/home) [Informatika Fakultatean](https://www.ehu.eus/eu/web/informatika-fakultatea/home). Informatika Ingeniaritzan graduatua Software Ingeniaritza espezialitatearekin.
+Hizkuntzaren Azterketa eta Prozesamendua Doktoregoko ikaslea [Euskal Herriko Unibertsitateko (UPV/EHU)](https://www.ehu.eus/eu/home) [Informatika Fakultatean](https://www.ehu.eus/eu/web/informatika-fakultatea/home). Informatika Ingeniaritzan graduatua Software Ingeniaritza espezialitatearekin. Hizkuntzaren Azterketa eta Prozesamendua Masterra.
 
 Web honetan informazio hau aurkituko duzu: [<i class='fas fa-check'></i>&nbsp;Trebetasunak](#skills), [<i class='fas fa-award'></i>&nbsp;Ziurtagiriak](#accomplishments), [<i class='fas fa-code'></i>&nbsp;Proiektuak](#projects), [<i class='fas fa-tags'></i>&nbsp;Etiketak](#tags) eta [<i class='fas fa-envelope'></i>&nbsp;Kontaktua](#contact).

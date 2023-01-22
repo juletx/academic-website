@@ -1,6 +1,6 @@
 ---
 title: Argitalpenak
-draft: true
+draft: false
 cms_exclude: true
 
 # View.
@@ -8,7 +8,7 @@ cms_exclude: true
 #   2 = Compact
 #   3 = Card
 #   4 = Citation
-view: citation
+view: card
 
 # Optional header image (relative to `static/media/` folder).
 header:
