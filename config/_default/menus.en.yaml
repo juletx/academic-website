@@ -33,7 +33,7 @@ main:
 #    weight: 70
   - name: Publications
     url: '#publications'
-    weight: 80
+    weight: 50
   - name: Tags
     url: '#tags'
     weight: 90

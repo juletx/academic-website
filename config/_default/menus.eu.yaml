@@ -33,7 +33,7 @@ main:
 #    weight: 70
   - name: Argitalpenak
     url: '#publications'
-    weight: 80
+    weight: 50
   - name: Etiketak
     url: '#tags'
     weight: 90

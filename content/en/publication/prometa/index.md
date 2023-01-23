@@ -3,11 +3,11 @@
 
 title: "ProMeta: softwarearen garapenerako prozesuen definizio eta ezarpenerako sistema metaereduetan oinarrituta"
 authors: ["julen-etxaniz"]
-date: 2021-10-08
+date: "2021-10-08"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: ""
+publishDate: "2021-10-08"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;

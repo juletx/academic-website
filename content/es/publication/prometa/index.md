@@ -3,11 +3,11 @@
 
 title: "ProMeta: softwarearen garapenerako prozesuen definizio eta ezarpenerako sistema metaereduetan oinarrituta"
 authors: ["julen-etxaniz"]
-date: 2021-10-08
+date: "2021-10-08"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: ""
+publishDate: "2021-10-08"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -19,7 +19,13 @@ publication_types: ["7"]
 publication: "ADDI"
 publication_short: ""
 
-abstract: "The objective of the project is to build a system for the definition and implementation of software development processes based on metamodels. In fact, there are several methodologies that are suitable for software development. It is important to define the information of these methodologies through models so that they can be managed flexibly in the future and improvements can be made. In addition, it is necessary to build a system that establishes a methodology using information from the model for use by development teams in projects. The OpenUP methodology was used for the development of the project and the CCII-N2016-02 standard for the drafting of the project documentation and memory."
+abstract: "The objective of the project is to build a system for the definition and implementation of software
+development processes based on metamodels. In fact, there are several methodologies that are suitable
+for software development. It is important to define the information of these methodologies through
+models so that they can be managed flexibly in the future and improvements can be made. In addition, it
+is necessary to build a system that establishes a methodology using information from the model for use
+by development teams in projects. The OpenUP methodology was used for the development of the
+project and the CCII-N2016-02 standard for the drafting of the project documentation and memory."
 
 # Summary. An optional shortened abstract.
 summary: ""
