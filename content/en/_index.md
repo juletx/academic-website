@@ -5,13 +5,12 @@ date: 2023-01-22
 type: landing
 
 sections:
-  - block: about.avatar
+  - block: about.biography
     id: about
     content:
+      title: <i class='fas fa-book'></i>&nbsp;Biography
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: julen-etxaniz
-      # Override your bio text from `authors/admin/_index.md`?
-      text:
   - block: experience
     id: experience
     content:

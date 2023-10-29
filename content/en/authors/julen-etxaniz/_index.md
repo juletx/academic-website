@@ -2,6 +2,17 @@
 # Display name
 title: Julen Etxaniz
 
+# Name pronunciation (optional)
+name_pronunciation: 
+
+# Full name (for SEO)
+first_name: Julen
+last_name: Etxaniz
+
+# Status emoji
+status:
+  icon: 
+
 # Username (this should match the folder name)
 authors:
 - julen-etxaniz
