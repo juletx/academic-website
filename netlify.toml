@@ -1,25 +1,25 @@
 [build]
-  command = "hugo --gc --minify -b $URL"
-  publish = "public"
+command = "hugo --gc --minify -b $URL"
+publish = "public"
 
 [build.environment]
-  HUGO_VERSION = "0.101.0"
-  HUGO_ENABLEGITINFO = "true"
+HUGO_VERSION = "0.119.0"
+HUGO_ENABLEGITINFO = "true"
 
 [context.production.environment]
-  HUGO_ENV = "production"
+HUGO_ENV = "production"
 
 [context.deploy-preview]
-  command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
+command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
 
 [context.branch-deploy]
-  command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
+command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
 
 [[headers]]
-  for = "/*"
-  [headers.values]
-    Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
-    Content-Security-Policy = '''
+for = "/*"
+[headers.values]
+Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
+Content-Security-Policy = '''
       default-src 'self' c.disquscdn.com disqus.com;
       connect-src 'self' www.google-analytics.com www.netlifystatus.com;
       font-src 'self' cdn.jsdelivr.net fonts.gstatic.com;
@@ -36,15 +36,15 @@
       upgrade-insecure-requests;
       report-uri https://julenetxaniz.report-uri.com/r/d/csp/enforce;
       report-to default'''
-    Report-To = '{"group":"default", "max_age":31536000, "endpoints":[{"url":"https://julenetxaniz.report-uri.com/a/d/g"}], "include_subdomains":true}'
-    NEL = '{"report_to":"default", "max_age":31536000, "include_subdomains":true}'
-    Expect-CT = 'max-age=604800, report-uri="https://julenetxaniz.report-uri.com/r/d/ct/enforce"'
-    X-Frame-Options = "SAMEORIGIN"
-    X-XSS-Protection = "1; mode=block"
-    X-Content-Type-Options = "nosniff"
-    Referrer-Policy	= "strict-origin-when-cross-origin"
-    Feature-Policy = "accelerometer 'none'; camera 'none'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; payment 'none'; usb 'none'"
-    Permissions-Policy = "accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()"
-    Cross-Origin-Embedder-Policy-Report-Only = "require-corp; report-to='default'"
-    Cross-Origin-Opener-Policy-Report-Only = "same-origin; report-to='default'"
-    Cross-Origin-Resource-Policy = "same-site"
+Report-To = '{"group":"default", "max_age":31536000, "endpoints":[{"url":"https://julenetxaniz.report-uri.com/a/d/g"}], "include_subdomains":true}'
+NEL = '{"report_to":"default", "max_age":31536000, "include_subdomains":true}'
+Expect-CT = 'max-age=604800, report-uri="https://julenetxaniz.report-uri.com/r/d/ct/enforce"'
+X-Frame-Options = "SAMEORIGIN"
+X-XSS-Protection = "1; mode=block"
+X-Content-Type-Options = "nosniff"
+Referrer-Policy = "strict-origin-when-cross-origin"
+Feature-Policy = "accelerometer 'none'; camera 'none'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; payment 'none'; usb 'none'"
+Permissions-Policy = "accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()"
+Cross-Origin-Embedder-Policy-Report-Only = "require-corp; report-to='default'"
+Cross-Origin-Opener-Policy-Report-Only = "same-origin; report-to='default'"
+Cross-Origin-Resource-Policy = "same-site"
