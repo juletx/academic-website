@@ -9,7 +9,7 @@ permissions:
 # Run workflow when a `.bib` file is added or updated in the `data/` folder
 on:
   push:
-    branches: ['main']
+    branches: ['master']
     paths: ['publications.bib']
 
   # Allows you to run this workflow manually from the Actions tab
@@ -46,7 +46,7 @@ jobs:
             Import the latest publications from `publications.bib` to `content/publication/`.
             将最新的出版物从`publications.bib`导入到`content/publication/`。
             [View Documentation](https://github.com/wowchemy/bibtex-to-markdown)
-          base: main
+          base: master
           labels: automated-pr, content
           branch: wowchemy-import-publications
           delete-branch: true
