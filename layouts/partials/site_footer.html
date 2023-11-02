@@ -1,62 +1,248 @@
 <footer class="site-footer">
-  {{ partial "functions/get_hook" (dict "hook" "footer-start" "context" .) }}
-
-  {{/* Load footer widget */}}
-  {{ $footer_section_name := site.Params.footer.widget | default "minimal" }}
-  {{ $footer_section_path := printf "components/footers/%s.html" $footer_section_name }}
-  {{ if not (templates.Exists (printf "partials/%s" $footer_section_path)) }}
-    {{ errorf "Check your `params.yaml`. Cannot find footer widget at `layouts/partials/%s`" $footer_section_path }}
-  {{ end }}
-  {{ partial $footer_section_path . }}
+  {{ partial "wowchemy-core/functions/get_hook" (dict "hook" "footer-start"
+  "context" .) }} {{/* Load footer widget */}} {{ $footer_section_name :=
+  site.Params.footer.widget | default "minimal" }} {{ $footer_section_path :=
+  printf "components/footers/%s.html" $footer_section_name }} {{ if not
+  (templates.Exists (printf "partials/%s" $footer_section_path)) }} {{ errorf
+  "Check your `params.yaml`. Cannot find footer widget at `layouts/partials/%s`"
+  $footer_section_path }} {{ end }} {{ partial $footer_section_path . }}
 
   <p class="powered-by">
-    {{- $freepik_icon := resources.Get ("media/icons/freepik.ico") -}}
-    {{- $flaticon_icon := resources.Get ("media/icons/flaticon.ico") -}}
-    {{- $icons8_icon := resources.Get ("media/icons/icons8.svg") -}}
-    {{ if eq .Site.Language.Lang "eu" }}
-    Ikonoak <a href="https://www.flaticon.es/" title="Flaticon"><img src="{{ $flaticon_icon.RelPermalink }}" alt="Flaticon" class="svg-icon svg-baseline"> Flaticon</a>-eko
-    <a href="https://www.flaticon.es/autores/freepik" title="Freepik"><img src="{{ $freepik_icon.RelPermalink }}" alt="Freepik" class="svg-icon svg-baseline"> Freepik</a>-enak eta <a href="https://icons8.com/" title="Icons8"><img src="{{ $icons8_icon.RelPermalink }}" alt="Icons8" class="svg-icon svg-baseline"> Icons8</a>-enak dira
-	  {{ else if eq .Site.Language.Lang "es" }}
-    Iconos diseñados por <a href="https://www.flaticon.es/autores/freepik" title="Freepik"><img src="{{ $freepik_icon.RelPermalink }}" alt="Freepik" class="svg-icon svg-baseline"> Freepik</a> de
-    <a href="https://www.flaticon.es/" title="Flaticon"><img src="{{ $flaticon_icon.RelPermalink }}" alt="Flaticon" class="svg-icon svg-baseline"> Flaticon</a> y por <a href="https://icons8.com/" title="Icons8"><img src="{{ $icons8_icon.RelPermalink }}" alt="Icons8" class="svg-icon svg-baseline"> Icons8</a>
-	  {{ else if eq .Site.Language.Lang "en" }}
-    Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik"><img src="{{ $freepik_icon.RelPermalink }}" alt="Freepik" class="svg-icon svg-baseline"> Freepik</a> from
-    <a href="https://www.flaticon.com/" title="Flaticon"><img src="{{ $flaticon_icon.RelPermalink }}" alt="Flaticon" class="svg-icon svg-baseline"> Flaticon</a> and from <a href="https://icons8.com/" title="Icons8"><img src="{{ $icons8_icon.RelPermalink }}" alt="Icons8" class="svg-icon svg-baseline"> Icons8</a>
-	  {{ end }}
-  </p>
-
-  <p class="powered-by">
-    {{- $netlify_icon := resources.Get ("media/icons/netlify.svg") -}}
-    {{ if eq .Site.Language.Lang "eu" }}
-    <a href="https://github.com/juletx/academic-website" title="GitHub"><i class="fab fa-github"></i>&nbsp;GitHub</a>-en ostatatua -
-    <a href="https://www.netlify.com/" title="Netlify"><img src="{{ $netlify_icon.RelPermalink }}" alt="Netlify" class="svg-icon svg-baseline"> Netlify</a>-k zerbitzatua
-	  {{ else if eq .Site.Language.Lang "es" }}
-    Alojado en <a href="https://github.com/juletx/academic-website" title="GitHub"><i class="fab fa-github"></i>&nbsp;GitHub</a> -
-    Servido por <a href="https://www.netlify.com/" title="Netlify"><img src="{{ $netlify_icon.RelPermalink }}" alt="Netlify" class="svg-icon svg-baseline"> Netlify</a>
-	  {{ else if eq .Site.Language.Lang "en" }}
-    Hosted on <a href="https://github.com/juletx/academic-website" title="GitHub"><i class="fab fa-github"></i>&nbsp;GitHub</a> -
-    Served by <a href="https://www.netlify.com/" title="Netlify"><img src="{{ $netlify_icon.RelPermalink }}" alt="Netlify" class="svg-icon svg-baseline"> Netlify</a>
-	  {{ end }}
-  </p>
-
-  <p class="powered-by">
-    {{- $wowchemy_icon := resources.Get ("media/icons/wowchemy.png") -}}
-    {{- $academic_icon := resources.Get ("media/icons/academic.png") -}}
-    {{- $hugo_icon := resources.Get ("media/icons/hugo.png") -}}
-    {{ if eq .Site.Language.Lang "eu" }}
-    <a href="https://wowchemy.com" target="_blank" rel="noopener"><img src="{{ $wowchemy_icon.RelPermalink }}" alt="Wowchemy" class="svg-icon svg-baseline"> Wowchemy</a>-ren
-    <a href="https://github.com/wowchemy/starter-academic" target="_blank" rel="noopener"><img src="{{ $academic_icon.RelPermalink }}" alt="Academic" class="svg-icon svg-baseline">Academic Template</a>-ekin publikatua —
-    <a href="https://gohugo.io/" target="_blank" rel="noopener"><img src="{{ $hugo_icon.RelPermalink }}" alt="Hugo" class="svg-icon svg-baseline"> Hugo</a>-rako
-    webgune eraikitzailea, doakoa eta <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener"><i class="fab fa-github"></i>&nbsp;kode irekikoa</a>
-	  {{ else if eq .Site.Language.Lang "es" }}
-    Publicado con <a href="https://github.com/wowchemy/starter-academic" target="_blank" rel="noopener"><img src="{{ $academic_icon.RelPermalink }}" alt="Academic" class="svg-icon svg-baseline">Academic Template</a> de
-    <a href="https://wowchemy.com" target="_blank" rel="noopener"><img src="{{ $wowchemy_icon.RelPermalink }}" alt="Wowchemy" class="svg-icon svg-baseline"> Wowchemy</a> —
-    el constructor de sitios web gratuito y de <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener"><i class="fab fa-github"></i>&nbsp;código abierto</a> para <a href="https://gohugo.io/" target="_blank" rel="noopener"><img src="{{ $hugo_icon.RelPermalink }}" alt="Hugo" class="svg-icon svg-baseline"> Hugo</a>
-	  {{ else if eq .Site.Language.Lang "en" }}
-    Published with <a href="https://github.com/wowchemy/starter-academic" target="_blank" rel="noopener"><img src="{{ $academic_icon.RelPermalink }}" alt="Academic" class="svg-icon svg-baseline">Academic Template</a> from
-    <a href="https://wowchemy.com" target="_blank" rel="noopener"><img src="{{ $wowchemy_icon.RelPermalink }}" alt="Wowchemy" class="svg-icon svg-baseline"> Wowchemy</a>  —
-    the free and <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener"><i class="fab fa-github"></i>&nbsp;open source</a> website builder for <a href="https://gohugo.io/" target="_blank" rel="noopener"><img src="{{ $hugo_icon.RelPermalink }}" alt="Hugo" class="svg-icon svg-baseline"> Hugo</a>
+    {{- $freepik_icon := resources.Get ("media/icons/freepik.ico") -}} {{-
+    $flaticon_icon := resources.Get ("media/icons/flaticon.ico") -}} {{-
+    $icons8_icon := resources.Get ("media/icons/icons8.svg") -}} {{ if eq
+    .Site.Language.Lang "eu" }} Ikonoak
+    <a href="https://www.flaticon.es/" title="Flaticon"
+      ><img
+        src="{{ $flaticon_icon.RelPermalink }}"
+        alt="Flaticon"
+        class="svg-icon svg-baseline"
+      />
+      Flaticon</a
+    >-eko
+    <a href="https://www.flaticon.es/autores/freepik" title="Freepik"
+      ><img
+        src="{{ $freepik_icon.RelPermalink }}"
+        alt="Freepik"
+        class="svg-icon svg-baseline"
+      />
+      Freepik</a
+    >-enak eta
+    <a href="https://icons8.com/" title="Icons8"
+      ><img
+        src="{{ $icons8_icon.RelPermalink }}"
+        alt="Icons8"
+        class="svg-icon svg-baseline"
+      />
+      Icons8</a
+    >-enak dira {{ else if eq .Site.Language.Lang "es" }} Iconos diseñados por
+    <a href="https://www.flaticon.es/autores/freepik" title="Freepik"
+      ><img
+        src="{{ $freepik_icon.RelPermalink }}"
+        alt="Freepik"
+        class="svg-icon svg-baseline"
+      />
+      Freepik</a
+    >
+    de
+    <a href="https://www.flaticon.es/" title="Flaticon"
+      ><img
+        src="{{ $flaticon_icon.RelPermalink }}"
+        alt="Flaticon"
+        class="svg-icon svg-baseline"
+      />
+      Flaticon</a
+    >
+    y por
+    <a href="https://icons8.com/" title="Icons8"
+      ><img
+        src="{{ $icons8_icon.RelPermalink }}"
+        alt="Icons8"
+        class="svg-icon svg-baseline"
+      />
+      Icons8</a
+    >
+    {{ else if eq .Site.Language.Lang "en" }} Icons made by
+    <a href="https://www.flaticon.com/authors/freepik" title="Freepik"
+      ><img
+        src="{{ $freepik_icon.RelPermalink }}"
+        alt="Freepik"
+        class="svg-icon svg-baseline"
+      />
+      Freepik</a
+    >
+    from
+    <a href="https://www.flaticon.com/" title="Flaticon"
+      ><img
+        src="{{ $flaticon_icon.RelPermalink }}"
+        alt="Flaticon"
+        class="svg-icon svg-baseline"
+      />
+      Flaticon</a
+    >
+    and from
+    <a href="https://icons8.com/" title="Icons8"
+      ><img
+        src="{{ $icons8_icon.RelPermalink }}"
+        alt="Icons8"
+        class="svg-icon svg-baseline"
+      />
+      Icons8</a
+    >
     {{ end }}
   </p>
 
+  <p class="powered-by">
+    {{- $netlify_icon := resources.Get ("media/icons/netlify.svg") -}} {{ if eq
+    .Site.Language.Lang "eu" }}
+    <a href="https://github.com/juletx/academic-website" title="GitHub"
+      ><i class="fab fa-github"></i>&nbsp;GitHub</a
+    >-en ostatatua -
+    <a href="https://www.netlify.com/" title="Netlify"
+      ><img
+        src="{{ $netlify_icon.RelPermalink }}"
+        alt="Netlify"
+        class="svg-icon svg-baseline"
+      />
+      Netlify</a
+    >-k zerbitzatua {{ else if eq .Site.Language.Lang "es" }} Alojado en
+    <a href="https://github.com/juletx/academic-website" title="GitHub"
+      ><i class="fab fa-github"></i>&nbsp;GitHub</a
+    >
+    - Servido por
+    <a href="https://www.netlify.com/" title="Netlify"
+      ><img
+        src="{{ $netlify_icon.RelPermalink }}"
+        alt="Netlify"
+        class="svg-icon svg-baseline"
+      />
+      Netlify</a
+    >
+    {{ else if eq .Site.Language.Lang "en" }} Hosted on
+    <a href="https://github.com/juletx/academic-website" title="GitHub"
+      ><i class="fab fa-github"></i>&nbsp;GitHub</a
+    >
+    - Served by
+    <a href="https://www.netlify.com/" title="Netlify"
+      ><img
+        src="{{ $netlify_icon.RelPermalink }}"
+        alt="Netlify"
+        class="svg-icon svg-baseline"
+      />
+      Netlify</a
+    >
+    {{ end }}
+  </p>
+
+  <p class="powered-by">
+    {{- $wowchemy_icon := resources.Get ("media/icons/wowchemy.png") -}} {{-
+    $academic_icon := resources.Get ("media/icons/academic.png") -}} {{-
+    $hugo_icon := resources.Get ("media/icons/hugo.png") -}} {{ if eq
+    .Site.Language.Lang "eu" }}
+    <a href="https://wowchemy.com" target="_blank" rel="noopener"
+      ><img
+        src="{{ $wowchemy_icon.RelPermalink }}"
+        alt="Wowchemy"
+        class="svg-icon svg-baseline"
+      />
+      Wowchemy</a
+    >-ren
+    <a
+      href="https://github.com/wowchemy/starter-academic"
+      target="_blank"
+      rel="noopener"
+      ><img
+        src="{{ $academic_icon.RelPermalink }}"
+        alt="Academic"
+        class="svg-icon svg-baseline"
+      />Academic Template</a
+    >-ekin publikatua —
+    <a href="https://gohugo.io/" target="_blank" rel="noopener"
+      ><img
+        src="{{ $hugo_icon.RelPermalink }}"
+        alt="Hugo"
+        class="svg-icon svg-baseline"
+      />
+      Hugo</a
+    >-rako webgune eraikitzailea, doakoa eta
+    <a
+      href="https://github.com/wowchemy/wowchemy-hugo-modules"
+      target="_blank"
+      rel="noopener"
+      ><i class="fab fa-github"></i>&nbsp;kode irekikoa</a
+    >
+    {{ else if eq .Site.Language.Lang "es" }} Publicado con
+    <a
+      href="https://github.com/wowchemy/starter-academic"
+      target="_blank"
+      rel="noopener"
+      ><img
+        src="{{ $academic_icon.RelPermalink }}"
+        alt="Academic"
+        class="svg-icon svg-baseline"
+      />Academic Template</a
+    >
+    de
+    <a href="https://wowchemy.com" target="_blank" rel="noopener"
+      ><img
+        src="{{ $wowchemy_icon.RelPermalink }}"
+        alt="Wowchemy"
+        class="svg-icon svg-baseline"
+      />
+      Wowchemy</a
+    >
+    — el constructor de sitios web gratuito y de
+    <a
+      href="https://github.com/wowchemy/wowchemy-hugo-modules"
+      target="_blank"
+      rel="noopener"
+      ><i class="fab fa-github"></i>&nbsp;código abierto</a
+    >
+    para
+    <a href="https://gohugo.io/" target="_blank" rel="noopener"
+      ><img
+        src="{{ $hugo_icon.RelPermalink }}"
+        alt="Hugo"
+        class="svg-icon svg-baseline"
+      />
+      Hugo</a
+    >
+    {{ else if eq .Site.Language.Lang "en" }} Published with
+    <a
+      href="https://github.com/wowchemy/starter-academic"
+      target="_blank"
+      rel="noopener"
+      ><img
+        src="{{ $academic_icon.RelPermalink }}"
+        alt="Academic"
+        class="svg-icon svg-baseline"
+      />Academic Template</a
+    >
+    from
+    <a href="https://wowchemy.com" target="_blank" rel="noopener"
+      ><img
+        src="{{ $wowchemy_icon.RelPermalink }}"
+        alt="Wowchemy"
+        class="svg-icon svg-baseline"
+      />
+      Wowchemy</a
+    >
+    — the free and
+    <a
+      href="https://github.com/wowchemy/wowchemy-hugo-modules"
+      target="_blank"
+      rel="noopener"
+      ><i class="fab fa-github"></i>&nbsp;open source</a
+    >
+    website builder for
+    <a href="https://gohugo.io/" target="_blank" rel="noopener"
+      ><img
+        src="{{ $hugo_icon.RelPermalink }}"
+        alt="Hugo"
+        class="svg-icon svg-baseline"
+      />
+      Hugo</a
+    >
+    {{ end }}
+  </p>
 </footer>
