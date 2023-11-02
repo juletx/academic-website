@@ -1,5 +1,5 @@
 ---
-title: Publicaciones
+title: Publications
 draft: false
 cms_exclude: true
 
