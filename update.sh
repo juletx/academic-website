@@ -1,0 +1,3 @@
+hugo mod get -u ./...
+hugo mod tidy
+hugo mod vendor
