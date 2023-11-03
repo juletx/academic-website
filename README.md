@@ -1,44 +1,40 @@
-<p align="center"><a href="https://wowchemy.com/templates/" target="_blank" rel="noopener"><img src="https://wowchemy.com/uploads/readmes/academic_logo_200px.png" alt="Hugo Academic Template for Wowchemy Website Builder"></a></p>
+# [julenetxaniz.eus](https://julenetxaniz.eus)
 
-# Academic Template for [Hugo](https://github.com/gohugoio/hugo)
+Academic personal website in three languages: [Euskara](#euskara), [Español](#español) and [English](#english).
 
-The Hugo **Academic Resumé Template** empowers you to create your job-winning online resumé and showcase your academic publications.
+## [Euskara](https://julenetxaniz.eus/)
 
-[Check out the latest demo](https://academic-demo.netlify.app/) of what you'll get in less than 10 minutes, or [view the showcase](https://wowchemy.com/user-stories/).
+Web honetan informazio hau aurkituko duzu: Biografia, Esperientzia, Ikasketak, Trebetasunak, Ziurtagiriak, Argitalpenak, Proiektuak, Etiketak eta Kontaktua.
 
-[**Wowchemy**](https://wowchemy.com) makes it easy to create a beautiful website for free. Edit your site in Markdown, Jupyter, or RStudio (via Blogdown), generate it with Hugo, and deploy with GitHub or Netlify. Customize anything on your site with widgets, themes, and language packs.
+&copy; 2020&ndash;2023 Julen Etxaniz.
 
-- 👉 [**Get Started**](https://wowchemy.com/templates/)
-- 📚 [View the **documentation**](https://wowchemy.com/docs/)
-- 💬 [Chat with the **Wowchemy community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- 🐦 Twitter: [@wowchemy](https://twitter.com/wowchemy) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithWowchemy](https://twitter.com/search?q=(%23MadeWithWowchemy%20OR%20%23MadeWithAcademic)&src=typed_query)
-- 💡 [Request a **feature** or report a **bug** for _Wowchemy_](https://github.com/wowchemy/wowchemy-hugo-modules/issues)
-- ⬆️ **Updating Wowchemy?** View the [Update Guide](https://wowchemy.com/docs/guide/update/) and [Release Notes](https://wowchemy.com/updates/)
+<a href="https://wowchemy.com" target="_blank" rel="noopener">Wowchemy</a>-rekin publikatua —
+Hugo</a>-rako doako eta <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">
+kode irekiko</a> webgune eraikitzailea.
 
-## Crowd-funded open-source software
+<a href="https://github.com/juletx/academic-website" target="_blank" rel="noopener">GitHub</a>-en ostatatua · <a href="https://netilify.com" target="_blank" rel="noopener">Netlify</a>-k zerbitzatua.
 
-To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.
 
-### [❤️ Click here to unlock rewards with sponsorship](https://wowchemy.com/plans/)
+## [Español](https://julenetxaniz.eus/es)
 
-## Ecosystem
+En esta web encontrarás información sobre: Biografía, Experiencia, Educación, Habilidades, Certificados, Publicaciones, Proyectos, Etiquetas y Contacto.
 
-* **[Hugo Academic CLI](https://github.com/wowchemy/hugo-academic-cli):** Automatically import publications from BibTeX
+&copy; 2020&ndash;2023 Julen Etxaniz.
 
-[![Screenshot](https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/main/academic.png)](https://wowchemy.com)
+Publicado con <a href="https://wowchemy.com" target="_blank" rel="noopener">Wowchemy</a> —
+    el constructor de sitios web gratuito y <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">
+    de código abierto</a> para <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
 
-## Demo image credits
+Alojado en <a href="https://github.com/juletx/academic-website" target="_blank" rel="noopener">GitHub</a> · Servido por <a href="https://netilify.com" target="_blank" rel="noopener">Netlify</a>.
 
-- [Open book](https://unsplash.com/photos/J4kK8b9Fgj8)
-- [Course](https://unsplash.com/photos/JKUTrJ4vK00)
+## [English](https://julenetxaniz.eus/en)
 
-## Latest news
-<!--START_SECTION:news-->
-* [What&#39;s new in v5.2?](https:&#x2F;&#x2F;wowchemy.com&#x2F;blog&#x2F;v5.2.0&#x2F;)
-* [What&#39;s new in v5.1?](https:&#x2F;&#x2F;wowchemy.com&#x2F;blog&#x2F;v5.1.0&#x2F;)
-* [Version 5.0 (February 2021)](https:&#x2F;&#x2F;wowchemy.com&#x2F;blog&#x2F;v5.0.0&#x2F;)
-* [Version 5.0 Beta 3 (February 2021)](https:&#x2F;&#x2F;wowchemy.com&#x2F;blog&#x2F;v5.0.0-beta.3&#x2F;)
-* [Version 5.0 Beta 2 (January 2021)](https:&#x2F;&#x2F;wowchemy.com&#x2F;blog&#x2F;v5.0.0-beta.2&#x2F;)
-<!--END_SECTION:news-->
+In this web you will find this information: Biography, Experience, Education, Skills, Certificates, Publications, Projects, Tags and Contact.
 
-[![Analytics](https://ga-beacon.appspot.com/UA-78646709-2/starter-academic/readme?pixel)](https://github.com/igrigorik/ga-beacon)
+&copy; 2020&ndash;2023 Julen Etxaniz.
+
+Published with <a href="https://wowchemy.com" target="_blank" rel="noopener">Wowchemy</a>  —
+    the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">
+    open source</a> website builder for <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+Hosted on <a href="https://github.com/juletx/academic-website" target="_blank" rel="noopener">GitHub</a> · Served by <a href="https://netilify.com" target="_blank" rel="noopener">Netlify</a>.
