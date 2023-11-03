@@ -1,5 +1,7 @@
 # [julenetxaniz.eus](https://julenetxaniz.eus)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3665b541-0794-4d57-9f19-028a07362b9d/deploy-status)](https://app.netlify.com/sites/julenetxaniz/deploys)
+
 Academic personal website in three languages: [Euskara](#euskara), [Español](#español) and [English](#english).
 
 ## [Euskara](https://julenetxaniz.eus/)
