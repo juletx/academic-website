@@ -126,7 +126,7 @@ projects:
 # Site extensions
 
 extensions:
-  cms:
+  decap_cms:
     branch: master
     local_backend: true
   isotope:
