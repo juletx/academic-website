@@ -25,13 +25,15 @@ role: Estudiante de Doctorado en Análisis y Procesamiento del Lenguaje
 
 # Organizations/Affiliations
 organizations:
+  - name: "IXA Grupo de Investigación"
+    url: https://ixa.eus/
+  - name: "HiTZ Centro Vasco de Tecnología de la Lengua"
+    url: https://hitz.eus/
   - name: Universidad del País Vasco (UPV/EHU)
     url: https://www.ehu.eus/es/home
-  - name: Facultad de Informática
-    url: https://www.ehu.eus/es/web/informatika-fakultatea/home
 
 # Short bio (displayed in user profile at end of posts)
-bio: Estudiante de Doctorado en Análisis y Procesamiento del Lenguaje en la [Facultad de Informática](https://www.ehu.eus/es/web/informatika-fakultatea/home) de la [Universidad del País Vasco (UPV/EHU)](https://www.ehu.eus/es/home). Graduado en Ingeniería Informática con especialidad en Ingeniería del Software.
+bio: Estudiante de Doctorado en Análisis y Procesamiento del Lenguaje en HiTZ Center IXA Group (UPV/EHU). Trabajando en mejorar los modelos de lenguaje para idiomas con pocos recursos. Graduado en Ingeniería Informática con especialidad en Ingeniería del Software. Máster en Análisis y Procesamiento del Lenguaje.
 
 # Interests
 interests:
@@ -117,6 +119,6 @@ user_groups: []
 highlight_name: true
 ---
 
-Estudiante de Doctorado en Análisis y Procesamiento del Lenguaje en la [Facultad de Informática](https://www.ehu.eus/es/web/informatika-fakultatea/home) de la [Universidad del País Vasco (UPV/EHU)](https://www.ehu.eus/es/home). Graduado en Ingeniería Informática con especialidad en Ingeniería del Software. Máster en Análisis y Procesamiento del Lenguaje.
+Estudiante de Doctorado en Análisis y Procesamiento del Lenguaje en HiTZ Center IXA Group (UPV/EHU). Trabajando en mejorar los modelos de lenguaje para idiomas con pocos recursos. Graduado en Ingeniería Informática con especialidad en Ingeniería del Software. Máster en Análisis y Procesamiento del Lenguaje.
 
 En esta web encontrarás información sobre [<i class='fas fa-check'></i>&nbsp;Habilidades](#skills), [<i class='fas fa-award'></i>&nbsp;Certificados](#accomplishments), [<i class='fas fa-code'></i>&nbsp;Proyectos](#projects), [<i class='fas fa-tags'></i>&nbsp;Etiquetas](#tags) y [<i class='fas fa-envelope'></i>&nbsp;Contacto](#contact).

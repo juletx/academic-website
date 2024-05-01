@@ -25,13 +25,15 @@ role: PhD Student in Language Analysis and Processing
 
 # Organizations/Affiliations
 organizations:
+  - name: IXA Research Group
+    url: https://ixa.eus/
+  - name: "HiTZ Basque Center for Language Technology"
+    url: https://hitz.eus/
   - name: University of the Basque Country (UPV/EHU)
     url: https://www.ehu.eus/en/en-home
-  - name: Faculty of Informatics
-    url: https://www.ehu.eus/en/web/informatika-fakultatea/home
 
 # Short bio (displayed in user profile at end of posts)
-bio: PhD Student in Language Analysis and Processing at the [Faculty of Informatics](https://www.ehu.eus/en/web/informatika-fakultatea/home) of the [University of the Basque Country (UPV/EHU)](https://www.ehu.eus/en/en-home). Graduate in Computer Engineering with speciality in Software Engineering. Master in Language Analysis and Processing.
+bio: PhD Student in Language Analysis and Processing at Hitz Center IXA Group UPV/EHU. Working on Improving Language Models for Low-resource Languages. Graduate in Informatics Engineering with speciality in Software Engineering. Master in Language Analysis and Processing.
 
 # Interests
 interests:
@@ -117,6 +119,6 @@ user_groups: []
 highlight_name: true
 ---
 
-PhD Student in Language Analysis and Processing at the [Faculty of Informatics](https://www.ehu.eus/en/web/informatika-fakultatea/home) of the [University of the Basque Country (UPV/EHU)](https://www.ehu.eus/en/en-home). Graduate in Computer Engineering with speciality in Software Engineering. Master in Language Analysis and Processing.
+PhD Student in Language Analysis and Processing at Hitz Center IXA Group UPV/EHU. Working on Improving Language Models for Low-resource Languages. Graduate in Informatics Engineering with speciality in Software Engineering. Master in Language Analysis and Processing.
 
 In this web you will find information about [<i class='fas fa-check'></i>&nbsp;Skills](#skills), [<i class='fas fa-award'></i>&nbsp;Certificates](#accomplishments), [<i class='fas fa-code'></i>&nbsp;Projects](#projects), [<i class='fas fa-tags'></i>&nbsp;Tags](#tags) and [<i class='fas fa-envelope'></i>&nbsp;Contact](#contact).

@@ -25,13 +25,15 @@ role: Hizkuntzaren Azterketa eta Prozesamendua Doktoregoko ikaslea
 
 # Organizations/Affiliations
 organizations:
+  - name: IXA Ikerketa Taldea
+    url: https://ixa.eus/
+  - name: "HiTZ Hizkuntza Teknologiako Euskal Zentroa"
+    url: https://hitz.eus/
   - name: Euskal Herriko Unibertsitatea (UPV/EHU)
     url: https://www.ehu.eus/eu/home
-  - name: Informatika Fakultatea
-    url: https://www.ehu.eus/eu/web/informatika-fakultatea/home
 
 # Short bio (displayed in user profile at end of posts)
-bio: Hizkuntzaren Azterketa eta Prozesamendua Doktoregoko ikaslea [Euskal Herriko Unibertsitateko (UPV/EHU)](https://www.ehu.eus/eu/home) [Informatika Fakultatean](https://www.ehu.eus/eu/web/informatika-fakultatea/home). Informatika Ingeniaritzan graduatua Software Ingeniaritza espezialitatearekin. Hizkuntzaren Azterketa eta Prozesamendua Masterra.
+bio: Hizkuntzaren Azterketa eta Prozesamendua Doktoregoko ikaslea HiTZ Zentroko IXA taldean (UPV/EHU). Hizkuntza ereduak baliabidea urriko hizkuntzetako hobetzeko lanean. Informatika Ingeniaritzan graduatua Software Ingeniaritza espezialitatearekin. Hizkuntzaren Azterketa eta Prozesamendua Masterra.
 
 # Interests
 interests:
@@ -117,6 +119,6 @@ user_groups: []
 highlight_name: true
 ---
 
-Hizkuntzaren Azterketa eta Prozesamendua Doktoregoko ikaslea [Euskal Herriko Unibertsitateko (UPV/EHU)](https://www.ehu.eus/eu/home) [Informatika Fakultatean](https://www.ehu.eus/eu/web/informatika-fakultatea/home). Informatika Ingeniaritzan graduatua Software Ingeniaritza espezialitatearekin. Hizkuntzaren Azterketa eta Prozesamendua Masterra.
+Hizkuntzaren Azterketa eta Prozesamendua Doktoregoko ikaslea HiTZ Zentroko IXA taldean (UPV/EHU). Hizkuntza ereduak baliabidea urriko hizkuntzetako hobetzeko lanean. Informatika Ingeniaritzan graduatua Software Ingeniaritza espezialitatearekin. Hizkuntzaren Azterketa eta Prozesamendua Masterra.
 
 Web honetan informazio hau aurkituko duzu: [<i class='fas fa-check'></i>&nbsp;Trebetasunak](#skills), [<i class='fas fa-award'></i>&nbsp;Ziurtagiriak](#accomplishments), [<i class='fas fa-code'></i>&nbsp;Proiektuak](#projects), [<i class='fas fa-tags'></i>&nbsp;Etiketak](#tags) eta [<i class='fas fa-envelope'></i>&nbsp;Kontaktua](#contact).
