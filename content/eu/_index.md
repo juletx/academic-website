@@ -410,7 +410,7 @@ sections:
       email: juletxara@gmail.com
       # phone: 888 888 88 88
       address:
-        street: 'Informatika Fakultatea<br> Manuel Lardizabal Ibilbidea, 1'
+        street: 'Informatika Fakultatea, Manuel Lardizabal Ibilbidea, 1'
         city: Donostia
         region: Gipuzkoa
         postcode: '20018'

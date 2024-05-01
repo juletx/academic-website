@@ -410,7 +410,7 @@ sections:
       email: juletxara@gmail.com
       # phone: 888 888 88 88
       address:
-        street: 'Facultad de Informática<br> Manuel Lardizabal Ibilbidea, 1'
+        street: 'Facultad de Informática, Manuel Lardizabal Ibilbidea, 1'
         city: San Sebastián
         region: Guipúzcoa
         postcode: '20018'

@@ -24,10 +24,10 @@ publishDate: '2023-08-02'
 # Publication type.
 # A single CSL publication type but formatted as a YAML list (for Hugo requirements).
 publication_types:
-- article
+- article-journal
 
 # Publication name and optional abbreviated publication name.
-publication: '*arXiv*'
+publication: '*NAACL 2024*'
 publication_short: ''
 
 doi: ''

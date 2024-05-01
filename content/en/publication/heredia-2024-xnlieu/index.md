@@ -1,25 +1,26 @@
 ---
-title: Do Multilingual Language Models Think Better in English?
+title: 'XNLIeu: a dataset for cross-lingual NLI in Basque'
 
 # Authors
 # A YAML list of author names
 # If you created a profile for a user (e.g. the default `admin` user at `content/authors/admin/`), 
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
+- Maite Heredia
 - Julen Etxaniz
-- Gorka Azkune
+- Muitze Zulaika
+- Xabier Saralegi
+- Jeremy Barnes
 - Aitor Soroa
-- Oier Lopez de Lacalle
-- Mikel Artetxe
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list
 author_notes: []
 
-date: '2023-08-02'
+date: "2024-04-10"
 
 # Date to publish webpage (NOT necessarily Bibtex publication's date).
-publishDate: '2023-08-02'
+publishDate: '2024-04-10'
 
 # Publication type.
 # A single CSL publication type but formatted as a YAML list (for Hugo requirements).
@@ -32,17 +33,20 @@ publication_short: ''
 
 doi: ''
 
-abstract: Translate-test is a popular technique to improve the performance of multilingual
-  language models. This approach works by translating the input into English using
-  an external machine translation system, and running inference over the translated
-  input. However, these improvements can be attributed to the use of a separate translation
-  system, which is typically trained on large amounts of parallel data not seen by
-  the language model. In this work, we introduce a new approach called self-translate,
-  which overcomes the need of an external translation system by leveraging the few-shot
-  translation capabilities of multilingual language models. Experiments over 5 tasks
-  show that self-translate consistently outperforms direct inference, demonstrating
-  that language models are unable to leverage their full multilingual potential when
-  prompted in non-English languages. Our code is available at https://github.com/juletx/self-translate.
+abstract: XNLI is a popular Natural Language Inference (NLI) benchmark widely used
+  to evaluate cross-lingual Natural Language Understanding (NLU) capabilities across
+  languages. In this paper, we expand XNLI to include Basque, a low-resource language
+  that can greatly benefit from transfer-learning approaches. The new dataset, dubbed
+  XNLIeu, has been developed by first machine-translating the English XNLI corpus
+  into Basque, followed by a manual post-edition step. We have conducted a series
+  of experiments using mono- and multilingual LLMs to assess a) the effect of professional
+  post-edition on the MT system; b) the best cross-lingual strategy for NLI in Basque;
+  and c) whether the choice of the best cross-lingual strategy is influenced by the
+  fact that the dataset is built by translation. The results show that post-edition
+  is necessary and that the translate-train cross-lingual strategy obtains better
+  results overall, although the gain is lower when tested in a dataset that has been
+  built natively from scratch. Our code and datasets are publicly available under
+  open licenses at https://github.com/hitz-zentroa/xnli-eu.
 
 # Summary. An optional shortened abstract.
 summary: ''
@@ -52,14 +56,15 @@ tags:
 - Large Language Models
 - Deep Learning
 - Multilinguality
+- Basque
 
 # Display this page in a list of Featured pages?
 featured: true
 
 # Links
-url_pdf: 'https://arxiv.org/pdf/2308.01223.pdf'
-url_code: 'https://github.com/juletx/self-translate'
-url_dataset: 'https://huggingface.co/juletxara'
+url_pdf: https://arxiv.org/pdf/2404.06996
+url_code: https://github.com/hitz-zentroa/xnli-eu
+url_dataset: https://huggingface.co/datasets/HiTZ/xnli-eu
 url_poster: ''
 url_project: ''
 url_slides: ''
@@ -86,5 +91,5 @@ image:
 projects: []
 links:
 - name: arXiv
-  url: https://arxiv.org/abs/2308.01223
+  url: https://arxiv.org/abs/2404.06996
 ---
