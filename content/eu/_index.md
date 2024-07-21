@@ -419,21 +419,16 @@ sections:
       # coordinates:
       #   latitude: '43.307205'
       #   longitude: '-2.010843'
-      # directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-      # office_hours:
-      #   - 'Monday 10:00 to 13:00'
-      #   - 'Wednesday 09:00 to 10:00'
+      directions: 314 bulegoa 3. pisuan
+      office_hours:
+        - 'Astelehena - Osteguna 10:00 - 17:00'
       # appointment_url: 'https://calendly.com'
       contact_links:
-        - icon: github
-          icon_pack: fab
-          name: github.com/juletx
-          link: 'https://github.com/juletx'
         - icon: linkedin
           icon_pack: fab
           name: linkedin.com/in/juletxara
           link: 'https://www.linkedin.com/in/juletxara'
-        - icon: twitter
+        - icon: x-twitter
           icon_pack: fab
           name: twitter.com/juletxara
           link: 'https://twitter.com/juletxara'
@@ -441,14 +436,6 @@ sections:
           icon_pack: fab
           name: instagram.com/juletxara
           link: 'https://www.instagram.com/juletxara'
-        - icon: hackerrank
-          icon_pack: fab
-          name: hackerrank.com/juletxara
-          link: 'https://www.hackerrank.com/juletxara'
-        - icon: kaggle
-          icon_pack: fab
-          name: kaggle.com/juletxara
-          link: 'https://www.kaggle.com/juletxara'
       # Automatically link email and phone or display as text?
       autolink: true
       # Email form provider

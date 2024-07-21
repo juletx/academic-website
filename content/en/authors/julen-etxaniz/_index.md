@@ -67,9 +67,14 @@ social:
     link: mailto:juletxara@gmail.com
     display:
       header: true
-  - icon: graduation-cap
-    icon_pack: fas
+  - icon: google-scholar
+    icon_pack: ai
     link: https://scholar.google.com/citations?user=BDGXAjgAAAAJ
+    display:
+      header: true
+  - icon: orcid
+    icon_pack: ai
+    link: https://orcid.org/0009-0000-2099-7766
     display:
       header: true
   - icon: github
@@ -82,7 +87,7 @@ social:
     link: https://www.linkedin.com/in/juletxara
     display:
       header: true
-  - icon: twitter
+  - icon: x-twitter
     icon_pack: fab
     link: https://twitter.com/juletxara
     display:
@@ -91,7 +96,7 @@ social:
     icon_pack: fab
     link: https://www.instagram.com/juletxara
     display:
-      header: true
+      header: false
   - icon: hackerrank
     icon_pack: fab
     link: https://www.hackerrank.com/juletxara
@@ -100,11 +105,6 @@ social:
   - icon: kaggle
     icon_pack: fab
     link: https://www.kaggle.com/juletxara
-    display:
-      header: false
-  - icon: cv
-    icon_pack: ai
-    link: ../uploads/CV_JulenEtxaniz_EN.pdf
     display:
       header: false
 
