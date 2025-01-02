@@ -432,10 +432,6 @@ sections:
           icon_pack: fab
           name: twitter.com/juletxara
           link: 'https://twitter.com/juletxara'
-        - icon: instagram
-          icon_pack: fab
-          name: instagram.com/juletxara
-          link: 'https://www.instagram.com/juletxara'
       # Automatically link email and phone or display as text?
       autolink: true
       # Email form provider

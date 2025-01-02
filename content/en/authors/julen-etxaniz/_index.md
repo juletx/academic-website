@@ -92,11 +92,6 @@ social:
     link: https://twitter.com/juletxara
     display:
       header: true
-  - icon: instagram
-    icon_pack: fab
-    link: https://www.instagram.com/juletxara
-    display:
-      header: false
   - icon: hackerrank
     icon_pack: fab
     link: https://www.hackerrank.com/juletxara
