@@ -67,7 +67,7 @@ tags:
 - Basque
 
 # Display this page in a list of Featured pages?
-featured: true
+featured: false
 
 # Links
 url_pdf: https://www.ixa.eus/sites/default/files/dokumentuak/14014/2024_SEPLN___CEDI___iker_gaitu-4.pdf

@@ -86,3 +86,71 @@
   abstract  = {The general objective of the IKER-GAITU project is to research on language technology to increase the presence of Basque in the digital environment. It will be carried out between 2023 and 2025 thanks to a grant from the Department of Culture and Language Policy of the Basque Government. Current techniques require enormous amounts of textual and oral data per language. On the other hand, the data available for Basque and other low-resource languages might not be enough to attain the same quality as larger languages with the current technology. For this reason, it is essential to research on language technology, so that low-resource languages are present with the same quality as the rest of the languages in these technologies. IKER-GAITU pursues the following research objectives: 1. A system that automatically captures the level of Basque proficiency, written and oral; 2. Bring pSersonalized voice technology to people with disabilities; 3. Spontaneous voice transcription, both when Basque and Spanish are mixed and when there are several speakers; 4. Textual conversational systems in Basque that match the quality of the most powerful large language models. In this project summary we present the results for the first year. More information at https://hitz.eus/iker-gaitu.},
   keywords  = {Natural Language Processing, Large Language Models, Deep Learning, Multilinguality, Basque}
 }
+
+@article{biderman2024lmevaluation,
+  title={Lessons from the Trenches on Reproducible Evaluation of Language Models},
+  author={Stella Biderman and Hailey Schoelkopf and Lintang Sutawika and Leo Gao and Jonathan Tow and Baber Abbasi and Alham Fikri Aji and Pawan Sasanka Ammanamanchi and Sidney Black and Jordan Clive and Anthony DiPofi and Julen Etxaniz and Benjamin Fattori and Jessica Zosa Forde and Charles Foster and Jeffrey Hsu and Mimansa Jaiswal and Wilson Y. Lee and Haonan Li and Charles Lovering and Niklas Muennighoff and Ellie Pavlick and Jason Phang and Aviya Skowron and Samson Tan and Xiangru Tang and Kevin A. Wang and Genta Indra Winata and François Yvon and Andy Zou},
+  year={2024},
+  date={2024-05-23},
+  eprint={2405.14782},
+  archivePrefix={arXiv},
+  primaryClass={cs.CL},
+  url={https://arxiv.org/abs/2405.14782},
+  abstract={Effective evaluation of language models remains an open challenge in NLP. Researchers and engineers face methodological issues such as the sensitivity of models to evaluation setup, difficulty of proper comparisons across methods, and the lack of reproducibility and transparency. In this paper we draw on three years of experience in evaluating large language models to provide guidance and lessons for researchers. First, we provide an overview of common challenges faced in language model evaluation. Second, we delineate best practices for addressing or lessening the impact of these challenges on research. Third, we present the Language Model Evaluation Harness (lm-eval): an open source library for independent, reproducible, and extensible evaluation of language models that seeks to address these issues. We describe the features of the library as well as case studies in which the library has been used to alleviate these methodological concerns.},
+  keywords={Natural Language Processing, Large Language Models, Deep Learning, Evaluation, Reproducibility}
+}
+
+@article{etxaniz2024bertaqa,
+  title={BertaQA: How Much Do Language Models Know About Local Culture?},
+  author={Julen Etxaniz and Gorka Azkune and Aitor Soroa and Oier Lopez de Lacalle and Mikel Artetxe},
+  year={2024},
+  date={2024-06-11},
+  booktitle = {NeurIPS Datasets and Benchmarks 2024},
+  eprint={2406.07302},
+  archivePrefix={arXiv},
+  primaryClass={cs.CL},
+  url={https://arxiv.org/abs/2406.07302},
+  abstract={Large Language Models (LLMs) exhibit extensive knowledge about the world, but most evaluations have been limited to global or anglocentric subjects. This raises the question of how well these models perform on topics relevant to other cultures, whose presence on the web is not that prominent. To address this gap, we introduce BertaQA, a multiple-choice trivia dataset that is parallel in English and Basque. The dataset consists of a local subset with questions pertinent to the Basque culture, and a global subset with questions of broader interest. We find that state-of-the-art LLMs struggle with local cultural knowledge, even as they excel on global topics. However, we show that continued pre-training in Basque significantly improves the models' performance on Basque culture, even when queried in English. To our knowledge, this is the first solid evidence of knowledge transfer from a low-resource to a high-resource language. Our analysis sheds light on the complex interplay between language and knowledge, and reveals that some prior findings do not fully hold when reassessed on local topics. Our dataset and evaluation code are available under open licenses at https://github.com/juletx/BertaQA.},
+  keywords={Natural Language Processing, Large Language Models, Deep Learning, Evaluation, Multilinguality, Culture, Basque}
+}
+
+@article{perez2024latxa,
+  title={Latxa Euskarazko Hizkuntza-Eredua},
+  author={Perez, Naiara and Etxaniz, Julen and Sainz, Oscar and Aldabe, Itziar and Rigau, German and Agirre, Eneko and Salem, Ahmed and Ormazabal, Aitor and Artetxe, Mikel and Soroa, Aitor},
+  journal={EKAIA EHUko Zientzia eta Teknologia aldizkaria},
+  year={2024},
+  date={2024-09-24},
+  abstract={Artikulu honetan Latxa hizkuntza-ereduak (HE) aurkeztuko ditugu, egun euskararako garatu diren HE handienak. Latxa HEek 7.000 miloi parametrotik 70.000 milioira bitartean dituzte, eta ingeleseko LLama 2 ereduetatik eratorriak dira. Horretarako, LLama 2 gainean aurreikasketa jarraitua izeneko prozesua gauzatu da, 4.3 milioi dokumentu eta 4.200 milioi token duen euskarazko corpusa erabiliz. Euskararentzat kalitate handiko ebaluazio multzoen urritasunari aurre egiteko, lau ebaluazio multzo berri bildu ditugu: EusProficiency, EGA azterketaren atariko frogako 5.169 galdera biltzen dituena; EusReading, irakurketaren ulermeneko 352 galdera biltzen dituena; EusTrivia, 5 arlotako ezagutza orokorreko 1.715 galdera biltzen dituena; eta EusExams, oposizioetako 16.774 galdera biltzen dituena. Datu-multzo berri hauek erabiliz, Latxa eta beste euskarazko HEak ebaluatu ditugu (elebakar zein eleanitzak), eta esperimentuek erakusten dute Latxak aurreko eredu ireki guztiak gainditzen dituela. Halaber, GPT-4 Turbo HE komertzialarekiko emaitza konpetitiboak lortzen ditu Latxak, hizkuntza-ezagutzan eta ulermenean, testu-irakurmenean zein ezagutza intentsiboa eskatzen duten atazetan atzeratuta egon arren. Bai Latxa ereduen familia, baita gure corpus eta ebaluazio-datu berriak ere lizentzia irekien pean daude publiko https://github. com/hitz-zentroa/latxa helbidean.},
+  keywords={Natural Language Processing, Large Language Models, Deep Learning, Multilinguality, Basque}
+}
+
+@article{pensa2024gita4calamita,
+  title={GITA4CALAMITA - Evaluating the Physical Commonsense Understanding of Italian LLMs in a Multi-layered Approach: A CALAMITA Challenge},
+  author={Pensa, Giulia and Azurmendi, Ekhi and Etxaniz, Julen and Altuna, Bego{\~n}a and Gonzalez-Dios, Itziar},
+  year={2024},
+  date={2024-12-06},
+  booktitle = {CLiC-it 2024},
+  url = {https://ceur-ws.org/Vol-3878/127_calamita_long.pdf},
+  abstract = {In the context of the CALAMITA Challenge, we investigate the physical commonsense reasoning capabilities of large language models (LLMs) and introduce a methodology to assess their understanding of the physical world. To this end, we use a test set designed to evaluate physical commonsense reasoning in LLMs for the Italian language. We present a tiered dataset,
+  named the Graded Italian Annotated dataset (GITA), which is written and annotated by a professional linguist. This dataset
+  enables us to focus on three distinct levels of commonsense understanding. Our benchmark aims to evaluate three specific
+  tasks: identifying plausible and implausible stories within our dataset, identifying the conflict that generates an implausible
+  story, and identifying the physical states that make a story implausible. We perform these tasks using LLAMA3, Gemma2
+  and Mistral. Our findings reveal that, although the models may excel at high-level classification tasks, their reasoning is
+  inconsistent and unverifiable, as they fail to capture intermediate evidence.},
+  keywords = {Natural Language Processing, Large Language Models, Deep Learning, Evaluation, Commonsense Reasoning, Italian}
+}
+
+@article{bengoetxea2024hitzvardial,
+  title={HiTZ at VarDial 2025 NorSID: Overcoming Data Scarcity with Language Transfer and Automatic Data Annotation},
+  author={Jaione Bengoetxea and Mikel Zubillaga and Ekhi Azurmendi and Maite Heredia and Julen Etxaniz and Markel Ferro and Jeremy Barnes},
+  year={2024},
+  date={2024-12-13},
+  eprint={2412.10095},
+  archivePrefix={arXiv},
+  primaryClass={cs.CL},
+  booktitle = {COLING 2025},
+  url={https://arxiv.org/abs/2412.10095},
+  abstract={In this paper we present our submission for the NorSID Shared Task as part of the 2025 VarDial Workshop (Scherrer et al., 2025), consisting of three tasks: Intent Detection, Slot Filling and Dialect Identification, evaluated using data in different dialects of the Norwegian language. For Intent Detection and Slot Filling, we have fine-tuned a multitask model in a cross-lingual setting, to leverage the xSID dataset available in 17 languages. In the case of Dialect Identification, our final submission consists of a model fine-tuned on the provided development set, which has obtained the highest scores within our experiments. Our final results on the test set show that our models do not drop in performance compared to the development set, likely due to the domain-specificity of the dataset and the similar distribution of both subsets. Finally, we also report an in-depth analysis of the provided datasets and their artifacts, as well as other sets of experiments that have been carried out but did not yield the best results. Additionally, we present an analysis on the reasons why some methods have been more successful than others; mainly the impact of the combination of languages and domain-specificity of the training data on the results.},
+  keywords={Natural Language Processing, Large Language Models, Deep Learning, Multilinguality, Dialects, Norwegian}
+}
