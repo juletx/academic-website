@@ -4,7 +4,7 @@ summary: Simulating the Izhikevich spiking neuron model using the Brian2 softwar
 tags:
 - Machine Learning
 - Neural Network
-date: ""
+date: "2021-02-20"
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
