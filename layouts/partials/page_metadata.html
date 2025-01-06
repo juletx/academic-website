@@ -18,10 +18,21 @@
     {{ $date := $page.Date.Format site.Params.locale.date_format }}
     {{ $lastmod := $page.Lastmod.Format site.Params.locale.date_format }}
     {{ if eq $page.Type "publication" }}
-      {{ $date = $page.Date.Format (site.Params.publications.date_format | default "January, 2006") }}
+      <i class="fas fa-calendar-alt"></i>
+      {{ $date }}
+    {{ else }}
+      {{ if ne $page.Params.Lastmod $page.Params.Date }}
+          <i class="fas fa-calendar-alt"></i>
+          {{ $date }}
+          <span class="middot-divider"></span>
+          <i class="fas fa-calendar-alt"></i>
+          {{ i18n "last_updated" }}
+          {{ $lastmod }}
+      {{ else }}
+          <i class="fas fa-calendar-alt"></i>
+          {{ $date }}
+      {{ end }}
     {{ end }}
-    <i class="fas fa-calendar-alt"></i>
-    {{ $lastmod }}
   </span>
   {{ end }}
 
