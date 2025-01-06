@@ -72,6 +72,11 @@ social:
     link: https://scholar.google.com/citations?user=BDGXAjgAAAAJ
     display:
       header: true
+  - icon: semantic-scholar
+    icon_pack: ai
+    link: https://www.semanticscholar.org/author/Julen-Etxaniz/2226458991
+    display:
+      header: true
   - icon: orcid
     icon_pack: ai
     link: https://orcid.org/0009-0000-2099-7766
