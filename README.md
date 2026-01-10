@@ -8,7 +8,7 @@ Academic personal website in three languages: [Euskara](#euskara), [Español](#e
 
 Web honetan informazio hau aurkituko duzu: Biografia, Esperientzia, Ikasketak, Trebetasunak, Ziurtagiriak, Argitalpenak, Proiektuak, Etiketak eta Kontaktua.
 
-&copy; 2020&ndash;2023 Julen Etxaniz.
+&copy; 2020&ndash;2026 Julen Etxaniz.
 
 <a href="https://wowchemy.com" target="_blank" rel="noopener">Wowchemy</a>-rekin publikatua —
 Hugo</a>-rako doako eta <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">
@@ -21,7 +21,7 @@ kode irekiko</a> webgune eraikitzailea.
 
 En esta web encontrarás información sobre: Biografía, Experiencia, Educación, Habilidades, Certificados, Publicaciones, Proyectos, Etiquetas y Contacto.
 
-&copy; 2020&ndash;2023 Julen Etxaniz.
+&copy; 2020&ndash;2026 Julen Etxaniz.
 
 Publicado con <a href="https://wowchemy.com" target="_blank" rel="noopener">Wowchemy</a> —
     el constructor de sitios web gratuito y <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">
@@ -33,7 +33,7 @@ Alojado en <a href="https://github.com/juletx/academic-website" target="_blank" 
 
 In this web you will find this information: Biography, Experience, Education, Skills, Certificates, Publications, Projects, Tags and Contact.
 
-&copy; 2020&ndash;2023 Julen Etxaniz.
+&copy; 2020&ndash;2026 Julen Etxaniz.
 
 Published with <a href="https://wowchemy.com" target="_blank" rel="noopener">Wowchemy</a>  —
     the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">

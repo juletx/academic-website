@@ -1,0 +1,237 @@
+# Missing Spanish translations override
+
+# Callouts
+- id: callout_note
+  translation: Nota
+
+- id: callout_abstract
+  translation: Resumen
+
+- id: callout_summary
+  translation: Resumen
+
+- id: callout_info
+  translation: Información
+
+- id: callout_todo
+  translation: Pendiente
+
+- id: callout_tip
+  translation: Consejo
+
+- id: callout_success
+  translation: Éxito
+
+- id: callout_question
+  translation: Pregunta
+
+- id: callout_warning
+  translation: Advertencia
+
+- id: callout_failure
+  translation: Fallo
+
+- id: callout_danger
+  translation: Peligro
+
+- id: callout_bug
+  translation: Error
+
+- id: callout_example
+  translation: Ejemplo
+
+- id: callout_quote
+  translation: Cita
+
+- id: callout_important
+  translation: Importante
+
+- id: callout_caution
+  translation: Precaución
+
+- id: backlinks
+  translation: Enlaces de retroceso
+
+# New link types
+- id: btn_doi
+  translation: DOI
+
+- id: btn_site
+  translation: Sitio
+
+- id: btn_canonical
+  translation: Canónico
+
+- id: btn_crosspost
+  translation: Publicación cruzada
+
+- id: btn_discussion
+  translation: Discusión
+
+- id: btn_event
+  translation: Evento
+
+- id: btn_calendar
+  translation: Calendario
+
+- id: btn_registration
+  translation: Registro
+
+- id: btn_demo
+  translation: Demostración
+
+- id: btn_model
+  translation: Modelo
+
+- id: btn_hal
+  translation: HAL
+
+- id: btn_dblp
+  translation: DBLP
+
+- id: btn_isbn
+  translation: ISBN
+
+- id: btn_osf
+  translation: OSF
+
+- id: btn_zenodo
+  translation: Zenodo
+
+- id: btn_kaggle
+  translation: Kaggle
+
+- id: btn_openalex
+  translation: OpenAlex
+
+- id: btn_semanticscholar
+  translation: Semantic Scholar
+
+- id: btn_pwc
+  translation: Papers With Code
+
+# About widget
+- id: about_me
+  translation: Resumen profesional
+
+# Countdown widget
+- id: days
+  translation: Días
+
+- id: hours
+  translation: Horas
+
+- id: minutes
+  translation: Minutos
+
+- id: seconds
+  translation: Segundos
+
+# Contact info block
+- id: block_contact_follow_me
+  translation: Encuéntrame en
+
+# Pages widget
+- id: read_more
+  translation: Leer más
+
+# Experience widget
+- id: experience
+  translation: Experiencia
+
+# Content types
+- id: blog
+  translation: Blog
+
+- id: qa
+  translation: Preguntas y Respuestas
+
+- id: questions
+  translation: Preguntas
+
+- id: faq
+  translation: FAQ
+
+- id: faqs
+  translation: FAQs
+
+- id: docs
+  translation: Documentación
+
+- id: question
+  translation: Pregunta
+
+- id: answer
+  translation: Respuesta
+
+- id: accepted_answer
+  translation: Respuesta aceptada
+
+- id: other_answers
+  translation: Otras respuestas
+
+- id: related_questions
+  translation: Preguntas relacionadas
+
+- id: browse_by_category
+  translation: Explorar por categoría
+
+- id: search_questions
+  translation: Buscar preguntas...
+
+- id: no_questions_yet
+  translation: Aún no hay preguntas. ¡Vuelve pronto!
+
+- id: questions_count
+  translation: preguntas
+
+# Slides
+- id: back_to_slides
+  translation: Volver a Diapositivas
+
+- id: featured
+  translation: Destacado
+
+- id: details
+  translation: Detalles
+
+- id: present_slides
+  translation: Presentar
+
+- id: present_fullscreen
+  translation: Presentar (pantalla completa)
+
+- id: export_pdf_print
+  translation: Exportar PDF (imprimir)
+
+- id: slides_print_hint
+  translation: Abre en modo de impresión - usa Imprimir del navegador > Guardar como PDF
+
+- id: slides_search_placeholder
+  translation: Buscar presentaciones por título...
+
+- id: slides_no_decks
+  translation: No se encontraron presentaciones
+
+- id: slides_no_matches
+  translation: Ninguna presentación coincide con tus filtros
+
+- id: clear_filters
+  translation: Limpiar filtros
+
+- id: topics
+  translation: Temas
+
+- id: related_resources
+  translation: Recursos relacionados
+
+# Dev Hero block
+
+- id: scroll_to_content
+  translation: Ir al contenido
+
+- id: developer
+  translation: Desarrollador
+
+- id: poweredby_button
+  translation: 'Crea el tuyo →'

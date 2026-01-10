@@ -1,0 +1,311 @@
+# Missing Basque translations override
+
+# Callouts
+- id: callout_note
+  translation: Oharra
+
+- id: callout_abstract
+  translation: Laburpena
+
+- id: callout_summary
+  translation: Laburpena
+
+- id: callout_info
+  translation: Informazioa
+
+- id: callout_todo
+  translation: Egiteko
+
+- id: callout_tip
+  translation: Aholkua
+
+- id: callout_success
+  translation: Arrakasta
+
+- id: callout_question
+  translation: Galdera
+
+- id: callout_warning
+  translation: Abisua
+
+- id: callout_failure
+  translation: Hutsegitea
+
+- id: callout_danger
+  translation: Arriskua
+
+- id: callout_bug
+  translation: Errorea
+
+- id: callout_example
+  translation: Adibidea
+
+- id: callout_quote
+  translation: Aipua
+
+- id: callout_important
+  translation: Garrantzitsua
+
+- id: callout_caution
+  translation: Kontuz
+
+- id: backlinks
+  translation: Atzera-estekak
+
+# New link types
+- id: btn_doi
+  translation: DOI
+
+- id: btn_site
+  translation: Webgunea
+
+- id: btn_canonical
+  translation: Kanonikoa
+
+- id: btn_crosspost
+  translation: Argitalpen gurutzatua
+
+- id: btn_discussion
+  translation: Eztabaida
+
+- id: btn_event
+  translation: Ekitaldia
+
+- id: btn_calendar
+  translation: Egutegia
+
+- id: btn_registration
+  translation: Izen-ematea
+
+- id: btn_demo
+  translation: Demoa
+
+- id: btn_model
+  translation: Modeloa
+
+- id: btn_hal
+  translation: HAL
+
+- id: btn_dblp
+  translation: DBLP
+
+- id: btn_isbn
+  translation: ISBN
+
+- id: btn_osf
+  translation: OSF
+
+- id: btn_zenodo
+  translation: Zenodo
+
+- id: btn_kaggle
+  translation: Kaggle
+
+- id: btn_openalex
+  translation: OpenAlex
+
+- id: btn_semanticscholar
+  translation: Semantic Scholar
+
+- id: btn_pwc
+  translation: Papers With Code
+
+# About widget
+- id: about_me
+  translation: Laburpen profesionala
+
+# Countdown widget
+- id: days
+  translation: Egunak
+
+- id: hours
+  translation: Orduak
+
+- id: minutes
+  translation: Minutuak
+
+- id: seconds
+  translation: Segunduak
+
+# Contact widget
+- id: contact_attachment
+  translation: Erantsi fitxategia
+
+# Contact info block
+- id: block_contact_title
+  translation: Kontaktatu gurekin
+
+- id: block_contact_visit_title
+  translation: Bisitatu gaitzazu
+
+- id: block_contact_office_hours
+  translation: Arreta-ordutegia
+
+- id: block_contact_view_on_map
+  translation: Ikusi mapan
+
+- id: block_contact_connect_title
+  translation: Konektatu
+
+- id: block_contact_follow_us
+  translation: Jarraitu gaitzazu
+
+- id: block_contact_follow_me
+  translation: Aurkitu nazazu hemen
+
+- id: block_contact_prospective_title
+  translation: Kide potentzialak
+
+- id: block_contact_form_title
+  translation: Bidali mezu bat
+
+- id: block_contact_form_name
+  translation: Izena
+
+- id: block_contact_form_email
+  translation: Emaila
+
+- id: block_contact_form_subject
+  translation: Gaia
+
+- id: block_contact_form_message
+  translation: Mezua
+
+- id: block_contact_form_submit
+  translation: Bidali mezua
+
+# Pages widget
+- id: read_more
+  translation: Irakurri gehiago
+
+# Experience widget
+- id: experience
+  translation: Esperientzia
+
+# Content types
+- id: blog
+  translation: Bloga
+
+- id: posts
+  translation: Postak
+
+- id: talks
+  translation: Hitzaldiak
+
+- id: authors
+  translation: Egileak
+
+- id: qa
+  translation: Galdera eta Erantzunak
+
+- id: questions
+  translation: Galderak
+
+- id: faq
+  translation: FAQ
+
+- id: faqs
+  translation: FAQs
+
+- id: docs
+  translation: Dokumentazioa
+
+- id: question
+  translation: Galdera
+
+- id: answer
+  translation: Erantzuna
+
+- id: accepted_answer
+  translation: Onartutako erantzuna
+
+- id: other_answers
+  translation: Beste erantzun batzuk
+
+- id: related_questions
+  translation: Erlazionatutako galderak
+
+- id: browse_by_category
+  translation: Arakatu kategoriaren arabera
+
+- id: search_questions
+  translation: Bilatu galderak...
+
+- id: no_questions_yet
+  translation: Oraindik ez dago galderarik. Itzuli laster!
+
+- id: questions_count
+  translation: galderak
+
+# Slides
+- id: back_to_slides
+  translation: Itzuli diapositibetara
+
+- id: featured
+  translation: Nabarmendua
+
+- id: details
+  translation: Xehetasunak
+
+- id: present_slides
+  translation: Aurkeztu
+
+- id: present_fullscreen
+  translation: Aurkeztu (pantaila osoa)
+
+- id: export_pdf_print
+  translation: Esportatu PDF (inprimatu)
+
+- id: slides_print_hint
+  translation: Inprimatze moduan irekitzen da - erabili nabigatzailearen Inprimatu > Gorde PDF gisa
+
+- id: slides_search_placeholder
+  translation: Bilatu diapositibak izenburuaren arabera...
+
+- id: slides_no_decks
+  translation: Ez da diapostibarik aurkitu
+
+- id: slides_no_matches
+  translation: Diapostibarik ez dator bat zure filtroekin
+
+- id: clear_filters
+  translation: Garbitu filtroak
+
+- id: topics
+  translation: Gaiak
+
+- id: related_resources
+  translation: Erlazionatutako baliabideak
+
+# Dev Hero block
+
+- id: scroll_to_content
+  translation: Joan edukira
+
+- id: developer
+  translation: Garatzailea
+
+- id: poweredby_button
+  translation: 'Sortu zurea →'
+
+# Published with
+
+- id: published_with
+  translation: Webgunea sortzeko {hugoblox} erabili da.
+
+# Portfolio block
+
+- id: portfolio_link_code
+  translation: Kodea
+
+- id: portfolio_link_live
+  translation: Martxan
+
+- id: portfolio_link_demo
+  translation: Demoa
+
+- id: portfolio_link_default
+  translation: Esteka
+
+- id: portfolio_view_all
+  translation: Proiektu guztiak ikusi

@@ -1,11 +1,10 @@
 module github.com/juletx/academic-website
 
-go 1.16
+go 1.19
 
 require (
-	github.com/HugoBlox/hugo-blox-builder/modules/blox-bootstrap/v5 v5.9.8-0.20241223201730-71de892c1c61
-	github.com/HugoBlox/hugo-blox-builder/modules/blox-core v0.3.1 // indirect
-	github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-decap-cms v0.1.1 // indirect
-	github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify v1.1.2-0.20240429194209-e7beed231a8c
-	github.com/HugoBlox/hugo-blox-builder/modules/blox-seo v0.2.4-0.20241223201730-71de892c1c61 // indirect
+	github.com/HugoBlox/kit/modules/blox v0.11.1-0.20260110035305-2754d1590f7a
+	github.com/HugoBlox/kit/modules/integrations/netlify v1.2.2-0.20260110035305-2754d1590f7a
 )
+
+require github.com/HugoBlox/kit/modules/analytics v0.3.2-0.20260108013611-1096b7494e01 // indirect

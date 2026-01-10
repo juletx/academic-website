@@ -1,0 +1,157 @@
+schema: hugoblox/author/v1
+slug: julen-etxaniz
+is_owner: true
+name:
+  display: Julen Etxaniz
+  given: Julen
+  family: Etxaniz
+postnominals: []
+status:
+  icon: "🔬"
+role: Estudiante de Doctorado en Análisis y Procesamiento del Lenguaje
+email: juletxara@gmail.com
+bio: |
+  Estudiante de Doctorado en Análisis y Procesamiento del Lenguaje en HiTZ Center IXA Group (EHU).
+  Trabajando en mejorar los modelos de lenguaje para idiomas con pocos recursos.
+  Graduado en Ingeniería Informática con especialidad en Ingeniería del Software.
+  Máster en Análisis y Procesamiento del Lenguaje.
+
+affiliations:
+  - name: IXA Grupo de Investigación
+    url: https://ixa.eus/
+  - name: HiTZ Centro Vasco de Tecnología de la Lengua
+    url: https://hitz.eus/
+  - name: Universidad del País Vasco (EHU)
+    url: https://www.ehu.eus/es/home
+
+links:
+  - icon: at-symbol
+    url: mailto:juletxara@gmail.com
+    label: Envíame un correo
+  - icon: brands/x
+    url: https://twitter.com/juletxara
+  - icon: "brands/linkedin"
+    url: "https://www.linkedin.com/in/juletxara"
+  - icon: "brands/github"
+    url: "https://github.com/juletx"
+  - icon: "brands/hackerrank"
+    url: "https://www.hackerrank.com/juletxara"
+  - icon: "brands/huggingface"
+    url: "https://huggingface.co/juletxara"
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=BDGXAjgAAAAJ
+  - icon: academicons/semantic-scholar
+    url: https://www.semanticscholar.org/author/Julen-Etxaniz/2226458991
+  - icon: academicons/orcid
+    url: https://orcid.org/0009-0000-2099-7766
+  - icon: "academicons/arxiv"
+    url: "https://arxiv.org/a/etxaniz_j_1.html"
+  - icon: "academicons/researchgate"
+    url: "https://www.researchgate.net/profile/Julen-Etxaniz"
+  - icon: "academicons/scopus"
+    url: "https://www.scopus.com/authid/detail.uri?authorId=58551045000"
+  - icon: "academicons/dblp"
+    url: "https://dblp.org/pid/354/6422.html"
+
+interests:
+  - Programación
+  - Desarrollo Web
+  - Ingeniería del Software
+  - Aprendizaje Automático
+  - Aprendizaje Profundo
+  - Procesamiento de Lenguaje Natural
+
+education:
+  - degree: Doctorado en Análisis y Procesamiento del Lenguaje
+    institution: Universidad del País Vasco (EHU)
+    start: "2023-01-31"
+  - degree: Máster en Análisis y Procesamiento del Lenguaje
+    institution: Universidad del País Vasco (EHU)
+    start: 2021-09-01
+    end: 2022-06-30
+  - degree: Grado en Ingeniería Informática
+    institution: Universidad del País Vasco (EHU)
+    start: 2017-09-01
+    end: 2021-06-30
+
+experience:
+  - role: "Estudiante de Doctorado"
+    org: "HiTZ Centro IXA (EHU)"
+    start: "2023-01-31"
+
+skills:
+  - name: "Desarrollador"
+    items:
+      - label: "Programación"
+        level: 5
+      - label: "Desarrollo Web"
+        level: 5
+      - label: "Ingeniería del Software"
+        level: 5
+  - name: "Investigador"
+    items:
+      - label: "Aprendizaje Automático"
+        level: 5
+      - label: "Aprendizaje Profundo"
+        level: 5
+      - label: "Procesamiento de Lenguaje Natural"
+        level: 5
+
+languages:
+  - name: "Inglés"
+    level: 4
+    label: "Fluido"
+  - name: "Español"
+    level: 5
+    label: "Nativo"
+  - name: "Euskera"
+    level: 5
+    label: "Nativo"
+
+awards:
+  - title: "Best Resource Paper Award"
+    awarder: "ACL"
+    date: "2024-08-10"
+    summary: ""
+    icon: "brands/acl-logo"
+    url: https://2024.aclweb.org/program/best_papers/#best-resource-paper-awards
+  - title: "Curso de Machine Learning Aplicado con Python"
+    awarder: "Platzi"
+    date: "2020-10-31"
+    url: "https://platzi.com/@juletx/curso/1178-scikit/diploma/detalle/"
+    icon: "brands/platzi"
+  - title: "Curso de Redes Neuronales en Keras y Scikit-Learn"
+    awarder: "Platzi"
+    date: "2020-10-31"
+    url: "https://platzi.com/@juletx/curso/1866-keras-neural-networks/diploma/detalle/"
+    icon: "brands/platzi"
+  - title: "Curso Práctico de Regresión Lineal con Python"
+    awarder: "Platzi"
+    date: "2020-10-30"
+    url: "https://platzi.com/@juletx/curso/1766-regresion-python/diploma/detalle/"
+    icon: "brands/platzi"
+  - title: "Curso de Desarrollo de Apps Móviles"
+    awarder: "Universidad Complutense de Madrid"
+    date: "2020-01-23"
+    url: "https://skillshop.exceedlms.com/student/collection/798207-apps"
+    icon: "brands/universidad_complutense_de_madrid"
+  - title: "Certificate in Advanced English"
+    awarder: "Cambridge Assessment English"
+    date: "2017-02-01"
+    url: "https://www.cambridgeenglish.org/cmp/verifiers/"
+    icon: "brands/cambridge_assessment_english"
+  - title: "Euskararen Gaitasun Agiria"
+    awarder: "Eusko Jaurlaritza"
+    date: "2016-06-24"
+    url: "https://www.euskadi.eus/euskara-tituluen-eta-ziurtagirien-erregistro-bateratua/web01-a2etzeb/eu/"
+    icon: "brands/eusko_jaurlaritza"
+
+ids:
+  orcid: "0009-0000-2099-7766"
+  google_scholar: "BDGXAjgAAAAJ"
+  semantic_scholar: "2226458991"
+  arxiv: "etxaniz_j_1"
+  research_gate: "Julen-Etxaniz"
+  scopus: "58551045000"
+  openalex: "a5016315389"
+weight: null

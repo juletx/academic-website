@@ -1,140 +1,218 @@
-# SITE SETUP
-# Guide: https://wowchemy.com/docs/getting-started/
-# Documentation: https://wowchemy.com/docs/
-# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
+# ══════════════════════════════════════════════════════════════════════════════
+# HUGO BLOX CONFIGURATION
+# Schema: hugoblox.com/schema/v2
+# Tutorial: https://docs.hugoblox.com/tutorial/
+# Documentation: https://docs.hugoblox.com/
+# ══════════════════════════════════════════════════════════════════════════════
+hugoblox:
+  schema: "2.0"
 
-# Appearance
+  # ────────────────────────────────────────────────────────────────────────────
+  # IDENTITY
+  # ────────────────────────────────────────────────────────────────────────────
+  identity:
+    name: "Julen Etxaniz"
+    type: person
+    tagline: "PhD Student in Language Analysis and Processing"
+    description: "PhD Student in Language Analysis and Processing at Hitz Center IXA Group EHU. Working on Improving Language Models for Low-resource Languages."
+    social:
+      twitter: "juletxara"
 
-appearance:
-  theme_day: minimal
-  theme_night: minimal
-  font: minimal
-  font_size: L
+  # ────────────────────────────────────────────────────────────────────────────
+  # THEME
+  # ────────────────────────────────────────────────────────────────────────────
+  theme:
+    mode: system
+    pack: "default"
 
-# Marketing
+  # ────────────────────────────────────────────────────────────────────────────
+  # TYPOGRAPHY
+  # ────────────────────────────────────────────────────────────────────────────
+  typography:
+    font: "sans"
+    size: "lg"
 
-marketing:
-  seo:
-    site_type: Person
-    local_business_type: ''
-    org_name: ''
-    description: ""
-    twitter: juletxara
-  analytics:
-    google_analytics: ''
-    google_tag_manager: GTM-NP9JZHR
-    baidu_tongji: ''
-  verification:
-    google: ''
-    baidu: ''
+  # ────────────────────────────────────────────────────────────────────────────
+  # LAYOUT
+  # ────────────────────────────────────────────────────────────────────────────
+  layout:
+    radius: "md"
+    spacing: "comfortable"
+    avatar_shape: "circle"
 
-# Site header
-
-header:
-  nabvar:
+  # ────────────────────────────────────────────────────────────────────────────
+  # HEADER
+  # ────────────────────────────────────────────────────────────────────────────
+  header:
     enable: true
-    align: l
-    show_logo: true
-    show_language: false
-    show_day_night: true
-    show_search: true
-    show_translations: true
-    highlight_active_link: true
+    style: navbar
+    sticky: true
+    align: left
+    search: true
+    theme_toggle: true
+    theme_picker: false
+    language_switcher: true
 
-# Site footer
+  # ────────────────────────────────────────────────────────────────────────────
+  # FOOTER
+  # ────────────────────────────────────────────────────────────────────────────
+  footer:
+    style: minimal
+    language_switcher: true
+    text: "Hosted on [GitHub](https://github.com/juletx/antxieta-arkeologi-taldea) -
+      Served by [Netlify](https://app.netlify.com/sites/antxieta-arkeologi-taldea/deploys)"
 
-footer:
-  show_translations: true
+  # ────────────────────────────────────────────────────────────────────────────
+  # COPYRIGHT
+  # ────────────────────────────────────────────────────────────────────────────
   copyright:
-    notice: '&copy; {year} Julen Etxaniz'
+    notice: "© {year} {name}. This work is licensed under {license}"
     license:
-      enable: true
+      type: cc
       allow_derivatives: true
       share_alike: true
       allow_commercial: true
 
-# Localization
+ # ────────────────────────────────────────────────────────────────────────────
+  # SEO
+  # Search engine optimization - overrides and technical settings
+  # ────────────────────────────────────────────────────────────────────────────
+  seo:
+    # Browser tab title override (defaults to identity.name if not set)
+    title: ""
+    # For local_business identity type only
+    location:
+      address:
+        street: ""
+        city: ""
+        region: ""
+        postal_code: ""
+        country: ""
+      coordinates:
+        latitude: null
+        longitude: null
+      phone: ""
+    # AI/LLM crawler guidance (llms.txt)
+    ai:
+      allow:
+        - /
+      disallow: []
+      note: "Guidance for AI crawlers - customize to match your public content."
+      contact: ""
 
-locale:
-  date_format: 'Jan 2, 2006'
-  time_format: '15:04'
-  address_format: en-us
+  # ────────────────────────────────────────────────────────────────────────────
+  # CONTENT
+  # ────────────────────────────────────────────────────────────────────────────
+  content:
+    # Math rendering
+    math:
+      enable: false
+    # Table of contents
+    toc:
+      enable: true
+    # Reading time estimates
+    reading_time:
+      enable: true
+    # Academic citations
+    citations:
+      style: apa                        # apa | mla | chicago | ieee
 
-# Site features
-
-features:
-  syntax_highlighter:
-    theme_light: github-light
-    theme_dark: dracula
-  math:
-    enable: false
-  diagram:
-    enable: false
-  privacy_pack:
+  # ────────────────────────────────────────────────────────────────────────────
+  # SEARCH
+  # ────────────────────────────────────────────────────────────────────────────
+  search:
     enable: true
-  repository:
-    url: 'https://github.com/juletx/academic-website'
-    content_dir: content
-    branch: master
-  avatar:
-    gravatar: true
-    shape: circle
-  comment:
+    # Trending/suggested search terms
+    suggestions: []
+    # Quick action shortcuts in search modal
+    quick_actions: []
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # COMMENTS
+  # ────────────────────────────────────────────────────────────────────────────
+  comments:
+    enable: false
     provider: disqus
     disqus:
-      shortname: julenetxaniz
-      show_count: false
-    commento:
-      url: ''
-    giscus:
-      repo: ''
-      repo_id: ''
-      category: ''
-      category_id: ''
-  search:
-    provider: wowchemy
-    algolia:
-      app_id: ''
-      api_key: ''
-      index_name: ''
-      show_logo: false
-    docsearch:
-      app_id: ''
-      api_key: ''
-      index_name: ''
-  map:
-    provider: ''
-    api_key: ''
-    zoom: 16
+      shortname: "julenetxaniz"
 
-reading_time: true
-section_pager: false
-docs_section_pager: true
-sharing: true
-highlight_superuser: true
-link_authors: true
-abstract_length: 135
-plugins_js: []
-publications:
-  date_format: January 2006
-  citation_style: apa
-projects:
-  post_view: card
-  publication_view: card
-  event_view: card
+  # ────────────────────────────────────────────────────────────────────────────
+  # ANALYTICS
+  # ────────────────────────────────────────────────────────────────────────────
+  analytics:
+    google_tag_manager:
+      container_id: "GTM-NP9JZHR"
 
-# Site extensions
+  # ────────────────────────────────────────────────────────────────────────────
+  # VERIFICATION
+  # Search engine site verification codes
+  # ────────────────────────────────────────────────────────────────────────────
+  verification:
+    google: ""
+    bing: ""
+    baidu: ""
+    yandex: ""
+    pinterest: ""
+    naver: ""
 
-extensions:
-  decap_cms:
+  # ────────────────────────────────────────────────────────────────────────────
+  # REPOSITORY
+  # Source code repository for "Edit this page" links
+  # ────────────────────────────────────────────────────────────────────────────
+  repository:
+    enable: true
+    url: "https://github.com/juletx/academic-website"
     branch: master
-    local_backend: true
-  isotope:
-    # Enable if you use the Portfolio widget or Publication filter
-    enable: true
-  academicons:
-    enable: true
+    content_dir: content
 
-security:
-  # Allow frame for embedding speaker notes in slides
-  allow_frame: false
+  # ────────────────────────────────────────────────────────────────────────────
+  # LOCALE
+  # ────────────────────────────────────────────────────────────────────────────
+  locale:
+    date_format: "Jan 2, 2006"
+    time_format: "15:04"
+    address_format: en-us
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # SECURITY
+  # Security headers and policies (requires Netlify integration)
+  # ────────────────────────────────────────────────────────────────────────────
+  security:
+    csp:
+      policy: ""
+      report_only: false
+    frame_options: sameorigin           # deny | sameorigin | allow - sameorigin allows slides embedding
+    permissions_policy: ""
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # PRIVACY
+  # ────────────────────────────────────────────────────────────────────────────
+  privacy:
+    enable: true
+    anonymize_analytics: true
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # DEBUG
+  # Development and debugging (hidden in production)
+  # ────────────────────────────────────────────────────────────────────────────
+  debug:
+    enable: false
+    hud:
+      position: bottom-left             # top-left | top-right | bottom-left | bottom-right
+      opacity: 1.0
+    export_logs: true
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # PRO
+  # Pro subscription features and affiliate program
+  # ────────────────────────────────────────────────────────────────────────────
+  pro:
+    # Hide "Powered by HugoBlox" attribution
+    # Requires: Pro subscription to support HugoBlox via alternative means
+    # Note: Even with Pro, you can keep this false to support open source!
+    # Get Pro: https://hugoblox.com/pro
+    hide_attribution: false
+
+    # Affiliate referral code for rewards program
+    # Join affiliate program: https://hugoblox.com/affiliates
+    affiliate_code: ""

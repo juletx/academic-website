@@ -5,41 +5,38 @@
 
 main:
 #  - name: Inicio
-#    url: '#about'
+#    url: '/#about'
 #    weight: 10
   - name: Experiencia
-    url: '#experience'
+    url: '/#experience'
     weight: 21
-  - name: Educación
-    url: '#education'
-    weight: 25
-  - name: Certificados
-    url: '#accomplishments'
+  - name: Premios
+    url: '/#awards'
     weight: 26
     #pre: <i class='fas fa-award'></i>&nbsp;
   - name: Habilidades
-    url: '#skills'
+    url: '/#skills'
     weight: 30
     #pre: <i class='fas fa-check'></i>&nbsp;
 #  - name: Blog
-#    url: '#posts'
+#    url: '/#posts'
 #    weight: 50
   - name: Proyectos
-    url: '#projects'
+    url: '/#projects'
     weight: 60
     #pre: <i class='fas fa-code'></i>&nbsp;
 #  - name: Eventos
-#    url: '#events'
+#    url: '/#events'
 #    weight: 70
   - name: Publicaciones
-    url: '#publications'
+    url: '/#publications'
     weight: 50
   - name: Etiquetas
-    url: '#tags'
+    url: '/#tags'
     weight: 90
     #pre: <i class='fas fa-tags'></i>&nbsp;
   - name: Contacto
-    url: '#contact'
+    url: '/#contact'
     weight: 100
     #pre: <i class='fas fa-envelope'></i>&nbsp;
 

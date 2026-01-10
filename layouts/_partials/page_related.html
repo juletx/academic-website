@@ -1,0 +1,16 @@
+{{/* Show related/recommended content. */}}
+{{ if .Params.show_related }}
+  {{ $related := site.RegularPages.Related . | first 5 }}
+  {{ with $related }}
+  <div class="article-widget content-widget-hr">
+    <h3>{{ i18n "related" }}</h3>
+    <div class="flex flex-col items-center px-6">
+      <div class="container max-w-[65ch] mx-auto grid grid-cols-1 gap-6 my-5">
+    {{ range $index, $item := $related }}
+      {{ partial "functions/render_view" (dict "page" $ "item" . "view" ($.Params.view | default "card") "index" $index) }}
+    {{end}}
+      </div>
+    </div>
+  </div>
+  {{ end }}
+{{ end }}

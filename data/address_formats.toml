@@ -1,3 +1,0 @@
-# Address formats.
-en = {order = ['street', 'city', 'region', 'postcode', 'country'], delimiters = ['<br> ', ', ', ' ', ', ']}
-es = {order = ['street', 'postcode', 'city', 'region', 'country'], delimiters = ['<br> ', ' ', ', ', ', ']}

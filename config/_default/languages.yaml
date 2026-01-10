@@ -9,7 +9,7 @@ en:
     marketing:
       seo:
         description: >-
-          PhD Student in Language Analysis and Processing at Hitz Center IXA Group UPV/EHU. Working on Improving Language Models for Low-resource Languages. Graduate in Informatics Engineering with speciality in Software Engineering. Master in Language Analysis and Processing.
+          PhD Student in Language Analysis and Processing at Hitz Center IXA Group EHU. Working on Improving Language Models for Low-resource Languages. Graduate in Informatics Engineering with speciality in Software Engineering. Master in Language Analysis and Processing.
     locale:
       address_format: en
       date_format: 01-02-2006
@@ -21,7 +21,7 @@ es:
     marketing:
       seo:
         description: >-
-          Estudiante de Doctorado en Análisis y Procesamiento del Lenguaje en HiTZ Center IXA Group (UPV/EHU). Trabajando en mejorar los modelos de lenguaje para idiomas con pocos recursos. Graduado en Ingeniería Informática con especialidad en Ingeniería del Software. Máster en Análisis y Procesamiento del Lenguaje.
+          Estudiante de Doctorado en Análisis y Procesamiento del Lenguaje en HiTZ Center IXA Group (EHU). Trabajando en mejorar los modelos de lenguaje para idiomas con pocos recursos. Graduado en Ingeniería Informática con especialidad en Ingeniería del Software. Máster en Análisis y Procesamiento del Lenguaje.
     locale:
       address_format: es
       date_format: 01-02-2006
@@ -33,7 +33,7 @@ eu:
     marketing:
       seo:
         description: >-
-          Hizkuntzaren Azterketa eta Prozesamendua Doktoregoko ikaslea HiTZ Zentroko IXA taldean (UPV/EHU). Hizkuntza ereduak baliabidea urriko hizkuntzetako hobetzeko lanean. Informatika Ingeniaritzan graduatua Software Ingeniaritza espezialitatearekin. Hizkuntzaren Azterketa eta Prozesamendua Masterra.
+          Hizkuntzaren Azterketa eta Prozesamendua Doktoregoko ikaslea HiTZ Zentroko IXA taldean (EHU). Hizkuntza ereduak baliabidea urriko hizkuntzetako hobetzeko lanean. Informatika Ingeniaritzan graduatua Software Ingeniaritza espezialitatearekin. Hizkuntzaren Azterketa eta Prozesamendua Masterra.
     locale:
       address_format: es
       date_format: '2006-01-02'

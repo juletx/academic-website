@@ -1,19 +1,64 @@
 [build]
-command = "hugo --gc --minify -b $URL"
-publish = "public"
+  command = """
+    set -e
+    echo "=== Starting Academic Website build process ==="
+    echo "Node version: $(node --version)"
+    echo "pnpm version: $(pnpm --version)"
+    echo "Hugo version: $(hugo version)"
+    echo "Go version: $(go version || echo 'Go not available')"
+
+    echo "=== Installing dependencies ==="
+    pnpm install --verbose --no-frozen-lockfile
+
+    echo "=== Running Hugo build ==="
+    hugo --gc --minify -b $URL --logLevel debug --printI18nWarnings --printPathWarnings
+
+    echo "=== Running Pagefind indexing ==="
+    pnpm run pagefind
+
+    echo "=== Build completed successfully ==="
+  """
+  publish = "public"
 
 [build.environment]
-HUGO_VERSION = "0.140.2"
-HUGO_ENABLEGITINFO = "true"
+  HUGO_VERSION = "0.154.3"
+  GO_VERSION = "1.21.5"
+  NODE_VERSION = "22"
+  # Netlify runs an implicit install step; ensure it never enforces frozen lockfiles
+  PNPM_FLAGS = "--no-frozen-lockfile"
+  HUGO_ENABLEGITINFO = "true"
+  HUGO_LOG_I18N_WARNINGS = "true"
+  HUGO_LOG_WARNINGS = "true"
+  FORCE_COLOR = "1"
+  PNPM_LOG_LEVEL = "debug"
 
 [context.production.environment]
-HUGO_ENV = "production"
+  HUGO_ENV = "production"
 
 [context.deploy-preview]
-command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
+  command = """
+    set -e
+    echo "=== Deploy Preview Build ==="
+    echo "Deploy URL: $DEPLOY_PRIME_URL"
+    pnpm install --verbose --no-frozen-lockfile
+    hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL --logLevel debug --printI18nWarnings --printPathWarnings
+    pnpm run pagefind
+  """
 
 [context.branch-deploy]
-command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
+  command = """
+    set -e
+    echo "=== Branch Deploy Build ==="
+    echo "Deploy URL: $DEPLOY_PRIME_URL"
+    pnpm install --verbose --no-frozen-lockfile
+    hugo --gc --minify -b $DEPLOY_PRIME_URL --logLevel debug --printI18nWarnings --printPathWarnings
+    pnpm run pagefind
+  """
+
+[[plugins]]
+  package = "netlify-plugin-hugo-cache-resources"
+  [plugins.inputs]
+    debug = true
 
 [[headers]]
 for = "/*"
@@ -60,3 +105,36 @@ package = "@netlify/plugin-lighthouse"
 # to audit a path other than /
 [[plugins.inputs.audits]]
 path = "public"
+
+# Redirects for content type migration
+
+[[redirects]]
+  from = "/project/*"
+  to = "/projects/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/event/*"
+  to = "/events/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/publication/*"
+  to = "/publications/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/post/*"
+  to = "/blog/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/teaching/*"
+  to = "/courses/:splat"
+  status = 301
+  force = true
+
