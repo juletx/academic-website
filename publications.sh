@@ -1,1 +1,1 @@
-academic import publications.bib content/en/publication
+academic import publications.bib content/en/publications

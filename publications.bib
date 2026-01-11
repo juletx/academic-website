@@ -130,7 +130,7 @@
   year={2024},
   date={2024-12-06},
   booktitle = {CLiC-it 2024},
-  url = {https://ceur-ws.org/Vol-3878/127_calamita_long.pdf},
+  url = {https://aclanthology.org/2024.clicit-1.127/},
   abstract = {In the context of the CALAMITA Challenge, we investigate the physical commonsense reasoning capabilities of large language models (LLMs) and introduce a methodology to assess their understanding of the physical world. To this end, we use a test set designed to evaluate physical commonsense reasoning in LLMs for the Italian language. We present a tiered dataset,
   named the Graded Italian Annotated dataset (GITA), which is written and annotated by a professional linguist. This dataset
   enables us to focus on three distinct levels of commonsense understanding. Our benchmark aims to evaluate three specific
@@ -150,7 +150,116 @@
   archivePrefix={arXiv},
   primaryClass={cs.CL},
   booktitle = {COLING 2025},
-  url={https://arxiv.org/abs/2412.10095},
+  url={https://aclanthology.org/2025.vardial-1.16/},
   abstract={In this paper we present our submission for the NorSID Shared Task as part of the 2025 VarDial Workshop (Scherrer et al., 2025), consisting of three tasks: Intent Detection, Slot Filling and Dialect Identification, evaluated using data in different dialects of the Norwegian language. For Intent Detection and Slot Filling, we have fine-tuned a multitask model in a cross-lingual setting, to leverage the xSID dataset available in 17 languages. In the case of Dialect Identification, our final submission consists of a model fine-tuned on the provided development set, which has obtained the highest scores within our experiments. Our final results on the test set show that our models do not drop in performance compared to the development set, likely due to the domain-specificity of the dataset and the similar distribution of both subsets. Finally, we also report an in-depth analysis of the provided datasets and their artifacts, as well as other sets of experiments that have been carried out but did not yield the best results. Additionally, we present an analysis on the reasons why some methods have been more successful than others; mainly the impact of the combination of languages and domain-specificity of the training data on the results.},
   keywords={Natural Language Processing, Large Language Models, Deep Learning, Multilinguality, Dialects, Norwegian}
+}
+
+@article{calvo2025truth,
+  title = "Truth Knows No Language: Evaluating Truthfulness Beyond {E}nglish",
+  author = "Calvo Figueras, Blanca  and
+    Sagarzazu, Eneko  and
+    Etxaniz, Julen  and
+    Barnes, Jeremy  and
+    Gamallo, Pablo  and
+    de-Dios-Flores, Iria  and
+    Agerri, Rodrigo",
+  editor = "Che, Wanxiang  and
+    Nabende, Joyce  and
+    Shutova, Ekaterina  and
+    Pilehvar, Mohammad Taher",
+  booktitle = "ACL 2025",
+  month = jul,
+  year = "2025",
+  address = "Vienna, Austria",
+  publisher = "Association for Computational Linguistics",
+  url = "https://aclanthology.org/2025.acl-long.1507/",
+  doi = "10.18653/v1/2025.acl-long.1507",
+  pages = "31204--31218",
+  ISBN = "979-8-89176-251-0",
+  abstract = "We introduce a professionally translated extension of the TruthfulQA benchmark designed to evaluate truthfulness in Basque, Catalan, Galician, and Spanish. Truthfulness evaluations of large language models (LLMs) have primarily been focused on English. However, the ability of LLMs to maintain truthfulness across languages remains under-explored. Our study evaluates 12 state-of-the-art open LLMs, comparing base and instruction-tuned models using human evaluation, multiple-choice metrics, and LLM-as-a-Judge scoring. Our findings reveal that, while LLMs perform best in English and worst in Basque (the lowest-resourced language), overall truthfulness discrepancies across languages are smaller than anticipated. Furthermore, we show that LLM-as-a-Judge correlates more closely with human judgments than multiple-choice metrics, and that informativeness plays a critical role in truthfulness assessment. Our results also indicate that machine translation provides a viable approach for extending truthfulness benchmarks to additional languages, offering a scalable alternative to professional translation. Finally, we observe that universal knowledge questions are better handled across languages than context- and time-dependent ones, highlighting the need for truthfulness evaluations that account for cultural and temporal variability. Datasets, models and code are publicly available under open licenses.",
+  keywords = {Natural Language Processing, Large Language Models, Deep Learning, Multilinguality, Truthfulness, Evaluation}
+}
+
+@article{sainz2025instructing,
+  title = "Instructing Large Language Models for Low-Resource Languages: A Systematic Study for {B}asque",
+  author = "Sainz, Oscar  and
+    Perez, Naiara  and
+    Etxaniz, Julen  and
+    Fernandez de Landa, Joseba  and
+    Aldabe, Itziar  and
+    Garc{\'i}a-Ferrero, Iker  and
+    Zabala, Aimar  and
+    Azurmendi, Ekhi  and
+    Rigau, German  and
+    Agirre, Eneko  and
+    Artetxe, Mikel  and
+    Soroa, Aitor",
+  editor = "Christodoulopoulos, Christos  and
+    Chakraborty, Tanmoy  and
+    Rose, Carolyn  and
+    Peng, Violet",
+  booktitle = "EMNLP 2025",
+  month = nov,
+  year = "2025",
+  address = "Suzhou, China",
+  publisher = "Association for Computational Linguistics",
+  url = "https://aclanthology.org/2025.emnlp-main.1484/",
+  doi = "10.18653/v1/2025.emnlp-main.1484",
+  pages = "29136--29160",
+  ISBN = "979-8-89176-332-6",
+  abstract = "Instructing language models with user intent requires large instruction datasets, which are only available for a limited set of languages. In this paper, we explore alternatives to conventional instruction adaptation pipelines in low-resource scenarios. We assume a realistic scenario for low-resource languages, where only the following are available: corpora in the target language, existing open-weight multilingual base and instructed backbone LLMs, and synthetically generated instructions sampled from the instructed backbone. We present a comprehensive set of experiments for Basque that systematically study different combinations of these components evaluated on benchmarks and human preferences from 1,680 participants. Our conclusions show that target language corpora are essential, with synthetic instructions yielding robust models, and, most importantly, that using as backbone an instruction-tuned model outperforms using a base non-instructed model. Scaling up to Llama 3.1 Instruct 70B as backbone, our model comes near frontier models of much larger sizes for Basque, without using any Basque instructions. We release code, models, instruction datasets, and human preferences to support full reproducibility in future research on low-resource language adaptation.",
+  keywords = {Natural Language Processing, Large Language Models, Deep Learning, Multilinguality, Basque, Instruction Tuning}
+}
+
+@article{jumelet2025babybabellm,
+  title={BabyBabelLM: A Multilingual Benchmark of Developmentally Plausible Training Data},
+  author={Jaap Jumelet and Abdellah Fourtassi and Akari Haga and Bastian Bunzeck and Bhargav Shandilya and Diana Galvan-Sosa and Faiz Ghifari Haznitrama and Francesca Padovani and Francois Meyer and Hai Hu and Julen Etxaniz and others},
+  journal={EACL 2026},
+  year={2025},
+  eprint={2510.10159},
+  archivePrefix={arXiv},
+  primaryClass={cs.CL},
+  url={https://arxiv.org/abs/2510.10159},
+  abstract={We present BabyBabelLM, a multilingual collection of datasets modeling the language a person observes from birth until they acquire a native language. We curate developmentally plausible pretraining data aiming to cover the equivalent of 100M English words of content in each of 45 languages. We compile evaluation suites and train baseline models in each language. BabyBabelLM aims to facilitate multilingual pretraining and cognitive modeling.},
+  keywords = {Natural Language Processing, Language Models, Deep Learning, Multilinguality, Cognitive Modeling}
+}
+
+@article{arana2025multimodal,
+  title={Multimodal Large Language Models for Low-Resource Languages: A Case Study for Basque},
+  author={Lukas Arana and Julen Etxaniz and Ander Salaberria and Gorka Azkune},
+  journal={arXiv},
+  year={2025},
+  eprint={2511.09396},
+  archivePrefix={arXiv},
+  primaryClass={cs.CL},
+  url={https://arxiv.org/abs/2511.09396},
+  abstract={Current Multimodal Large Language Models exhibit very strong performance for several demanding tasks. While commercial MLLMs deliver acceptable performance in low-resource languages, comparable results remain unattained within the open science community. In this paper, we aim to develop a strong MLLM for a low-resource language, namely Basque. For that purpose, we develop our own training and evaluation image-text datasets. Using two different Large Language Models as backbones, the Llama-3.1-Instruct model and a Basque-adapted variant called Latxa, we explore several data mixtures for training. We show that: i) low ratios of Basque multimodal data (around 20%) are already enough to obtain solid results on Basque benchmarks, and ii) contrary to expected, a Basque instructed backbone LLM is not required to obtain a strong MLLM in Basque. Our results pave the way to develop MLLMs for other low-resource languages by openly releasing our resources.},
+  keywords = {Natural Language Processing, Large Language Models, Deep Learning, Evaluation, Multilinguality, Basque, Multimodal}
+}
+
+@article{azurmendi2025bernat,
+  title={BERnaT: Basque Encoders for Representing Natural Textual Diversity},
+  author={Ekhi Azurmendi and Joseba Fernandez de Landa and Jaione Bengoetxea and Maite Heredia and Julen Etxaniz and Mikel Zubillaga and Ander Soraluze and Aitor Soroa},
+  journal={arXiv},
+  year={2025},
+  eprint={2512.03903},
+  archivePrefix={arXiv},
+  primaryClass={cs.CL},
+  url={https://arxiv.org/abs/2512.03903},
+  abstract={Language models depend on massive text corpora that are often filtered for quality, a process that can unintentionally exclude non-standard linguistic varieties, reduce model robustness and reinforce representational biases. In this paper, we argue that language models should aim to capture the full spectrum of language variation (dialectal, historical, informal, etc.) rather than relying solely on standardized text. Focusing on Basque, a morphologically rich and low-resource language, we construct new corpora combining standard, social media, and historical sources, and pre-train the BERnaT family of encoder-only models in three configurations: standard, diverse, and combined. We further propose an evaluation framework that separates Natural Language Understanding (NLU) tasks into standard and diverse subsets to assess linguistic generalization. Results show that models trained on both standard and diverse data consistently outperform those trained on standard corpora, improving performance across all task types without compromising standard benchmark accuracy. These findings highlight the importance of linguistic diversity in building inclusive, generalizable language models.},
+  keywords = {Natural Language Processing, Large Language Models, Deep Learning, Evaluation, Multilinguality, Basque, Linguistic Diversity}
+}
+
+@article{nissim2025challenging,
+  title={Challenging the Abilities of Large Language Models in Italian: a Community Initiative},
+  author={Nissim, Malvina and Croce, Danilo and Patti, Viviana and Basile, Pierpaolo and Attanasio, Giuseppe and Musacchio, Elio and Rinaldi, Matteo and Borazio, Federico and Francis, Maria and Gili, Jacopo and others},
+  journal={arXiv},
+  year={2025},
+  eprint={2512.04759},
+  archivePrefix={arXiv},
+  primaryClass={cs.CL},
+  keywords = {Natural Language Processing, Large Language Models, Deep Learning, Evaluation, Commonsense Reasoning, Italian},
+  abstract={The rapid progress of Large Language Models (LLMs) has transformed natural language processing and broadened its impact across research and society. Yet, systematic evaluation of these models, especially for languages beyond English, remains limited. "Challenging the Abilities of LAnguage Models in ITAlian" (CALAMITA) is a large-scale collaborative benchmarking initiative for Italian, coordinated under the Italian Association for Computational Linguistics. Unlike existing efforts that focus on leaderboards, CALAMITA foregrounds methodology: it federates more than 80 contributors from academia, industry, and the public sector to design, document, and evaluate a diverse collection of tasks, covering linguistic competence, commonsense reasoning, factual consistency, fairness, summarization, translation, and code generation. Through this process, we not only assembled a benchmark of over 20 tasks and almost 100 subtasks, but also established a centralized evaluation pipeline that supports heterogeneous datasets and metrics. We report results for four open-weight LLMs, highlighting systematic strengths and weaknesses across abilities, as well as challenges in task-specific evaluation. Beyond quantitative results, CALAMITA exposes methodological lessons: the necessity of fine-grained, task-representative metrics, the importance of harmonized pipelines, and the benefits and limitations of broad community engagement. CALAMITA is conceived as a rolling benchmark, enabling continuous integration of new tasks and models. This makes it both a resource -- the most comprehensive and diverse benchmark for Italian to date -- and a framework for sustainable, community-driven evaluation. We argue that this combination offers a blueprint for other languages and communities seeking inclusive and rigorous LLM evaluation practices.},
+  keywords = {Natural Language Processing, Large Language Models, Deep Learning, Evaluation, Italian}
 }
