@@ -161,6 +161,18 @@
       {{ if $hasMeta }}
       <div class="pt-3 border-t border-zinc-100 dark:border-zinc-800">
         <div class="flex items-center gap-2 text-xs text-zinc-500 dark:text-zinc-500 flex-wrap mb-3">
+          <!-- Show publication if available -->
+          {{ with $item.Params.publication }}
+            <div class="inline-flex items-center text-current gap-x-1.5 mx-1">
+              {{ partial "functions/get_icon" (dict "name" "academic-cap" "attributes" "class=\"inline-block h-4 w-4 text-zinc-400 dark:text-zinc-500\"") }}
+              <!-- Remove * from publication title if present -->
+              {{ $pub_title := replace . "*" "" }}
+              <div>{{ $pub_title }}</div>
+            </div>
+            <span class="opacity-40">•</span>
+          {{ end }}
+          <!-- Authors -->
+          {{ partial "functions/get_icon" (dict "name" "user" "attributes" "class=\"inline-block h-4 w-4 text-zinc-400 dark:text-zinc-500\"") }}
           {{ range $i, $slug := $item.Params.authors }}
             {{ $profile := partial "functions/get_author_profile" $slug }}
             {{ $avatar := $profile.avatar }}
@@ -180,6 +192,7 @@
           {{ end }}
           <span class="opacity-40">•</span>
           {{ if $showDate }}
+            {{ partial "functions/get_icon" (dict "name" "calendar" "attributes" "class=\"inline-block h-4 w-4 text-zinc-400 dark:text-zinc-500\"") }}
             {{ if $isEvent }}
             <span class="hidden sm:inline whitespace-nowrap">{{ $event_dates }}</span>
             {{ else }}
@@ -190,6 +203,7 @@
           {{ end }}
           {{ if and $showDate $showReadTime }}
             <span class="hidden sm:inline opacity-40">•</span>
+            {{ partial "functions/get_icon" (dict "name" "book-open" "attributes" "class=\"inline-block h-4 w-4 text-zinc-400 dark:text-zinc-500\"") }}
           {{ end }}
           {{ if $showReadTime }}
             {{ $content := $item.Content | plainify }}
