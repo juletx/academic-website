@@ -7,7 +7,7 @@ header:
   caption: ""
   image: ""
   
-view: card
+view: article-grid
 
 cascade:
   show_breadcrumb: true
