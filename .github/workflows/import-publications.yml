@@ -98,7 +98,7 @@ jobs:
             将最新的出版物从`publications.bib`导入到`content/publication/`。
 
             📖 [View Documentation](https://github.com/GetRD/academic-file-converter)
-          base: main
+          base: master
           labels: automated-pr, content, publications
           branch: hugoblox-import-publications
           delete-branch: true
