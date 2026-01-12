@@ -52,11 +52,11 @@ jobs:
           VERSION_TYPE: ${{ inputs.version_type || 'stable' }}
         run: |
           FLAGS="--yes --ci"
-          
+
           if [ "$VERSION_TYPE" == "canary" ]; then
             FLAGS="$FLAGS --canary"
           fi
-          
+
           echo "Running upgrade with flags: $FLAGS"
           npx --yes hugoblox@latest upgrade $FLAGS
 
@@ -68,17 +68,17 @@ jobs:
           title: "⬆️ Upgrade HugoBlox Modules"
           body: |
             This PR upgrades the [HugoBlox](https://hugoblox.com) modules to the latest version.
-            
+
             **Changes:**
             - Updated Hugo Modules (go.mod/go.sum)
             - Applied automatic migrations (if any)
-            
+
             **Verification:**
             - [ ] Check the Deploy Preview to ensure everything looks correct.
             - [ ] Merge this PR to apply the updates.
           branch: "chore/upgrade-hugoblox"
           delete-branch: true
-          base: main
+          base: master
           labels: |
             dependencies
             automated-pr
